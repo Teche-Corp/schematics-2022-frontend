@@ -16,7 +16,7 @@ const Footer = () => {
         {/* Schematics Logo */}
         <Link href="/">
           <a className="flex gap-1">
-            <Image src="/header-logo.png" width={120} height={120} alt="" />
+            <Image src="/schematics-logo.png" width={120} height={120} alt="" />
             <div className="flex flex-col justify-center">
               <h1 className="text-2xl font-bold leading-8 text-white font-secondary">
                 Schematics
