@@ -5,9 +5,9 @@ import { FaAngleDown } from "react-icons/fa";
 
 const Nav = () => {
   return (
-    <header className="fixed">
+    <header className="fixed z-50">
       <div className="bg-white absolute w-screen h-[92px] opacity-[0.15]"></div>
-      <nav className="h-[92px] w-screen font-secondary flex justify-between items-center px-[132px]">
+      <nav className="h-[92px] relative z-50 select-none w-screen font-secondary flex justify-between items-center px-[132px]">
         {/* header logo */}
         <Link href="/">
           <a className="flex gap-1">
@@ -34,7 +34,7 @@ const Nav = () => {
               <a>About Us</a>
             </Link>
           </li>
-          <li className="font-bold text-black bg-white px-[31.5px] py-[1px] rounded-md">
+          <li className="font-bold cursor-pointer text-black bg-white px-[31.5px] py-[1px] rounded-md">
             <Link href="/">
               <a>Login</a>
             </Link>

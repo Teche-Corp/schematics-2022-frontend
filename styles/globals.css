@@ -11,6 +11,32 @@
   text-fill-color: transparent;
 }
 
+.text-border-thin {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+.home-main-title {
+  background-color: white;
+  background-image: linear-gradient(
+    95.25deg,
+    #ed5565 0.84%,
+    #ffdb7a 22.7%,
+    #aee6cb 52.38%,
+    #3c8aca 98.02%
+  );
+  /* Set the background size and repeat properties. */
+  background-size: 100%;
+  background-repeat: repeat;
+
+  /* Use the text as a mask for the background. */
+  /* This will show the gradient as a text color rather than element bg. */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
