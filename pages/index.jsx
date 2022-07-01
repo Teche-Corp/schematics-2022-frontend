@@ -1,8 +1,30 @@
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
+import { useState } from "react";
 
 export default function Home() {
+  const [activeNlc, setActiveNlc] = useState(false);
+  const [activeNpc, setActiveNpc] = useState(false);
+  const [activeReeva, setActiveReeva] = useState(false);
+  const [activeNst, setActiveNst] = useState(false);
+
+  const toggleActiveNlc = () => {
+    setActiveNlc((prev) => !prev);
+  };
+
+  const toggleActiveNpc = () => {
+    setActiveNpc((prev) => !prev);
+  };
+
+  const toggleActiveReeva = () => {
+    setActiveReeva((prev) => !prev);
+  };
+
+  const toggleActiveNst = () => {
+    setActiveNst((prev) => !prev);
+  };
+
   return (
     <div>
       <Head>
@@ -39,14 +61,14 @@ export default function Home() {
                     <img
                       src="/homepage/logo-schematics-lg.png"
                       alt=""
-                      className="w-80"
+                      className="relative z-10 w-80"
                     />
                   </picture>
                 </div>
               </div>
             </div>
             <div className="flex w-full mt-12">
-              <Link href="/">
+              <Link href="#about">
                 <a className="text-4xl select-none text-white uppercase bg-white px-16 py-7 rounded-t-xl bg-opacity-[0.15]  font-primary">
                   Get Started
                 </a>
@@ -64,7 +86,7 @@ export default function Home() {
               <h1 className="text-white uppercase text-8xl font-primary">
                 About Us
               </h1>
-              <p className="mt-5 text-2xl leading-10 text-white font-secondary">
+              <p className="mt-5 text-2xl leading-loose text-white font-secondary">
                 Schematics adalah salah satu event terbesar ITS yang
                 diselenggarakan oleh mahasiswa Teknik Informatika ITS.
                 Schematics merupakan event yang berfokus pada kompetisi
@@ -75,7 +97,7 @@ export default function Home() {
               <div className="relative py-3 mt-12">
                 <div className="relative z-50">
                   <Link href="/">
-                    <a className="px-10 py-3 text-4xl text-white uppercase bg-red-700 rounded-lg select-none text-border-thin font-primary">
+                    <a className="py-5 text-4xl text-white uppercase bg-red-700 select-none px-14 rounded-xl text-border-thin font-primary">
                       Baca Selengkapnya
                     </a>
                   </Link>
@@ -91,7 +113,7 @@ export default function Home() {
               <img
                 src="/homepage/about-us.png"
                 alt=""
-                className="w-4/5 select-none"
+                className="w-full select-none"
               />
             </div>
           </div>
@@ -121,7 +143,7 @@ export default function Home() {
             </h2>
             <div>
               <Link href="/">
-                <a className="px-24 py-3 text-4xl text-white uppercase bg-red-700 rounded-lg select-none text-border-thin font-primary">
+                <a className="py-5 text-4xl text-white uppercase bg-red-700 select-none px-36 rounded-xl text-border-thin font-primary">
                   Join Now!!!
                 </a>
               </Link>
@@ -143,29 +165,183 @@ export default function Home() {
           id="cta"
           className="relative flex flex-col justify-between w-full h-screen z-5 bg-dark-primary"
         >
-          <div className="flex h-1/2">
-            <img
-              src="/homepage/nlc.png"
-              alt=""
-              className="w-1/2 h-full select-none"
-            />
-            <img
-              src="/homepage/npc.png"
-              alt=""
-              className="w-1/2 h-full select-none"
-            />
+          <div className="flex w-full h-1/2">
+            <div className="w-1/2 h-full">
+              <button
+                className="relative w-full h-full"
+                onClick={toggleActiveNlc}
+              >
+                <img
+                  src="/homepage/nlc.png"
+                  alt=""
+                  className="absolute inset-0 object-cover w-full h-full select-none"
+                />
+                <div
+                  className={`absolute flex ${
+                    activeNlc ? "opacity-1" : "opacity-0"
+                  } max-h-full max-w-full transition duration-300 inset-0 flex flex-col items-center justify-center bg-nlc-home`}
+                >
+                  <div className="flex flex-col items-center justify-center p-2 h-1/2">
+                    <h1 className="text-4xl uppercase font-primary">
+                      <span className="text-nlc-home-top">National Logic</span>
+                      <br />
+                      <span className="text-nlc-home-bottom">Competition</span>
+                    </h1>
+                    <p className="text-xl font-secondary font-semibold mt-[11px]">
+                      Kompetisi logika nasional yang melatih kemampuan berfikir
+                      melalui lomba dan kegiatan yang seru.
+                    </p>
+                  </div>
+                  <div className="relative flex justify-center w-full h-1/2">
+                    <img
+                      src="/homepage/nlc-cta.png"
+                      alt=""
+                      className="h-full"
+                    />
+                    {activeNlc && (
+                      <Link href="/">
+                        <a className="absolute px-5 py-2 bg-red-400 rounded-full bottom-[41.3px] uppercase text-2xl right-0 font-primary">
+                          Selengkapnya
+                        </a>
+                      </Link>
+                    )}
+                  </div>
+                </div>
+              </button>
+            </div>
+            <div className="w-1/2 h-full">
+              <button
+                className="relative w-full h-full"
+                onClick={toggleActiveNpc}
+              >
+                <img
+                  src="/homepage/npc.png"
+                  alt=""
+                  className="absolute inset-0 object-cover w-full h-full select-none"
+                />
+                <div
+                  className={`absolute flex ${
+                    activeNpc ? "opacity-1" : "opacity-0"
+                  } max-h-full max-w-full transition duration-300 inset-0 flex flex-col items-center justify-center bg-npc-home`}
+                >
+                  <div className="flex flex-col items-center justify-center p-2 h-1/2">
+                    <h1 className="text-4xl uppercase text-npc-home font-primary">
+                      National Programming
+                      <br />
+                      Contest
+                    </h1>
+                    <p className="text-xl font-secondary font-semibold mt-[11px]">
+                      Kompetisi pemrograman nasional untuk menguji kemampuan
+                      pemrograman peserta di tingkat SMA/sederajat maupun
+                      tingkat mahasiswa.
+                    </p>
+                  </div>
+                  <div className="relative flex justify-center w-full h-1/2">
+                    {/* <img
+                      src="/homepage/nlc-cta.png"
+                      alt=""
+                      className="h-full"
+                    /> */}
+
+                    {activeNpc && (
+                      <Link href="/">
+                        <a className="absolute px-5 py-2 bg-red-400 rounded-full bottom-[41.3px] uppercase text-2xl right-0 font-primary">
+                          Selengkapnya
+                        </a>
+                      </Link>
+                    )}
+                  </div>
+                </div>
+              </button>
+            </div>
           </div>
           <div className="flex h-1/2">
-            <img
-              src="/homepage/reeva.png"
-              alt=""
-              className="w-1/2 h-full select-none"
-            />
-            <img
-              src="/homepage/nst.png"
-              alt=""
-              className="w-1/2 h-full select-none"
-            />
+            <div className="w-1/2 h-full">
+              <button
+                className="relative w-full h-full"
+                onClick={toggleActiveReeva}
+              >
+                <img
+                  src="/homepage/reeva.png"
+                  alt=""
+                  className="absolute inset-0 object-cover w-full h-full select-none"
+                />
+                <div
+                  className={`absolute flex ${
+                    activeReeva ? "opacity-1" : "opacity-0"
+                  } max-h-full max-w-full transition duration-300 inset-0 flex flex-col items-center justify-center bg-reeva-home`}
+                >
+                  <div className="flex flex-col items-center justify-center p-2 h-1/2">
+                    <h1 className="text-4xl uppercase text-reeva-home font-primary">
+                      REVOLUTIONARY ENTERTAIMENT
+                      <br />
+                      AND EXPO WITH VARIOUS ARTS
+                    </h1>
+                    <p className="text-xl font-semibold font-secondary mt-[11px]">
+                      Expo dan konser musik dengan bintang tamu artis nasional
+                      yang sangat ditunggu-tunggu!
+                    </p>
+                  </div>
+                  <div className="relative flex justify-center w-full h-1/2">
+                    <img
+                      src="/homepage/reeva-cta.png"
+                      alt=""
+                      className="h-full"
+                    />
+                    {activeReeva && (
+                      <Link href="/">
+                        <a className="absolute px-5 py-2 bg-red-400 rounded-full bottom-[41.3px] uppercase text-2xl right-0 font-primary">
+                          Selengkapnya
+                        </a>
+                      </Link>
+                    )}
+                  </div>
+                </div>
+              </button>
+            </div>
+            <div className="w-1/2 h-full">
+              <button
+                className="relative w-full h-full"
+                onClick={toggleActiveNst}
+              >
+                <img
+                  src="/homepage/nst.png"
+                  alt=""
+                  className="absolute inset-0 object-cover w-full h-full select-none"
+                />
+                <div
+                  className={`absolute flex ${
+                    activeNst ? "opacity-1" : "opacity-0"
+                  } max-h-full max-w-full transition duration-300 inset-0 flex flex-col items-center justify-center bg-nst-home`}
+                >
+                  <div className="flex flex-col items-center justify-center p-2 h-1/2">
+                    <h1 className="text-4xl uppercase text-nst-home font-primary">
+                      NATIONAL SEMINAR
+                      <br />
+                      OF TECHNOLOGY
+                    </h1>
+                    <p className="text-xl font-secondary font-semibold mt-[11px]">
+                      Acara seminar teknologi yang menghadirkan
+                      pembicara-pembicara ternama.
+                    </p>
+                  </div>
+                  <div className="relative flex justify-center w-full h-1/2">
+                    <img
+                      src="/homepage/nst-cta.png"
+                      alt=""
+                      className={`h-full`}
+                    />
+                    {activeNst && (
+                      <Link href="/">
+                        <a className="absolute px-5 py-2 bg-red-400 rounded-full bottom-[41.3px] uppercase text-2xl right-0 font-primary">
+                          Selengkapnya
+                        </a>
+                      </Link>
+                    )}
+                  </div>
+                </div>
+              </button>
+            </div>
           </div>
         </section>
       </main>
