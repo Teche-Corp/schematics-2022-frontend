@@ -16,6 +16,62 @@
   -webkit-text-stroke-color: black;
 }
 
+.bg-nlc-home {
+  background: linear-gradient(180deg, #ffdb7a 0%, #ffffcc 100%);
+}
+
+.bg-npc-home {
+  background: linear-gradient(180deg, #ed5565 0%, #f8c5ca 100%);
+}
+
+.bg-reeva-home {
+  background: linear-gradient(180deg, #2e97ee 0%, #ace6ff 100%);
+}
+
+.bg-nst-home {
+  background: linear-gradient(180deg, #96dfd8 0%, #c3dde0 100%);
+}
+
+.text-nlc-home-top {
+  background: linear-gradient(0deg, #868604 0%, rgba(30, 30, 24, 0) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.text-nlc-home-bottom {
+  background: linear-gradient(180deg, #aeae7c 0%, rgba(30, 30, 24, 0) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.text-npc-home {
+  background: linear-gradient(180deg, #ff9f97 0%, #f8c5ca 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.text-reeva-home {
+  background: linear-gradient(180deg, #b9dfff 0%, #ace6ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.text-nst-home {
+  background: linear-gradient(180deg, #4b544f 0%, #21ee8b 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
 .home-main-title {
   background-color: white;
   background-image: linear-gradient(
