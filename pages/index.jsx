@@ -35,7 +35,7 @@ export default function Home() {
 
       <main>
         <section id="header" className="w-full min-h-screen bg-dark-primary">
-          <div className="flex flex-col px-[132px] items-center justify-center w-full min-h-screen z-50">
+          <div className="flex flex-col pt-[92px] px-[132px] items-center justify-center w-full min-h-screen z-50">
             <div className="flex items-center justify-center w-full">
               <div className="flex flex-col w-3/5 h-full gap-2">
                 <div className="relative w-full h-auto">
@@ -52,18 +52,12 @@ export default function Home() {
                 </div>
               </div>
               <div className="w-2/5">
-                <div className="flex items-center justify-center select-none">
-                  <picture>
-                    <source
-                      src="/homepage/logo-schematics-lg.png"
-                      type="image/png"
-                    />
-                    <img
-                      src="/homepage/logo-schematics-lg.png"
-                      alt=""
-                      className="relative z-10 w-80"
-                    />
-                  </picture>
+                <div className="relative flex items-center justify-center select-none">
+                  <img
+                    src="/homepage/logo-schematics-lg.png"
+                    alt=""
+                    className="relative z-10 w-80"
+                  />
                 </div>
               </div>
             </div>
@@ -75,13 +69,16 @@ export default function Home() {
               </Link>
             </div>
           </div>
-          <div className="bottom-0 z-0 w-full">
+          <div className="relative bottom-0 z-0 z-10 w-full">
             <img src="/homepage/gelombang.png" alt="" className="w-full" />
           </div>
         </section>
         {/* About */}
-        <section id="about" className="w-full min-h-screen bg-dark-primary">
-          <div className="flex gap-14 px-[132px] items-center justify-center w-full min-h-screen z-50">
+        <section
+          id="about"
+          className="relative z-10 w-full min-h-screen bg-dark-primary"
+        >
+          <div className="flex gap-14 px-[132px] pt-[92px] items-center justify-center w-full min-h-screen z-50">
             <div className="w-1/2 h-full">
               <h1 className="text-white uppercase text-8xl font-primary">
                 About Us
@@ -342,6 +339,58 @@ export default function Home() {
                 </div>
               </button>
             </div>
+          </div>
+        </section>
+        {/* schemastore */}
+        <section
+          id="schemastore"
+          className="relative flex flex-col justify-between w-full min-h-screen z-5 bg-dark-primary"
+        >
+          <div className="px-[132px] relative py-[92px] min-h-screen flex flex-col justify-center">
+            <div className="relative z-20 flex flex-col w-full gap-10 pt-4">
+              <div className="flex items-center gap-5">
+                <div className="relative">
+                  <h1 className="text-white uppercase text-7xl font-primary">
+                    Schemastore
+                  </h1>
+                  <h1 className="absolute text-white uppercase top-10 text-schemastore-shadow text-7xl font-primary">
+                    Schemastore
+                  </h1>
+                </div>
+                <Link href="/">
+                  <a className="px-10 py-4 text-4xl text-white uppercase bg-red-700 select-none rounded-xl text-border-thin font-primary">
+                    Lihat Selengkapnya
+                  </a>
+                </Link>
+              </div>
+              <p className="text-3xl text-white text-secondary">
+                Temukan merchandise keren Schematics di Schemastore!
+              </p>
+            </div>
+            <div className="relative z-20 flex justify-between w-full mt-10">
+              <div className="flex items-center justify-center w-1/4 p-2">
+                <img src="/homepage/shirt-example.png" alt="" />
+              </div>
+              <div className="flex items-center justify-center w-1/4 p-2">
+                <img src="/homepage/shirt-example.png" alt="" />
+              </div>
+              <div className="flex items-center justify-center w-1/4 p-2">
+                <img src="/homepage/shirt-example.png" alt="" />
+              </div>
+              <div className="flex items-center justify-center w-1/4 p-2">
+                <img src="/homepage/shirt-example.png" alt="" />
+              </div>
+            </div>
+            <img
+              className="absolute left-0 -translate-y-1/2 -bottom-24 w-36"
+              src="/homepage/sch-store-left.png"
+              alt=""
+            />
+            <img
+              className="absolute top-0 right-0 w-72"
+              src="/homepage/sch-store-right.png"
+              alt=""
+            />
           </div>
         </section>
       </main>
