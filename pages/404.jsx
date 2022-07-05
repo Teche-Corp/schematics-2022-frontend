@@ -1,6 +1,14 @@
-import Image from 'next/image';
+import Image from "next/image";
+import Head from "next/head";
+
 export default function Custom404() {
-    return (
+  return (
+    <div>
+      <Head>
+        <title>Schematics 2022 | 404</title>
+        <meta name="description" content="Schematics 2022" />
+        <link rel="icon" href="/schematics-logo.png" />
+      </Head>
       <main>
         <div className="w-full h-screen bg-[url('/404/404-background.png')] bg-cover bg-center">
           <div className="flex flex-col items-center justify-center h-screen">
@@ -24,5 +32,6 @@ export default function Custom404() {
           </div>
         </div>
       </main>
-    );
+    </div>
+  );
 }
