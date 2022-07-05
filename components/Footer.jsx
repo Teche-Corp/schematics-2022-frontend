@@ -36,7 +36,7 @@ const Footer = () => {
               <Link href="/">
                 <a className="flex items-center justify-center">
                   <Image
-                    src="/instagram-logo.png"
+                    src="/homepage/instagram-logo.png"
                     width={34}
                     height={34}
                     alt=""
