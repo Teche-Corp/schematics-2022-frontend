@@ -11,7 +11,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="bg-dark px-[132px] py-[30px]">
+    <footer className="bg-dark px-[132px] py-[30px] select-none relative z-50">
       <div className="flex gap-[40px] justify-between">
         {/* Schematics Logo */}
         <Link href="/">
@@ -86,16 +86,32 @@ const Footer = () => {
           <h2 className="text-xl text-white uppercase font-primary">Events</h2>
           <ul>
             <li className="text-xl font-thin text-white font-secondary">
-              Schematics <span className="text-[#FFCD46]">NLC</span>
+              <Link href="/">
+                <a>
+                  Schematics <span className="text-[#FFCD46]">NLC</span>
+                </a>
+              </Link>
             </li>
             <li className="text-xl font-thin text-white font-secondary">
-              Schematics <span className="text-[#ED5565]">NPC</span>
+              <Link href="/">
+                <a>
+                  Schematics <span className="text-[#ED5565]">NPC</span>
+                </a>
+              </Link>
             </li>
             <li className="text-xl font-thin text-white font-secondary">
-              Schematics <span className="text-[#85D4BE]">NST</span>
+              <Link href="/">
+                <a>
+                  Schematics <span className="text-[#85D4BE]">NST</span>
+                </a>
+              </Link>
             </li>
             <li className="text-xl font-thin text-white font-secondary">
-              Schematics <span className="text-[#2E97EE]">REEVA</span>
+              <Link href="/">
+                <a>
+                  Schematics <span className="text-[#2E97EE]">REEVA</span>
+                </a>
+              </Link>
             </li>
           </ul>
         </div>
