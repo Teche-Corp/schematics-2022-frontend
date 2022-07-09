@@ -82,12 +82,12 @@ export default function Home() {
             <div className="flex items-center w-full gap-10">
               <div className="flex flex-col h-full">
                 <div className="relative w-full h-auto">
-                  <h1 className="relative z-10 uppercase select-none text-9xl font-primary home-main-title">
+                  <h1 className="relative z-10 uppercase select-none md:text-6xl xl:text-8xl 2xl:text-9xl font-primary home-main-title">
                     Unleash
                     <br />
                     Your Soul
                   </h1>
-                  <h1 className="absolute top-0 text-white uppercase -translate-x-2 select-none text-9xl font-primary">
+                  <h1 className="absolute top-0 text-white uppercase -translate-x-1 select-none md:text-6xl xl:text-8xl 2xl:text-9xl font-primary">
                     Unleash
                     <br />
                     Your Soul
@@ -99,14 +99,14 @@ export default function Home() {
                   <img
                     src="/homepage/logo-schematics-lg.png"
                     alt=""
-                    className="relative z-10 w-80"
+                    className="relative z-10 md:w-64 xl:w-80"
                   />
                 </div>
               </div>
             </div>
-            <div className="flex w-full mt-12">
+            <div className="flex w-full md:mt-4 xl:mt-12">
               <Link href="#about">
-                <a className="text-4xl select-none text-white uppercase bg-white px-16 py-7 rounded-xl bg-opacity-[0.15]  font-primary">
+                <a className="md:text-3xl xl:text-4xl select-none text-white uppercase bg-white md:px-12 md:py-5 xl:px-16 xl:py-7 rounded-xl bg-opacity-[0.15]  font-primary">
                   Get Started
                 </a>
               </Link>
@@ -121,12 +121,12 @@ export default function Home() {
           id="about"
           className="relative z-10 w-full pt-[92px] min-h-screen bg-dark-primary"
         >
-          <div className="flex gap-14 px-[132px] min-h-[calc(100vh-92px)] py-4 items-center justify-center w-full z-50">
-            <div className="w-1/2">
-              <h1 className="text-white uppercase text-8xl font-primary">
+          <div className="flex md:gap-5 lg:gap-14 px-[132px] min-h-[calc(100vh-92px)] py-4 items-center justify-center w-full z-50">
+            <div className="lg:w-1/2 md:w-2/3">
+              <h1 className="text-white uppercase md:text-5xl xl:text-7xl 2xl:text-8xl font-primary">
                 About Us
               </h1>
-              <p className="mt-5 text-2xl leading-loose text-white font-secondary">
+              <p className="mt-5 leading-loose text-white md:text-lg 2xl:text-2xl font-secondary">
                 Schematics adalah salah satu event terbesar ITS yang
                 diselenggarakan oleh mahasiswa Teknik Informatika ITS.
                 Schematics merupakan event yang berfokus pada kompetisi
@@ -135,9 +135,9 @@ export default function Home() {
                 Schematics.
               </p>
               <div className="relative mt-10">
-                <div className="relative z-50 py-5">
+                <div className="relative z-50 md:py-3 xl:py-5">
                   <Link href="/">
-                    <a className="py-5 text-4xl text-white uppercase bg-red-700 select-none home-btn-bg px-14 rounded-xl text-border-thin font-primary">
+                    <a className="text-white uppercase bg-red-700 select-none md:py-3 xl:py-5 md:text-lg xl:text-3xl 2xl:text-4xl home-btn-bg md:px-10 xl:px-14 rounded-xl text-border-thin font-primary">
                       Baca Selengkapnya
                     </a>
                   </Link>
@@ -145,11 +145,11 @@ export default function Home() {
                 <img
                   src="/homepage/cloud-1.png"
                   alt=""
-                  className="absolute top-0 z-0 h-32 -translate-x-1/2 -translate-y-1/2 select-none -left-5"
+                  className="absolute top-0 z-0 -translate-x-1/2 -translate-y-1/2 select-none md:h-16 xl:h-24 2xl:h-32 -left-5"
                 />
               </div>
             </div>
-            <div className="flex items-center justify-center w-1/2 p-10">
+            <div className="flex items-center justify-center md:w-1/3 lg:w-1/2 lg:p-6 xl:p-10">
               <img
                 src="/homepage/about-us.png"
                 alt=""
@@ -166,30 +166,30 @@ export default function Home() {
           <img
             src="/homepage/thunder-cloud-left.png"
             alt=""
-            className="absolute top-0 left-0 select-none h-80"
+            className="absolute top-0 left-0 select-none md:h-48 xl:h-72 2xl:h-80"
           />
           <img
             src="/homepage/thunder-cloud-right.png"
             alt=""
-            className="absolute top-0 right-0 select-none h-80"
+            className="absolute top-0 right-0 select-none md:h-48 xl:h-72 2xl:h-80"
           />
           <div className="gap-5 px-[132px] flex flex-col items-center justify-center min-h-[calc(100vh-92px)]">
-            <h1 className="text-center text-white uppercase text-7xl font-primary">
+            <h1 className="text-center text-white uppercase md:text-5xl xl:text-7xl font-primary">
               <span>Are You Ready</span>
               <br />
-              <span className="block mt-7">to Join Schematics</span>
+              <span className="block md:mt-4 xl:mt-7">to Join Schematics</span>
             </h1>
             <img
               src="/homepage/rantai.png"
               alt=""
               className="w-full select-none"
             />
-            <h2 className="text-4xl font-semibold tracking-wide font-primary text-[#C4C4C4] uppercase">
+            <h2 className="md:text-2xl xl:text-4xl font-semibold tracking-wide font-primary text-[#C4C4C4] uppercase">
               Bersama dengan 10.000+ Pendaftar Lain
             </h2>
-            <div className="py-5 mt-7">
+            <div className="md:py-3 xl:py-5 mt-7">
               <Link href="/">
-                <a className="py-5 text-4xl text-white uppercase select-none home-btn-bg px-36 rounded-xl text-border-thin font-primary">
+                <a className="text-white uppercase select-none md:py-3 xl:py-5 md:text-2xl xl:text-4xl home-btn-bg md:px-24 xl:px-36 rounded-xl text-border-thin font-primary">
                   Join Now!!!
                 </a>
               </Link>
@@ -198,12 +198,12 @@ export default function Home() {
           <img
             src="/homepage/dark-cloud-left.png"
             alt=""
-            className="absolute bottom-0 left-0 translate-y-1/2 select-none h-80"
+            className="absolute bottom-0 left-0 translate-y-1/2 select-none md:h-64 xl:h-80"
           />
           <img
             src="/homepage/dark-cloud-right.png"
             alt=""
-            className="absolute right-0 translate-y-1/2 select-none bottom-5 h-80"
+            className="absolute right-0 translate-y-1/2 select-none bottom-5 md:h-64 xl:h-80"
           />
         </section>
         {/* cta */}
@@ -227,13 +227,13 @@ export default function Home() {
                     activeNlc ? "opacity-1" : "opacity-0"
                   } max-h-full max-w-full transition duration-300 inset-0 flex flex-col items-center justify-center bg-nlc-home`}
                 >
-                  <div className="flex flex-col items-center justify-center py-2 px-7 h-1/2">
-                    <h1 className="text-4xl uppercase font-primary">
+                  <div className="flex flex-col items-center justify-center py-2 md:px-3 xl:px-7 h-1/2">
+                    <h1 className="uppercase md:text-2xl xl:text-4xl font-primary">
                       <span className="text-nlc-home-top">National Logic</span>
                       <br />
                       <span className="text-nlc-home-bottom">Competition</span>
                     </h1>
-                    <p className="text-xl font-medium font-secondary mt-[11px]">
+                    <p className="md:text-md xl:text-xl font-medium font-secondary md:mt-1 xl:mt-[11px]">
                       Kompetisi logika nasional yang melatih kemampuan berfikir
                       melalui lomba dan kegiatan yang seru.
                     </p>
@@ -247,9 +247,9 @@ export default function Home() {
                     {showNlc && (
                       <Link href="/">
                         <a
-                          className={`absolute right-8 ${
+                          className={`absolute md:right-3 xl:right-8 ${
                             activeNlc ? "opacity-1" : "opacity-0"
-                          } px-10 text-border-thinner tracking-tight py-2 text-white transition duration-300 home-btn-bg rounded-md bottom-[41.3px] uppercase text-md right-0 font-primary`}
+                          } md:px-5 xl:px-10 text-border-thinner tracking-tight py-2 text-white transition duration-300 home-btn-bg rounded-md md:bottom-5 xl:bottom-[41.3px] uppercase md:text-sm xl:text-md right-0 font-primary`}
                         >
                           Selengkapnya
                         </a>
@@ -274,13 +274,13 @@ export default function Home() {
                     activeNpc ? "opacity-1" : "opacity-0"
                   } max-h-full max-w-full transition duration-300 inset-0 flex flex-col items-center justify-center bg-npc-home`}
                 >
-                  <div className="flex flex-col items-center justify-center py-2 px-7 h-1/2">
-                    <h1 className="text-4xl uppercase text-npc-home font-primary">
+                  <div className="flex flex-col items-center justify-center py-2 md:px-3 xl:px-7">
+                    <h1 className="uppercase text-npc-home md:text-2xl xl:text-4xl font-primary">
                       National Programming
                       <br />
                       Contest
                     </h1>
-                    <p className="text-xl font-secondary mt-[11px]">
+                    <p className="md:text-md xl:text-xl font-medium font-secondary md:mt-1 xl:mt-[11px]">
                       Kompetisi pemrograman nasional untuk menguji kemampuan
                       pemrograman peserta di tingkat SMA/sederajat maupun
                       tingkat mahasiswa.
@@ -296,9 +296,9 @@ export default function Home() {
                     {showNpc && (
                       <Link href="/">
                         <a
-                          className={`absolute right-8 ${
+                          className={`absolute md:right-3 xl:right-8 ${
                             activeNpc ? "opacity-1" : "opacity-0"
-                          } px-10 text-border-thinner tracking-tight py-2 text-white transition duration-300 home-btn-bg rounded-md bottom-[41.3px] uppercase text-md right-0 font-primary`}
+                          } md:px-5 xl:px-10 text-border-thinner tracking-tight py-2 text-white transition duration-300 home-btn-bg rounded-md md:bottom-5 xl:bottom-[41.3px] uppercase md:text-sm xl:text-md right-0 font-primary`}
                         >
                           Selengkapnya
                         </a>
@@ -325,13 +325,13 @@ export default function Home() {
                     activeReeva ? "opacity-1" : "opacity-0"
                   } max-h-full max-w-full transition duration-300 inset-0 flex flex-col items-center justify-center bg-reeva-home`}
                 >
-                  <div className="flex flex-col items-center justify-center py-2 px-7 h-1/2">
-                    <h1 className="text-4xl uppercase text-reeva-home font-primary">
+                  <div className="flex flex-col items-center justify-center py-2 md:px-3 xl:px-7 h-1/2">
+                    <h1 className="uppercase md:text-2xl xl:text-4xl text-reeva-home font-primary">
                       REVOLUTIONARY ENTERTAIMENT
                       <br />
                       AND EXPO WITH VARIOUS ARTS
                     </h1>
-                    <p className="text-xl font-secondary mt-[11px]">
+                    <p className="md:text-md xl:text-xl font-medium font-secondary md:mt-1 xl:mt-[11px]">
                       Expo dan konser musik dengan bintang tamu artis nasional
                       yang sangat ditunggu-tunggu!
                     </p>
@@ -345,9 +345,9 @@ export default function Home() {
                     {showReeva && (
                       <Link href="/">
                         <a
-                          className={`absolute right-8 ${
+                          className={`absolute md:right-3 xl:right-8 ${
                             activeReeva ? "opacity-1" : "opacity-0"
-                          } px-10 text-border-thinner tracking-tight py-2 text-white transition duration-300 home-btn-bg rounded-md bottom-[41.3px] uppercase text-md right-0 font-primary`}
+                          } md:px-5 xl:px-10 text-border-thinner tracking-tight py-2 text-white transition duration-300 home-btn-bg rounded-md md:bottom-5 xl:bottom-[41.3px] uppercase md:text-sm xl:text-md right-0 font-primary`}
                         >
                           Selengkapnya
                         </a>
@@ -372,13 +372,13 @@ export default function Home() {
                     activeNst ? "opacity-1" : "opacity-0"
                   } max-h-full max-w-full transition duration-300 inset-0 flex flex-col items-center justify-center bg-nst-home`}
                 >
-                  <div className="flex flex-col items-center justify-center p-2 h-1/2">
-                    <h1 className="text-4xl uppercase text-nst-home font-primary">
+                  <div className="flex flex-col items-center justify-center py-2 md:px-3 xl:px-7 h-1/2">
+                    <h1 className="uppercase md:text-2xl xl:text-4xl text-nst-home font-primary">
                       NATIONAL SEMINAR
                       <br />
                       OF TECHNOLOGY
                     </h1>
-                    <p className="text-xl font-secondary mt-[11px]">
+                    <p className="md:text-md xl:text-xl font-medium font-secondary md:mt-1 xl:mt-[11px]">
                       Acara seminar teknologi yang menghadirkan
                       pembicara-pembicara ternama.
                     </p>
@@ -392,9 +392,9 @@ export default function Home() {
                     {showNst && (
                       <Link href="/">
                         <a
-                          className={`absolute right-8 ${
+                          className={`absolute md:right-3 xl:right-8 ${
                             activeNst ? "opacity-1" : "opacity-0"
-                          } px-10 text-border-thinner tracking-tight py-2 text-white transition duration-300 home-btn-bg rounded-md bottom-[41.3px] uppercase text-md right-0 font-primary`}
+                          } md:px-5 xl:px-10 text-border-thinner tracking-tight py-2 text-white transition duration-300 home-btn-bg rounded-md md:bottom-5 xl:bottom-[41.3px] uppercase md:text-sm xl:text-md right-0 font-primary`}
                         >
                           Selengkapnya
                         </a>
@@ -412,23 +412,23 @@ export default function Home() {
           className="relative flex flex-col pt-[92px] justify-between w-full min-h-screen z-5 bg-dark-primary"
         >
           <div className="px-[132px] relative min-h-[calc(100vh-92px)] flex flex-col justify-center">
-            <div className="relative z-20 flex flex-col w-full gap-10">
+            <div className="relative z-20 flex flex-col w-full md:gap-6 xl:gap-10">
               <div className="flex items-center gap-5">
                 <div className="relative">
-                  <h1 className="text-white uppercase text-7xl font-primary">
+                  <h1 className="text-white uppercase md:text-4xl xl:text-6xl 2xl:text-7xl font-primary">
                     Schemastore
                   </h1>
-                  <h1 className="absolute text-white uppercase select-none top-10 text-schemastore-shadow text-7xl font-primary">
+                  <h1 className="absolute text-white uppercase select-none top-10 text-schemastore-shadow md:text-4xl xl:text-6xl 2xl:text-7xl font-primary">
                     Schemastore
                   </h1>
                 </div>
                 <Link href="/">
-                  <a className="px-10 py-4 text-4xl text-white uppercase select-none home-btn-bg rounded-xl text-border-thin font-primary">
+                  <a className="text-white uppercase select-none md:py-2 xl:py-4 md:px-4 xl:px-10 md:text-xl xl:text-3xl 2xl:text-4xl home-btn-bg rounded-xl text-border-thin font-primary">
                     Lihat Selengkapnya
                   </a>
                 </Link>
               </div>
-              <p className="text-3xl text-white text-secondary">
+              <p className="text-white 2xl:text-3xl md:text-2xl text-secondary">
                 Temukan merchandise keren Schematics di Schemastore!
               </p>
             </div>
@@ -447,12 +447,12 @@ export default function Home() {
               </div>
             </div>
             <img
-              className="absolute left-0 -translate-y-1/2 select-none -bottom-24 w-36"
+              className="absolute left-0 -translate-y-1/2 select-none -bottom-24 md:w-24 xl:w-36"
               src="/homepage/sch-store-left.png"
               alt=""
             />
             <img
-              className="absolute top-0 right-0 select-none w-72"
+              className="absolute top-0 right-0 select-none md:w-48 xl:w-72"
               src="/homepage/sch-store-right.png"
               alt=""
             />
