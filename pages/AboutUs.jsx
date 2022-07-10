@@ -5,7 +5,7 @@ import { FaArrowCircleLeft } from 'react-icons/fa';
 // import Youtube from 'react-youtube'
 const AboutUs = () => {
   return (
-    <div className="w-full h-full relative bg-dark-primary text-white overflow-hidden">
+    <div className="w-fit h-fit relative bg-dark-primary text-white overflow-hidden">
         <div className='absolute z-50 top-10 left-10 cursor-pointer'>
             <a href='/'><FaArrowCircleLeft size={66}/></a>  
         </div>
