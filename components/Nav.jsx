@@ -25,7 +25,7 @@ const Nav = () => {
   return (
     <div className="fixed z-50">
       <div className="bg-white absolute w-screen h-[92px] opacity-[0.15]"></div>
-      <nav className="h-[92px] relative z-50 select-none backdrop-blur-3xl w-screen font-secondary flex justify-between items-center px-[132px]">
+      <nav className="h-[92px] relative z-50 select-none backdrop-blur-3xl w-screen font-secondary flex justify-between items-center px-5 md:px-16 lg:px-[132px]">
         {/* header logo */}
         <Link href="/">
           <a className="flex gap-1">
@@ -39,7 +39,7 @@ const Nav = () => {
             </div>
           </a>
         </Link>
-        <ul className="flex text-white gap-[67px]">
+        <ul className="md:flex hidden text-white md:gap-5 lg:gap-10 xl:gap-[67px]">
           <li className="relative">
             <button
               onClick={toggleShowEvents}
