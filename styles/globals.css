@@ -11,6 +11,38 @@
   text-fill-color: transparent;
 }
 
+.text-nlc {
+  color: #ffcd46;
+}
+
+.text-npc {
+  color: #ed5565;
+}
+
+.text-nst {
+  color: #85d4be;
+}
+
+.text-reeva {
+  color: #2e97ee;
+}
+
+.bg-nlc {
+  background-color: #ffcd46;
+}
+
+.bg-npc {
+  background-color: #ed5565;
+}
+
+.bg-nst {
+  background-color: #85d4be;
+}
+
+.bg-reeva {
+  background-color: #2e97ee;
+}
+
 .text-border-thinner {
   -webkit-text-stroke-width: 0.9px;
   -webkit-text-stroke-color: black;
