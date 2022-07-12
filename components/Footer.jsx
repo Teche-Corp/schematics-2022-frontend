@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/image";
+// import Image from "next/image";
 import {
   FaDiscord,
   FaFacebookF,
@@ -40,8 +40,11 @@ const Footer = () => {
           <div className="flex items-center gap-2">
             <div className="bg-[#2E2E2E87] pl-2 pr-1 pb-2 pt-1 rounded-xl">
               <div className="flex items-center justify-center">
-                <Link href="/">
-                  <a className="flex items-center justify-center w-7 h-7 lg:w-10 lg:h-10">
+                <Link href="https://www.instagram.com/schematics.its/">
+                  <a
+                    target="_blank"
+                    className="flex items-center justify-center w-7 h-7 lg:w-10 lg:h-10"
+                  >
                     <img
                       src="/homepage/instagram-logo.png"
                       className="w-7 h-7 lg:w-10 lg:h-10"
@@ -52,30 +55,30 @@ const Footer = () => {
               </div>
             </div>
             <div className="bg-[#2E2E2E87] p-2 rounded-xl">
-              <Link href="/">
-                <a>
+              <Link href="https://www.facebook.com/schematicshmtc/">
+                <a target="_blank">
                   <FaFacebookF className="text-2xl text-blue-600 lg:text-4xl" />
                 </a>
               </Link>
             </div>
             <div className="bg-[#2E2E2E87] p-2 rounded-xl">
-              <Link href="/">
-                <a>
+              <Link href="https://twitter.com/schematics_its">
+                <a target="_blank">
                   <FaTwitter className="lg:text-4xl text-2xl text-[#1D9BF0]" />
                 </a>
               </Link>
             </div>
             <div className="flex flex-row gap-2">
               <div className="bg-[#2E2E2E87] p-2 rounded-xl">
-                <Link href="/">
-                  <a>
+                <Link href="https://www.youtube.com/c/SchematicsITS">
+                  <a target="_blank">
                     <FaYoutube className="lg:text-4xl text-2xl text-[#f00]" />
                   </a>
                 </Link>
               </div>
               <div className="bg-[#2E2E2E87] p-2 rounded-xl">
-                <Link href="/">
-                  <a>
+                <Link href="https://www.linkedin.com/company/schematicsits/mycompany/">
+                  <a target="_blank">
                     <FaLinkedinIn className="lg:text-4xl text-2xl text-[#0A66C2]" />
                   </a>
                 </Link>

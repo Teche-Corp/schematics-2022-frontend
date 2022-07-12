@@ -111,8 +111,17 @@ export default function Home() {
               </Link>
             </div>
           </div>
-          <div className="relative bottom-0 z-10 w-full">
-            <img src="/homepage/gelombang.png" alt="" className="w-full" />
+          <div className="relative bottom-0 z-10 w-full ">
+            <img
+              src="/homepage/gelombang.png"
+              alt=""
+              className="hidden w-full md:block"
+            />
+            <img
+              src="/homepage/gelombang-sm.png"
+              alt=""
+              className="block w-full md:hidden"
+            />
           </div>
         </section>
         {/* About */}
@@ -122,7 +131,7 @@ export default function Home() {
         >
           <div className="flex md:gap-5 lg:gap-14 px-5 md:px-16 lg:px-[132px] min-h-[calc(100vh-92px)] py-4 items-center justify-center w-full z-50">
             <div className="lg:w-1/2 md:w-2/3">
-              <h1 className="text-4xl text-center text-white uppercase lg:text-left md:text-5xl xl:text-7xl 2xl:text-8xl font-primary">
+              <h1 className="text-5xl text-center text-white uppercase lg:text-left md:text-5xl xl:text-7xl 2xl:text-8xl font-primary">
                 About Us
               </h1>
               <div className="flex items-center justify-center w-full mt-4 lg:hidden lg:p-6 xl:p-10">
@@ -134,7 +143,7 @@ export default function Home() {
               </div>
               <p
                 className="relative z-50 mt-5 text-lg leading-loose text-white md:text-xl xl:text-2xl font-secondary"
-                style={{ lineHeight: "40px" }}
+                style={{ lineHeight: "45px" }}
               >
                 Schematics adalah salah satu event terbesar ITS yang
                 diselenggarakan oleh mahasiswa Teknik Informatika ITS.
@@ -154,7 +163,7 @@ export default function Home() {
                 <img
                   src="/homepage/cloud-1.png"
                   alt=""
-                  className="absolute top-0 z-0 -translate-x-1/2 -translate-y-1/2 select-none md:h-16 xl:h-24 2xl:h-32 -left-5"
+                  className="absolute top-0 z-0 h-16 -translate-x-1/2 -translate-y-1/2 select-none xl:h-24 2xl:h-32 -left-5"
                 />
               </div>
             </div>
@@ -237,7 +246,7 @@ export default function Home() {
                   } max-h-full max-w-full transition duration-300 inset-0 flex flex-col items-center justify-center bg-nlc-home`}
                 >
                   <div className="flex flex-col items-center justify-center px-3 py-2 xl:px-7 h-1/2">
-                    <h1 className="text-3xl uppercase md:text-2xl xl:text-4xl font-primary">
+                    <h1 className="text-3xl uppercase md:text-3xl xl:text-4xl font-primary">
                       <span className="text-nlc-home-top">National Logic</span>
                       <br />
                       <span className="text-nlc-home-bottom">Competition</span>
@@ -284,7 +293,7 @@ export default function Home() {
                   } max-h-full max-w-full transition duration-300 inset-0 flex flex-col items-center justify-center bg-npc-home`}
                 >
                   <div className="flex flex-col items-center justify-center px-3 py-2 xl:px-7">
-                    <h1 className="text-3xl uppercase text-npc-home md:text-2xl xl:text-4xl font-primary">
+                    <h1 className="text-3xl uppercase text-npc-home md:text-3xl xl:text-4xl font-primary">
                       National Programming
                       <br />
                       Contest
@@ -295,25 +304,17 @@ export default function Home() {
                       tingkat mahasiswa.
                     </p>
                   </div>
-                  <div className="relative flex justify-center w-full h-1/2">
-                    {/* <img
-                      src="/homepage/nlc-cta.png"
-                      alt=""
-                      className="h-full"
-                    /> */}
-
-                    {showNpc && (
-                      <Link href="/">
-                        <a
-                          className={`absolute right-3 xl:right-8 ${
-                            activeNpc ? "opacity-1" : "opacity-0"
-                          } px-2 md:px-5 xl:px-10 text-border-thinner tracking-tight py-2 text-white transition duration-300 home-btn-bg rounded-md bottom-5 xl:bottom-[41.3px] uppercase md:text-sm xl:text-md right-0 font-primary`}
-                        >
-                          Selengkapnya
-                        </a>
-                      </Link>
-                    )}
-                  </div>
+                  {showNpc && (
+                    <Link href="/">
+                      <a
+                        className={`absolute right-3 xl:right-8 ${
+                          activeNpc ? "opacity-1" : "opacity-0"
+                        } px-2 md:px-5 xl:px-10 text-border-thinner tracking-tight py-2 text-white transition duration-300 home-btn-bg rounded-md bottom-5 xl:bottom-[41.3px] uppercase md:text-sm xl:text-md right-0 font-primary`}
+                      >
+                        Selengkapnya
+                      </a>
+                    </Link>
+                  )}
                 </div>
               </button>
             </div>
@@ -335,7 +336,7 @@ export default function Home() {
                   } max-h-full max-w-full transition duration-300 inset-0 flex flex-col items-center justify-center bg-reeva-home`}
                 >
                   <div className="flex flex-col items-center justify-center px-3 py-2 xl:px-7 h-1/2">
-                    <h1 className="text-3xl uppercase md:text-2xl xl:text-4xl text-reeva-home font-primary">
+                    <h1 className="text-xl uppercase sm:text-3xl xl:text-4xl text-reeva-home font-primary">
                       REVOLUTIONARY ENTERTAIMENT
                       <br />
                       AND EXPO WITH VARIOUS ARTS
@@ -382,7 +383,7 @@ export default function Home() {
                   } max-h-full max-w-full transition duration-300 inset-0 flex flex-col items-center justify-center bg-nst-home`}
                 >
                   <div className="flex flex-col items-center justify-center px-3 py-2 xl:px-7 h-1/2">
-                    <h1 className="text-3xl uppercase md:text-2xl xl:text-4xl text-nst-home font-primary">
+                    <h1 className="text-3xl uppercase md:text-3xl xl:text-4xl text-nst-home font-primary">
                       NATIONAL SEMINAR
                       <br />
                       OF TECHNOLOGY
@@ -416,7 +417,7 @@ export default function Home() {
           </div>
         </section>
         {/* schemastore */}
-        <section
+        {/* <section
           id="schemastore"
           className="relative flex flex-col pt-[92px] justify-between w-full min-h-screen z-5 bg-dark-primary"
         >
@@ -476,7 +477,7 @@ export default function Home() {
               alt=""
             />
           </div>
-        </section>
+        </section> */}
       </main>
     </div>
   );
