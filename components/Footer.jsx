@@ -105,28 +105,28 @@ const Footer = () => {
             </h2>
             <ul>
               <li className="text-xl font-thin text-white font-secondary">
-                <Link href="/">
+                <Link href="/nlc">
                   <a>
                     Schematics <span className="text-[#FFCD46]">NLC</span>
                   </a>
                 </Link>
               </li>
               <li className="text-xl font-thin text-white font-secondary">
-                <Link href="/">
+                <Link href="/npc">
                   <a>
                     Schematics <span className="text-[#ED5565]">NPC</span>
                   </a>
                 </Link>
               </li>
               <li className="text-xl font-thin text-white font-secondary">
-                <Link href="/">
+                <Link href="/nst">
                   <a>
                     Schematics <span className="text-[#85D4BE]">NST</span>
                   </a>
                 </Link>
               </li>
               <li className="text-xl font-thin text-white font-secondary">
-                <Link href="/">
+                <Link href="/reeva">
                   <a>
                     Schematics <span className="text-[#2E97EE]">REEVA</span>
                   </a>
@@ -141,12 +141,12 @@ const Footer = () => {
             </h2>
             <ul>
               <li className="text-xl font-thin text-white font-secondary">
-                <Link href="/">
+                <Link href="/about">
                   <a>About Us</a>
                 </Link>
               </li>
               <li className="text-xl font-thin text-white font-secondary">
-                <Link href="/">
+                <Link href="/login">
                   <a>Login</a>
                 </Link>
               </li>

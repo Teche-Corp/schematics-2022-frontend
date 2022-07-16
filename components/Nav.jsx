@@ -75,7 +75,7 @@ const Nav = () => {
               >
                 <div className="flex flex-col w-1/2 gap-2">
                   <div>
-                    <Link href="/">
+                    <Link href="/nlc">
                       <a className="text-slate-900">
                         <div className="flex items-start justify-center gap-4 p-4 rounded-lg hover:bg-slate-100">
                           <div className="p-2 text-2xl text-center text-yellow-400 rounded-lg">
@@ -92,30 +92,11 @@ const Nav = () => {
                     </Link>
                   </div>
                   <div>
-                    <Link href="/">
+                    <Link href="/nst">
                       <a className="text-slate-900">
                         <div className="flex items-start justify-center gap-4 p-4 rounded-lg hover:bg-slate-100">
                           <div className="p-2 text-2xl text-center text-green-600 rounded-lg">
                             <HiSpeakerphone />
-                          </div>
-                          <div>
-                            <h2>Schematics NPC</h2>
-                            <p className="mt-1 text-sm text-slate-500">
-                              Dare to try our programming challenge?
-                            </p>
-                          </div>
-                        </div>
-                      </a>
-                    </Link>
-                  </div>
-                </div>
-                <div className="flex flex-col w-1/2 gap-2">
-                  <div>
-                    <Link href="/">
-                      <a className="text-slate-900">
-                        <div className="flex items-start justify-center gap-4 p-4 rounded-lg hover:bg-slate-100">
-                          <div className="p-2 text-2xl text-center text-red-600 rounded-lg">
-                            <MdOutlineMonitor />
                           </div>
                           <div>
                             <h2>Schematics NST</h2>
@@ -127,8 +108,27 @@ const Nav = () => {
                       </a>
                     </Link>
                   </div>
+                </div>
+                <div className="flex flex-col w-1/2 gap-2">
                   <div>
-                    <Link href="/">
+                    <Link href="/npc">
+                      <a className="text-slate-900">
+                        <div className="flex items-start justify-center gap-4 p-4 rounded-lg hover:bg-slate-100">
+                          <div className="p-2 text-2xl text-center text-red-600 rounded-lg">
+                            <MdOutlineMonitor />
+                          </div>
+                          <div>
+                            <h2>Schematics NPC</h2>
+                            <p className="mt-1 text-sm text-slate-500">
+                              Dare to try our programming challenge?
+                            </p>
+                          </div>
+                        </div>
+                      </a>
+                    </Link>
+                  </div>
+                  <div>
+                    <Link href="/reeva">
                       <a className="text-slate-900">
                         <div className="flex items-start justify-center gap-4 p-4 rounded-lg hover:bg-slate-100">
                           <div className="p-2 text-2xl text-center text-blue-500 rounded-lg">
@@ -150,12 +150,12 @@ const Nav = () => {
             )}
           </li>
           <li>
-            <Link href="/">
+            <Link href="/about">
               <a>About Us</a>
             </Link>
           </li>
           <li>
-            <Link href="/">
+            <Link href="/login">
               <a className="font-bold text-black bg-white px-[31.5px] py-[1px] rounded-md outline-4 outline-black">
                 Login
               </a>
@@ -184,7 +184,7 @@ const Nav = () => {
           </li>
           <div className={`${showEvents ? "flex" : "hidden"} flex-col w-full`}>
             <div className="flex h-10 gap-5 bg-white border-2 border-black px-7">
-              <Link href="/">
+              <Link href="/nlc">
                 <a className="inline-block w-full text-2xl text-black font-primary">
                   <div className="inline-block w-5 h-5 rounded-full bg-nlc"></div>{" "}
                   Schematics <span className="text-nlc">NLC</span>
@@ -192,7 +192,7 @@ const Nav = () => {
               </Link>
             </div>
             <div className="flex h-10 gap-5 bg-white border-2 border-black px-7">
-              <Link href="/">
+              <Link href="/npc">
                 <a className="inline-block w-full text-2xl text-black font-primary">
                   <div className="inline-block w-5 h-5 rounded-full bg-npc"></div>{" "}
                   Schematics <span className="text-npc">NPC</span>
@@ -200,7 +200,7 @@ const Nav = () => {
               </Link>
             </div>
             <div className="flex h-10 gap-5 bg-white border-2 border-black px-7">
-              <Link href="/">
+              <Link href="/nst">
                 <a className="inline-block w-full text-2xl text-black font-primary">
                   <div className="inline-block w-5 h-5 rounded-full bg-nst"></div>{" "}
                   Schematics <span className="text-nst">NST</span>
@@ -208,7 +208,7 @@ const Nav = () => {
               </Link>
             </div>
             <div className="flex h-10 gap-5 bg-white border-2 border-black px-7">
-              <Link href="/">
+              <Link href="/reeva">
                 <a className="inline-block w-full text-2xl text-black font-primary">
                   <div className="inline-block w-5 h-5 rounded-full bg-reeva"></div>{" "}
                   Schematics <span className="text-reeva">REEVA</span>
@@ -217,14 +217,14 @@ const Nav = () => {
             </div>
           </div>
           <li className="py-4 border-2 border-black px-7">
-            <Link href="/#about">
+            <Link href="/about">
               <a className="flex items-center justify-between w-full md:w-auto md:gap-[6px] text-3xl font-primary text-border-thin md:font-secondary md:text-md">
                 About Us
               </a>
             </Link>
           </li>
           <li className="py-4 bg-white border-2 border-black px-7">
-            <Link href="/">
+            <Link href="/login">
               <a className="flex items-center justify-center w-full md:w-auto md:gap-[6px] text-3xl font-primary text-black md:font-secondary md:text-md">
                 Login
               </a>

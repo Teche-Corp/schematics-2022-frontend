@@ -94,7 +94,7 @@ export default function Home() {
                   <br />
                   2022
                 </h1>
-                <h2 className="text-3xl uppercase mt-7 sm:mt-3 sm:mt-4 sm:text-4xl md:text-3xl xl:text-5xl home-main-title font-primary">
+                <h2 className="text-3xl uppercase mt-7 sm:mt-3 sm:text-4xl md:text-3xl xl:text-5xl home-main-title font-primary">
                   Unleash Your Soul
                 </h2>
               </div>
@@ -108,7 +108,7 @@ export default function Home() {
             </div>
             <div className="flex justify-center w-full mt-10 sm:justify-start sm:mt-7 md:mt-1 2xl:mt-10">
               <Link href="#about">
-                <a className="text-xl sm:text-4xl select-none text-white text-border-thinner uppercase bg-white sm:px-10 px-24 py-2 sm:py-4 sm:px-14 sm:py-5 xl:px-16 xl:py-7 rounded-md bg-opacity-[0.15]  font-primary">
+                <a className="text-xl sm:text-4xl select-none text-white text-border-thinner uppercase bg-white sm:px-10 px-24 py-2 sm:py-4 xl:px-16 xl:py-7 rounded-md bg-opacity-[0.15] font-primary">
                   Get Started
                 </a>
               </Link>
@@ -157,7 +157,7 @@ export default function Home() {
               </p>
               <div className="relative mt-2 md:mt-5">
                 <div className="relative z-50 py-3 xl:py-5">
-                  <Link href="/">
+                  <Link href="/about">
                     <a className="inline-block w-full py-3 text-2xl text-center text-white uppercase bg-red-700 rounded-md select-none lg:text-left lg:w-auto xl:py-5 2xl:text-3xl home-btn-bg md:px-10 xl:px-14 text-border-thin font-primary">
                       Baca Selengkapnya
                     </a>
@@ -209,7 +209,7 @@ export default function Home() {
               Bersama dengan 10.000+ Pendaftar Lain
             </h2>
             <div className="flex justify-center w-full py-3 mt-4 xl:py-5 md:mt-7">
-              <Link href="/">
+              <Link href="/login">
                 <a className="inline-block w-[90%] px-12 py-3 text-xl text-center text-white uppercase rounded-md select-none sm:w-auto md:px-24 xl:py-5 md:text-2xl xl:text-4xl home-btn-bg xl:px-36 text-border-thin font-primary">
                   Join Now!!!
                 </a>
@@ -266,7 +266,7 @@ export default function Home() {
                       className="h-full"
                     />
                     {showNlc && (
-                      <Link href="/">
+                      <Link href="/nlc">
                         <a
                           className={`absolute right-3 xl:right-8 ${
                             activeNlc ? "opacity-1" : "opacity-0"
@@ -308,7 +308,7 @@ export default function Home() {
                     </p>
                   </div>
                   {showNpc && (
-                    <Link href="/">
+                    <Link href="/npc">
                       <a
                         className={`absolute right-3 xl:right-8 ${
                           activeNpc ? "opacity-1" : "opacity-0"
@@ -356,7 +356,7 @@ export default function Home() {
                       className="h-full"
                     />
                     {showReeva && (
-                      <Link href="/">
+                      <Link href="/reeva">
                         <a
                           className={`absolute right-3 xl:right-8 ${
                             activeReeva ? "opacity-1" : "opacity-0"
@@ -403,7 +403,7 @@ export default function Home() {
                       className={`h-full`}
                     />
                     {showNst && (
-                      <Link href="/">
+                      <Link href="/nst">
                         <a
                           className={`absolute right-3 xl:right-8 ${
                             activeNst ? "opacity-1" : "opacity-0"
