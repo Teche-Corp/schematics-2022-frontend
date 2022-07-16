@@ -8,26 +8,18 @@ import Head from 'next/head';
 
 const AboutUs = () => {
   return (
-    <Fragment>
-      <div>
-        <Head>
-          <title>About Us | Schematics 2022</title>
-          <meta name="description" content="Schematics 2022" />
-          <link rel="icon" href="/schematics-logo.png" />
-        </Head>
-      </div>
-      <div className="w-fit h-fit relative bg-dark-primary text-white overflow-hidden">
-          <div className='absolute z-50 top-10 left-10 cursor-pointer'>
-              <a href='/'><FaArrowCircleLeft size={66}/></a>  
-          </div>
-          <img src="button.png" className='absolute z-50 top-10 left-10 cursor-pointer' alt="" />
-          <div className='absolute -left-[300px] -top-[150px] -translate-x-2 -translate-y-5 select-none'>
-              <Image src="/AboutUs/TopLeft.png" alt="" width={692} height={457}/>
-          </div>
-          <div className='absolute -right-[250px] -top-[100px] translate-x-10 select-none'>
-          <Image src="/AboutUs/TopRight.png" alt="" width={692} height={457}/>
-          </div>
-          <h1 className="text-8xl text-white font-primary text-center pt-28 z-50">SCHEMATICS</h1>
+    <div className="w-fit h-fit relative bg-dark-primary text-white overflow-hidden">
+        <div className='absolute z-50 top-10 left-10 cursor-pointer'>
+            <a href='/'><FaArrowCircleLeft size={66}/></a>  
+        </div>
+        <img src="button.png" className='absolute z-50 top-10 left-10 cursor-pointer' alt="" />
+        <div className='absolute -left-[300px] -top-[150px] -translate-x-2 -translate-y-5 select-none'>
+            <Image src="/AboutUs/TopLeft.png" alt="" width={692} height={457}/>
+        </div>
+        <div className='absolute -right-[250px] -top-[100px] translate-x-10 select-none'>
+        <Image src="/AboutUs/TopRight.png" alt="" width={692} height={457}/>
+        </div>
+        <h1 className="text-8xl text-white font-primary text-center pt-28">SCHEMATICS</h1>
 
           <p className='py-20 px-28 text-4xl leading-[55px] font-secondary text-justify mx-24'>Schematics merupakan singkatan dari National Seminar of Technology, Art Exhibition, National Logic Contest, National Programming Contest, and Alumni Rendezvous of Informatics. Schematics merupakan acara tahunan yang diselenggarakan oleh mahasiswa Teknik Informatika ITS mulai dari tahun 2007 hingga sekarang dan menjadi salah satu event terbesar ITS.</p>
 
