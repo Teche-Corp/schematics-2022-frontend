@@ -11,6 +11,43 @@
   text-fill-color: transparent;
 }
 
+.text-nlc {
+  color: #ffcd46;
+}
+
+.text-npc {
+  color: #ed5565;
+}
+
+.text-nst {
+  color: #85d4be;
+}
+
+.text-reeva {
+  color: #2e97ee;
+}
+
+.bg-nlc {
+  background-color: #ffcd46;
+}
+
+.bg-npc {
+  background-color: #ed5565;
+}
+
+.bg-nst {
+  background-color: #85d4be;
+}
+
+.bg-reeva {
+  background-color: #2e97ee;
+}
+
+.text-border-thinner {
+  -webkit-text-stroke-width: 0.9px;
+  -webkit-text-stroke-color: black;
+}
+
 .text-border-thin {
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
@@ -33,7 +70,7 @@
 }
 
 .text-nlc-home-top {
-  background: linear-gradient(0deg, #868604 0%, rgba(30, 30, 24, 0) 100%);
+  background: linear-gradient(0deg, #646403 0%, rgba(30, 30, 24, 0) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -44,7 +81,7 @@
   background: linear-gradient(
     180deg,
     rgba(255, 255, 255, 0.5) 0%,
-    rgba(255, 255, 255, 0) 635.29%
+    rgba(255, 255, 255, 0) 105.29%
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -105,6 +142,16 @@
   -webkit-text-fill-color: transparent;
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
+}
+
+.home-btn-bg {
+  background: linear-gradient(
+    90.82deg,
+    #ed5565 0%,
+    #ffcd46 43.02%,
+    #85d4be 70.62%,
+    #2e97ee 100%
+  );
 }
 
 @tailwind base;
