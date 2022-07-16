@@ -85,15 +85,18 @@ export default function Home() {
             <div className="flex items-center justify-start w-full gap-10">
               <div className="relative">
                 <h1 className="relative z-10 text-6xl uppercase select-none sm:text-8xl md:text-7xl xl:text-8xl 2xl:text-9xl font-primary home-main-title">
-                  Unleash
+                  Schematics
                   <br />
-                  Your Soul
+                  2022
                 </h1>
-                <h1 className="absolute top-0 text-6xl sm:text-8xl text-white md:text-7xl uppercase select-none xl:text-8xl -translate-x-[3px] md:-translate-x-1 2xl:text-9xl font-primary">
-                  Unleash
+                <h1 className="absolute top-0 text-6xl text-white uppercase -translate-x-1 select-none sm:text-8xl md:text-7xl xl:text-8xl md:-translate-x-2 2xl:text-9xl font-primary">
+                  Schematics
                   <br />
-                  Your Soul
+                  2022
                 </h1>
+                <h2 className="text-3xl uppercase mt-7 sm:mt-3 sm:text-4xl md:text-3xl xl:text-5xl home-main-title font-primary">
+                  Unleash Your Soul
+                </h2>
               </div>
               <div className="items-center justify-center hidden select-none md:flex">
                 <img
@@ -103,9 +106,9 @@ export default function Home() {
                 />
               </div>
             </div>
-            <div className="flex w-full mt-5">
+            <div className="flex justify-center w-full mt-10 sm:justify-start sm:mt-7 md:mt-1 2xl:mt-10">
               <Link href="#about">
-                <a className="text-2xl sm:text-4xl select-none text-white uppercase bg-white px-5 py-4 sm:px-14 sm:py-5 xl:px-16 xl:py-7 rounded-xl bg-opacity-[0.15]  font-primary">
+                <a className="text-xl sm:text-4xl select-none text-white text-border-thinner uppercase bg-white sm:px-10 px-24 py-2 sm:py-4 xl:px-16 xl:py-7 rounded-md bg-opacity-[0.15] font-primary">
                   Get Started
                 </a>
               </Link>
@@ -152,10 +155,10 @@ export default function Home() {
                 teknologi kepada masyarakat luas melalui subevent-subevent
                 Schematics.
               </p>
-              <div className="relative mt-2 md:mt-10">
+              <div className="relative mt-2 md:mt-5">
                 <div className="relative z-50 py-3 xl:py-5">
-                  <Link href="/">
-                    <a className="inline-block w-full py-3 text-2xl text-center text-white uppercase bg-red-700 rounded-md select-none lg:text-left lg:w-auto xl:py-5 2xl:text-4xl home-btn-bg md:px-10 xl:px-14 text-border-thin font-primary">
+                  <Link href="/about">
+                    <a className="inline-block w-full py-3 text-2xl text-center text-white uppercase bg-red-700 rounded-md select-none lg:text-left lg:w-auto xl:py-5 2xl:text-3xl home-btn-bg md:px-10 xl:px-14 text-border-thin font-primary">
                       Baca Selengkapnya
                     </a>
                   </Link>
@@ -195,19 +198,19 @@ export default function Home() {
             <h1 className="text-3xl text-center text-white uppercase sm:text-4xl md:text-5xl xl:text-7xl font-primary">
               <span>Are You Ready</span>
               <br />
-              <span className="block md:mt-4 xl:mt-7">to Join Schematics</span>
+              <span className="block mt-4 xl:mt-7">to Join Schematics</span>
             </h1>
             <img
               src="/homepage/rantai.png"
               alt=""
               className="w-full select-none"
             />
-            <h2 className="text-xl md:text-2xl text-center xl:text-4xl font-semibold tracking-wide font-primary text-[#C4C4C4] uppercase">
+            <h2 className="text-xl md:text-2xl text-center xl:text-4xl font-semibold tracking-wide font-secondary text-[#C4C4C4] uppercase">
               Bersama dengan 10.000+ Pendaftar Lain
             </h2>
             <div className="flex justify-center w-full py-3 mt-4 xl:py-5 md:mt-7">
-              <Link href="/">
-                <a className="inline-block w-full px-12 py-3 text-xl text-center text-white uppercase rounded-md select-none md:w-auto md:px-24 xl:py-5 md:text-2xl xl:text-4xl home-btn-bg xl:px-36 text-border-thin font-primary">
+              <Link href="/login">
+                <a className="inline-block w-[90%] px-12 py-3 text-xl text-center text-white uppercase rounded-md select-none sm:w-auto md:px-24 xl:py-5 md:text-2xl xl:text-4xl home-btn-bg xl:px-36 text-border-thin font-primary">
                   Join Now!!!
                 </a>
               </Link>
@@ -263,7 +266,7 @@ export default function Home() {
                       className="h-full"
                     />
                     {showNlc && (
-                      <Link href="/">
+                      <Link href="/nlc">
                         <a
                           className={`absolute right-3 xl:right-8 ${
                             activeNlc ? "opacity-1" : "opacity-0"
@@ -290,7 +293,7 @@ export default function Home() {
                 <div
                   className={`absolute flex ${
                     activeNpc ? "opacity-1" : "opacity-0"
-                  } max-h-full max-w-full transition duration-300 inset-0 flex flex-col items-center justify-center bg-npc-home`}
+                  } max-h-full max-w-full transition duration-300 inset-0 flex flex-col items-center justify-center md:justify-start bg-npc-home`}
                 >
                   <div className="flex flex-col items-center justify-center px-3 py-2 xl:px-7">
                     <h1 className="text-3xl uppercase text-npc-home md:text-3xl xl:text-4xl font-primary">
@@ -305,7 +308,7 @@ export default function Home() {
                     </p>
                   </div>
                   {showNpc && (
-                    <Link href="/">
+                    <Link href="/npc">
                       <a
                         className={`absolute right-3 xl:right-8 ${
                           activeNpc ? "opacity-1" : "opacity-0"
@@ -353,7 +356,7 @@ export default function Home() {
                       className="h-full"
                     />
                     {showReeva && (
-                      <Link href="/">
+                      <Link href="/reeva">
                         <a
                           className={`absolute right-3 xl:right-8 ${
                             activeReeva ? "opacity-1" : "opacity-0"
@@ -400,7 +403,7 @@ export default function Home() {
                       className={`h-full`}
                     />
                     {showNst && (
-                      <Link href="/">
+                      <Link href="/nst">
                         <a
                           className={`absolute right-3 xl:right-8 ${
                             activeNst ? "opacity-1" : "opacity-0"
