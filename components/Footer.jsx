@@ -11,7 +11,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="bg-dark px-5 md:px-16 xl:px-[132px] py-[30px] select-none relative z-50">
+    <footer className="bg-dark px-5 md:px-16 xl:px-[132px] py-[30px] select-none relative z-10">
       <div className="flex flex-col items-center justify-between gap-2 sm:flex-row">
         {/* Schematics Logo */}
         <Link href="/">
