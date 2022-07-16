@@ -2,6 +2,8 @@ import React from "react";
 import Head from "next/head";
 import { Fragment } from "react";
 import Image from "next/image";
+import Nav from "../components/Nav";
+import Footer from "../components/Footer";
 
 const NPC = () => {
   return (
@@ -13,19 +15,24 @@ const NPC = () => {
           <link rel="icon" href="/schematics-logo.png" />
         </Head>
       </div>
-      <main className="relative overflow-hidden md:w-full w-fit h-fit bg-dark-primary">
+
+      <Nav />
+      <main className="relative overflow-hidden bg-dark-primary">
         <img
           src="/NPC/TopLeft.png"
+          alt=""
           className="absolute md:w-[461px] md:h-[582px] w-[230px] h-[250px] -left-10"
         />
         <img
           src="/NPC/TopRight-1.png"
+          alt=""
           className="absolute md:-right-0  md:-translate-y-40 md:w-[461px] md:h-[582px] w-[230px] h-[250px] -right-0 -translate-y-14"
         />
         {/*  NPC Hero*/}
         <div className="flex flex-col md:h-max h-[600px] justify-evenly items-center md:pt-[244px] pt-[100px]">
           <img
             src="/NPC/npc.png"
+            alt=""
             className="md:h-[229px] md:w-[600px] md:mb-[22px] w-[500px]"
           />
           <h1 className="md:font-[400] md:text-6xl md:leading-[78px] font-primary text-white text-5xl">
@@ -50,6 +57,7 @@ const NPC = () => {
           <div className="flex justify-center gap-x-12 content-center  h-[900px] w-full bg-[url('/NPC/Background-1.png')] md:bg-cover bg-auto bg-center bg-no-repeat items-center mb-24 z-50 p-20">
             <img
               src="/NPC/assetNPC.png"
+              alt=""
               className="absolute right-0 hidden -translate-y-1/2 md:block"
             />
             <div className="w-[635px] py-[200px] ">
@@ -74,7 +82,11 @@ const NPC = () => {
         {/* Timeline */}
 
         <div className="relative flex items-center justify-center w-full">
-          <img src="/NPC/TimelineNPC.png" className="select-none" />
+          <img
+            alt="timeline-npc"
+            src="/NPC/TimelineNPC.png"
+            className="select-none"
+          />
         </div>
         {/* Leaf nya nanti disatuin aja sama background gmn? Jd fotonya nyatu sama bg pink nya */}
         {/* Teknis Umum Kompetisi */}
@@ -118,12 +130,15 @@ const NPC = () => {
         <img
           src="/NPC/BottomLeft.png"
           className="absolute hidden -bottom-40 md:block"
+          alt=""
         />
         <img
           src="/NPC/BottomRight.png"
+          alt=""
           className="absolute right-0 hidden -bottom-40 md:block"
         />
       </main>
+      <Footer />
     </Fragment>
   );
 };

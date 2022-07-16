@@ -1,6 +1,8 @@
 import Head from "next/head";
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import Nav from "../components/Nav";
+import Footer from "../components/Footer";
 
 export default function Home() {
   const [activeNlc, setActiveNlc] = useState(false);
@@ -76,6 +78,7 @@ export default function Home() {
         <link rel="icon" href="/schematics-logo.png" />
       </Head>
 
+      <Nav />
       <main>
         <section
           id="header"
@@ -94,7 +97,7 @@ export default function Home() {
                   <br />
                   2022
                 </h1>
-                <h2 className="text-3xl uppercase mt-7 sm:mt-3 sm:text-4xl md:text-3xl xl:text-5xl home-main-title font-primary">
+                <h2 className="text-3xl uppercase select-none mt-7 sm:mt-3 sm:text-4xl md:text-3xl xl:text-5xl home-main-title font-primary">
                   Unleash Your Soul
                 </h2>
               </div>
@@ -195,7 +198,7 @@ export default function Home() {
             className="absolute top-0 right-0 select-none h-36 md:h-48 xl:h-72 2xl:h-80"
           />
           <div className="gap-5 px-5 md:px-16 lg:px-[132px] flex flex-col items-center justify-center min-h-[calc(100vh-92px)]">
-            <h1 className="text-3xl text-center text-white uppercase sm:text-4xl md:text-5xl xl:text-7xl font-primary">
+            <h1 className="text-3xl text-center text-white uppercase select-none sm:text-4xl md:text-5xl xl:text-7xl font-primary">
               <span>Are You Ready</span>
               <br />
               <span className="block mt-4 xl:mt-7">to Join Schematics</span>
@@ -205,7 +208,7 @@ export default function Home() {
               alt=""
               className="w-full select-none"
             />
-            <h2 className="text-xl md:text-2xl text-center xl:text-4xl font-semibold tracking-wide font-secondary text-[#C4C4C4] uppercase">
+            <h2 className="text-xl select-none md:text-2xl text-center xl:text-4xl font-semibold tracking-wide font-secondary text-[#C4C4C4] uppercase">
               Bersama dengan 10.000+ Pendaftar Lain
             </h2>
             <div className="flex justify-center w-full py-3 mt-4 xl:py-5 md:mt-7">
@@ -482,6 +485,7 @@ export default function Home() {
           </div>
         </section> */}
       </main>
+      <Footer />
     </div>
   );
 }
