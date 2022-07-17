@@ -298,8 +298,8 @@ export default function Home() {
                     activeNpc ? "opacity-1" : "opacity-0"
                   } max-h-full max-w-full transition duration-300 inset-0 flex flex-col items-center justify-center md:justify-start bg-npc-home`}
                 >
-                  <div className="flex flex-col items-center justify-center px-3 py-2 xl:px-7">
-                    <h1 className="text-3xl uppercase text-npc-home md:text-3xl xl:text-4xl font-primary">
+                  <div className="flex flex-col items-center justify-center px-3 py-2 xl:px-7 h-1/2">
+                    <h1 className="text-2xl uppercase text-npc-home md:text-3xl xl:text-4xl font-primary">
                       National Programming
                       <br />
                       Contest
@@ -310,17 +310,24 @@ export default function Home() {
                       tingkat mahasiswa.
                     </p>
                   </div>
-                  {showNpc && (
-                    <Link href="/npc">
-                      <a
-                        className={`absolute right-3 xl:right-8 ${
-                          activeNpc ? "opacity-1" : "opacity-0"
-                        } px-2 md:px-5 xl:px-10 text-border-thinner tracking-tight py-2 text-white transition duration-300 home-btn-bg rounded-md bottom-5 xl:bottom-[41.3px] uppercase md:text-sm xl:text-md right-0 font-primary`}
-                      >
-                        Selengkapnya
-                      </a>
-                    </Link>
-                  )}
+                  <div className="relative flex justify-center w-full h-1/2">
+                    <img
+                      src="/homepage/npc-inner.png"
+                      alt=""
+                      className="h-full"
+                    />
+                    {showNpc && (
+                      <Link href="/npc">
+                        <a
+                          className={`absolute right-3 xl:right-8 ${
+                            activeNpc ? "opacity-1" : "opacity-0"
+                          } px-2 md:px-5 xl:px-10 text-border-thinner tracking-tight py-2 text-white transition duration-300 home-btn-bg rounded-md bottom-5 xl:bottom-[41.3px] uppercase md:text-sm xl:text-md right-0 font-primary`}
+                        >
+                          Selengkapnya
+                        </a>
+                      </Link>
+                    )}
+                  </div>
                 </div>
               </button>
             </div>
