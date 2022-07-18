@@ -45,24 +45,24 @@ const NPC = () => {
                 National Programming Competition
               </h2>
               {/* cta */}
-              <div className="flex flex-col items-center gap-5 mt-12 select-none md:mt-16 md:gap-10 xl:flex-row 2xl:gap-20">
+              <div className="relative z-50 flex flex-col items-center gap-5 mt-12 select-none md:mt-16 md:gap-10 xl:flex-row 2xl:gap-20">
                 <div className="py-2">
                   <Link href="#about">
-                    <a className="bg-[#ED5565] text-white font-primary uppercase text-xl md:text-2xl px-6 md:px-[24px] py-2 rounded-md">
+                    <a className="bg-[#ED5565] hover:bg-[#d74857] active:bg-[#ed5565] transform duration-200 text-white font-primary uppercase text-xl md:text-2xl px-6 md:px-[24px] py-2 rounded-md">
                       Tentang Kompetisi
                     </a>
                   </Link>
                 </div>
                 <div className="py-2">
                   <Link href="#score-board">
-                    <a className="bg-[#ED5565] text-white font-primary uppercase text-xl md:text-2xl md:px-16 px-[56px] py-2 rounded-md">
+                    <a className="bg-[#ED5565] hover:bg-[#d74857] active:bg-[#ed5565] transform duration-200 text-white font-primary uppercase text-xl md:text-2xl md:px-16 px-[56px] py-2 rounded-md">
                       Score Board
                     </a>
                   </Link>
                 </div>
                 <div className="py-2">
                   <Link href="#timeline">
-                    <a className="bg-[#ED5565] text-white font-primary uppercase text-xl md:text-2xl md:px-[92px] px-[79px] py-2 rounded-md">
+                    <a className="bg-[#ED5565] hover:bg-[#d74857] active:bg-[#ed5565] transform duration-200 text-white font-primary uppercase text-xl md:text-2xl md:px-[92px] px-[79px] py-2 rounded-md">
                       Timeline
                     </a>
                   </Link>
@@ -153,7 +153,10 @@ const NPC = () => {
         </section>
         {/* end about */}
         {/* timeline */}
-        <section id="timeline" className="bg-dark-primary scroll-mt-40">
+        <section
+          id="timeline"
+          className="select-none bg-dark-primary scroll-mt-40"
+        >
           <div className="flex items-center justify-center px-5 md:px-16 lg:px-[132px]">
             <img src="/npc/TimelineNPC.png" alt="NPC Timeline" />
           </div>
@@ -163,7 +166,7 @@ const NPC = () => {
         <section id="teknis" className="relative min-h-screen bg-dark-primary">
           <img
             src="/npc/bg-secondary-top.png"
-            className="relative top-0 left-0 w-full"
+            className="relative top-0 left-0 w-full select-none"
             alt=""
           />
           <div className="bg-[#ED5565] flex xl:flex-row flex-col xl:gap-0 gap-5 py-10 px-5 md:px-16 lg:px-[132px] relative z-20">
@@ -173,7 +176,7 @@ const NPC = () => {
                 <h2 className="relative z-10 text-4xl text-white md:text-5xl font-primary">
                   Teknis Umum Kompetisi
                 </h2>
-                <h2 className="absolute top-0 text-4xl text-black -translate-x-1 md:text-5xl font-primary">
+                <h2 className="absolute top-0 text-4xl text-black -translate-x-1 select-none md:text-5xl font-primary">
                   Teknis Umum Kompetisi
                 </h2>
               </div>
@@ -192,26 +195,30 @@ const NPC = () => {
             </div>
             {/* npc text end */}
             {/* npc photos */}
-            <div className="flex items-center justify-center xl:w-1/2">
-              <img src="/npc/PhotoNPC.png" alt="NPC Photos" />
+            <div className="flex items-center justify-center h-64 select-none sm:px-16 xl:h-auto xl:w-1/2">
+              <iframe
+                className="w-full h-full opacity-80 active:opacity-100 active:bg-none"
+                frameBorder={0}
+                src="https://www.youtube.com/embed/gWdWqKMIuug"
+              ></iframe>
             </div>
             {/* npc photos end */}
           </div>
           <div className="relative">
             <img
               src="/npc/bg-bottom.png"
-              className="relative bottom-0 left-0 w-full"
+              className="relative bottom-0 left-0 w-full select-none"
               alt=""
             />
             <img
               src="/npc/assetNPC1.png"
               alt=""
-              className="absolute bottom-0 right-0 z-20 translate-y-1/2 w-36 lg:w-72 md:bottom-16"
+              className="absolute bottom-0 right-0 z-20 translate-y-1/2 select-none w-36 lg:w-72 md:bottom-16"
             />
           </div>
           <div className="absolute h-96 w-40 md:w-72 bottom-56 md:bottom-40 translate-x-1/2 translate-y-1/2 -left-16 md:-left-24 z-10 bg-[#ED5565]">
             <div className="relative w-full h-full">
-              <div className="absolute w-full text-center translate-y-full -bottom-5 md:bottom-10">
+              <div className="absolute w-full text-center translate-y-full select-none -bottom-5 md:bottom-10">
                 <h2 className="text-xl text-white md:text-4xl font-primary">
                   Junior: Rp 50k
                 </h2>
@@ -240,24 +247,24 @@ const NPC = () => {
             </div>
             {/* guidebook text end */}
             {/* guidebook links */}
-            <div className="flex flex-col items-center justify-center gap-6 mt-10 xl:gap-4 xl:mt-0 xl:w-1/2">
+            <div className="relative z-20 flex flex-col items-center justify-center gap-6 mt-10 select-none xl:gap-4 xl:mt-0 xl:w-1/2">
               <div className="py-2">
                 <Link href="#guidebook">
-                  <a className="px-4 py-2 text-2xl bg-white rounded-md sm:px-16 2xl:text-4xl font-primary">
+                  <a className="px-4 py-2 text-2xl duration-200 transform bg-white rounded-md hover:bg-slate-200 sm:px-16 2xl:text-4xl font-primary">
                     Senior Guidebook
                   </a>
                 </Link>
               </div>
               <div className="py-2">
                 <Link href="#guidebook">
-                  <a className="py-2 px-[16px] text-2xl bg-white rounded-md sm:px-16 2xl:text-4xl font-primary">
+                  <a className="py-2 px-[16px] text-2xl bg-white hover:bg-slate-200 transform duration-200 rounded-md sm:px-16 2xl:text-4xl font-primary">
                     Junior Guidebook
                   </a>
                 </Link>
               </div>
               <div className="py-2">
                 <Link href="#guidebook">
-                  <a className="sm:px-[73.5px] px-[22px] text-2xl py-2 2xl:text-4xl bg-[#ED5565] text-white rounded-md font-primary">
+                  <a className="sm:px-[73.5px] px-[22px] text-2xl py-2 transform duration-200 2xl:text-4xl bg-[#ED5565] hover:bg-[#d74857] text-white rounded-md font-primary">
                     Daftar Sekarang
                   </a>
                 </Link>
@@ -268,12 +275,12 @@ const NPC = () => {
           <img
             src="/npc/BottomLeft.png"
             alt=""
-            className="absolute left-0 translate-y-1/2 w-36 md:w-72 bottom-10"
+            className="absolute left-0 translate-y-1/2 select-none w-36 md:w-72 bottom-10"
           />
           <img
             src="/npc/BottomRight.png"
             alt=""
-            className="absolute right-0 translate-y-1/2 w-36 md:w-72 bottom-20 md:bottom-28"
+            className="absolute right-0 translate-y-1/2 select-none w-36 md:w-72 bottom-20 md:bottom-28"
           />
         </section>
         {/* guidebook end */}
