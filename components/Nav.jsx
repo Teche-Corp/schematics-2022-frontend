@@ -74,7 +74,7 @@ const Nav = () => {
                 } right-0 w-[602px] flex p-5 rounded-lg text-secondary transition duration-300 bg-white text-slate-900 top-10`}
               >
                 <div className="flex flex-col w-1/2 gap-2">
-                  <div>
+                  <div onClick={toggleShowEvents}>
                     <Link href="/nlc">
                       <a className="text-slate-900">
                         <div className="flex items-start justify-center gap-4 p-4 rounded-lg hover:bg-slate-100">
@@ -91,7 +91,7 @@ const Nav = () => {
                       </a>
                     </Link>
                   </div>
-                  <div>
+                  <div onClick={toggleShowEvents}>
                     <Link href="/nst">
                       <a className="text-slate-900">
                         <div className="flex items-start justify-center gap-4 p-4 rounded-lg hover:bg-slate-100">
@@ -110,7 +110,7 @@ const Nav = () => {
                   </div>
                 </div>
                 <div className="flex flex-col w-1/2 gap-2">
-                  <div>
+                  <div onClick={toggleShowEvents}>
                     <Link href="/npc">
                       <a className="text-slate-900">
                         <div className="flex items-start justify-center gap-4 p-4 rounded-lg hover:bg-slate-100">
@@ -127,7 +127,7 @@ const Nav = () => {
                       </a>
                     </Link>
                   </div>
-                  <div>
+                  <div onClick={toggleShowEvents}>
                     <Link href="/reeva">
                       <a className="text-slate-900">
                         <div className="flex items-start justify-center gap-4 p-4 rounded-lg hover:bg-slate-100">
@@ -183,7 +183,13 @@ const Nav = () => {
             </button>
           </li>
           <div className={`${showEvents ? "flex" : "hidden"} flex-col w-full`}>
-            <div className="flex h-10 gap-5 bg-white border-2 border-black px-7">
+            <div
+              onClick={() => {
+                toggleShowEvents();
+                toggleShowNav();
+              }}
+              className="flex h-10 gap-5 bg-white border-2 border-black px-7"
+            >
               <Link href="/nlc">
                 <a className="inline-block w-full text-2xl text-black font-primary">
                   <div className="inline-block w-5 h-5 rounded-full bg-nlc"></div>{" "}
@@ -191,7 +197,13 @@ const Nav = () => {
                 </a>
               </Link>
             </div>
-            <div className="flex h-10 gap-5 bg-white border-2 border-black px-7">
+            <div
+              onClick={() => {
+                toggleShowEvents();
+                toggleShowNav();
+              }}
+              className="flex h-10 gap-5 bg-white border-2 border-black px-7"
+            >
               <Link href="/npc">
                 <a className="inline-block w-full text-2xl text-black font-primary">
                   <div className="inline-block w-5 h-5 rounded-full bg-npc"></div>{" "}
@@ -199,7 +211,13 @@ const Nav = () => {
                 </a>
               </Link>
             </div>
-            <div className="flex h-10 gap-5 bg-white border-2 border-black px-7">
+            <div
+              onClick={() => {
+                toggleShowEvents();
+                toggleShowNav();
+              }}
+              className="flex h-10 gap-5 bg-white border-2 border-black px-7"
+            >
               <Link href="/nst">
                 <a className="inline-block w-full text-2xl text-black font-primary">
                   <div className="inline-block w-5 h-5 rounded-full bg-nst"></div>{" "}
@@ -207,7 +225,13 @@ const Nav = () => {
                 </a>
               </Link>
             </div>
-            <div className="flex h-10 gap-5 bg-white border-2 border-black px-7">
+            <div
+              onClick={() => {
+                toggleShowEvents();
+                toggleShowNav();
+              }}
+              className="flex h-10 gap-5 bg-white border-2 border-black px-7"
+            >
               <Link href="/reeva">
                 <a className="inline-block w-full text-2xl text-black font-primary">
                   <div className="inline-block w-5 h-5 rounded-full bg-reeva"></div>{" "}
@@ -216,14 +240,20 @@ const Nav = () => {
               </Link>
             </div>
           </div>
-          <li className="py-4 border-2 border-black px-7">
+          <li
+            onClick={toggleShowNav}
+            className="py-4 border-2 border-black px-7"
+          >
             <Link href="/about">
               <a className="flex items-center justify-between w-full md:w-auto md:gap-[6px] text-3xl font-primary text-border-thin md:font-secondary md:text-md">
                 About Us
               </a>
             </Link>
           </li>
-          <li className="py-4 bg-white border-2 border-black px-7">
+          <li
+            onClick={toggleShowNav}
+            className="py-4 bg-white border-2 border-black px-7"
+          >
             <Link href="/login">
               <a className="flex items-center justify-center w-full md:w-auto md:gap-[6px] text-3xl font-primary text-black md:font-secondary md:text-md">
                 Login

@@ -43,6 +43,10 @@
   background-color: #2e97ee;
 }
 
+.silver-gradient-bg {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #231f20 100%);
+}
+
 .text-border-thinner {
   -webkit-text-stroke-width: 0.9px;
   -webkit-text-stroke-color: black;
