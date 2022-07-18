@@ -2,8 +2,13 @@ import Head from "next/head";
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
 import Link from "next/link";
+import { useState } from "react";
 
 const NPC = () => {
+  const [imgCode, setImgCode] = useState(1);
+  const changeImg = () => {
+    setImgCode((prev) => ((prev + 1) % 3) + 1);
+  };
   return (
     <>
       <Head>
@@ -45,7 +50,7 @@ const NPC = () => {
                 National Programming Competition
               </h2>
               {/* cta */}
-              <div className="relative z-50 flex flex-col items-center gap-5 mt-12 select-none md:mt-16 md:gap-10 xl:flex-row 2xl:gap-20">
+              <div className="relative z-40 flex flex-col items-center gap-5 mt-12 select-none md:mt-16 md:gap-10 xl:flex-row 2xl:gap-20">
                 <div className="py-2">
                   <Link href="#about">
                     <a className="bg-[#ED5565] hover:bg-[#d74857] active:bg-[#ed5565] transform duration-200 text-white font-primary uppercase text-xl md:text-2xl px-6 md:px-[24px] py-2 rounded-md">
@@ -116,9 +121,10 @@ const NPC = () => {
             {/* npc photos */}
             <div className="flex items-center justify-center w-full xl:w-1/2">
               <img
-                src="/npc/PhotoNPC.png"
+                src={`/npc/npc-img-${imgCode}.png`}
                 alt="NPC Photos"
-                className="select-none"
+                className="cursor-pointer select-none"
+                onClick={changeImg}
               />
             </div>
             {/* npc photos end */}
