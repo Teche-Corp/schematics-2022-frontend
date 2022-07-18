@@ -11,7 +11,7 @@ const AboutUs = () => {
   return (
     <Fragment>
       <div className='w-full h-fit relative bg-dark-primary text-white overflow-hidden'>
-        <div className='absolute z-50 top-10 left-10 cursor-pointer scale-50 sm:scale-75 lg:scale-100 translate-y-12 lg:translate-y-12 -translate-x-4 lg:translate-x-0 '>
+        <div className='absolute z-50 xl:top-10 xl:left-10 cursor-pointer scale-50 sm:scale-75 lg:scale-100 lg:top-3 lg:left-3'>
           <a href='/'>
             <FaArrowCircleLeft size={66} />
           </a>
@@ -21,17 +21,17 @@ const AboutUs = () => {
           className='absolute z-50 top-10 left-10 cursor-pointer'
           alt=''
         />
-        <div className='absolute -left-[300px] -top-[150px] -translate-x-2 -translate-y-5 select-none scale-50 sm:scale-75 lg:scale-100'>
+        <div className='absolute -left-[300px] -top-[150px] xl:-translate-x-2 xl:-translate-y-5 select-none scale-50 sm:scale-75 lg:scale-100 -translate-y-6 -translate-x-10'>
           <Image src='/AboutUs/TopLeft.png' alt='' width={692} height={457} />
         </div>
-        <div className='absolute -right-[250px] -top-[100px] translate-x-10 select-none scale-50 lg:scale-100 -translate-y-10 lg:translate-y-0'>
+        <div className='absolute -right-[250px] -top-[100px] xl:translate-x-10 select-none scale-50 lg:scale-100 -translate-y-16 translate-x-16'>
           <Image src='/AboutUs/TopRight.png' alt='' width={692} height={457} />
         </div>
         <h1 className='text-3xl md:text-6xl lg:text-8xl text-white font-primary text-center pt-28'>
           SCHEMATICS
         </h1>
 
-        <p className='py-10 sm:py-16 lg:py-20 px-14 lg:px-28 md:text-3xl lg:text-4xl sm:leading-8 md:leading-10 lg:leading-[55px] font-secondary text-justify lg:mx-24'>
+        <p className='py-10 sm:py-16 lg:py-20 px-10 lg:px-16 xl:px-28 md:text-3xl lg:text-4xl sm:leading-8 md:leading-10 lg:leading-[55px] font-secondary text-justify lg:mx-16 xl:mx-24'>
           Schematics merupakan singkatan dari National Seminar of Technology,
           Art Exhibition, National Logic Contest, National Programming Contest,
           and Alumni Rendezvous of Informatics. Schematics merupakan acara
@@ -40,7 +40,7 @@ const AboutUs = () => {
           terbesar ITS.
         </p>
 
-        <div className='w-[335px] md:w-[502.5px] lg:w-[670px] h-[346.5px] md:h-[519.75px] lg:h-[693px] mx-auto relative'>
+        <div className='w-[268px] md:w-[502.5px] lg:w-[670px] h-[277.2px] md:h-[519.75px] lg:h-[693px] mx-auto relative'>
           <Image
             src='/AboutUs/Center.png'
             className='w-[670px] h-[693px]'
@@ -49,7 +49,7 @@ const AboutUs = () => {
           />
         </div>
 
-        <p className='py-16 lg:py-20 px-14 lg:px-28 md:text-3xl lg:text-4xl sm:leading-8 md:leading-10 lg:leading-[55px] font-secondary text-justify lg:mx-24'>
+        <p className='py-10 sm:py-16 lg:py-20 px-10 lg:px-16 xl:px-28 md:text-3xl lg:text-4xl sm:leading-8 md:leading-10 lg:leading-[55px] font-secondary text-justify lg:mx-16 xl:mx-24'>
           Tujuan utama dari masing-masing sub-event yakni untuk mencerdaskan
           masyarakat yang ingin mengasah kemampuan algoritma, pemrograman, dan
           logika serta memberikan pemahaman mengenai perkembangan teknologi
@@ -57,12 +57,12 @@ const AboutUs = () => {
         </p>
 
         {/* Ini tulisan company profile biar bagian kirinya sejajar sama atasnya gimana ya , Kurang tau bang */}
-        <div className='flex flex-col lg:flex-row justify-center items-center md:p-14 md:pt-0 lg:p-28 lg:pt-14 mb-12'>
-          <h1 className='text-white md:text-4xl lg:text-8xl font-[400] text-center w-[479px] font-primary align-middle lg:mr-24 z-50 lg:block'>
+        <div className='flex flex-col xl:flex-row justify-center items-center md:p-14 md:pt-0 lg:p-28 lg:pt-14 mb-12'>
+          <h1 className='text-white md:text-4xl lg:text-5xl xl:text-8xl font-[400] text-center w-[479px] font-primary align-middle xl:mr-24 z-50 lg:block'>
             {" "}
             COMPANY PROFILE
           </h1>
-          <div className='mt-5 lg:mt-0 sm:w-[300px] md:w-[450px] lg:w-[600px] h-[210px] md:h-[315px] lg:h-[420px] bg-gradient-to-t from-amber-300 to-color rounded-xl active:bg-none z-50'>
+          <div className='mt-5 xl:mt-0 sm:w-[300px] md:w-[450px] lg:w-[600px] h-[210px] md:h-[315px] lg:h-[420px] bg-gradient-to-t from-amber-300 to-color rounded-xl active:bg-none z-50'>
             <iframe
               className='opacity-80 w-full h-full active:opacity-100 active:bg-none rounded-xl'
               frameBorder={0}
@@ -70,7 +70,7 @@ const AboutUs = () => {
             ></iframe>
           </div>
         </div>
-        <div className='absolute -left-52 -bottom-60 -translate-x-2 -translate-y-5 select-none scale-50 sm:scale-75 lg:scale-100 -translate-x-20 sm:-translate-x-16 lg:translate-x-0'>
+        <div className='absolute -left-52 -bottom-60 -translate-y-5 select-none scale-50 sm:scale-75 lg:scale-100 -translate-x-20 sm:-translate-x-16 lg:translate-x-0'>
           <Image
             width={692}
             height={457}
@@ -78,7 +78,7 @@ const AboutUs = () => {
             alt=''
           />
         </div>
-        <div className='absolute -right-[250px] -bottom-[260px] -translate-x-2 -translate-y-5 select-none scale-50 sm:scale-75 lg:scale-100 translate-x-8 sm:translate-x-10 lg:translate-x-0'>
+        <div className='absolute -right-[250px] -bottom-[260px] -translate-y-5 select-none scale-50 sm:scale-75 lg:scale-100 translate-x-8 sm:translate-x-10 lg:translate-x-0'>
           <Image
             width={692}
             height={457}
