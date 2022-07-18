@@ -15,7 +15,7 @@ export default function NLC() {
       </Head>
 
       <Nav />
-      <main className="bg-dark-primary">
+      <main className="bg-dark-primary overflow-x-hidden">
         {/* Header */}
         <section className="relative w-full min-h-max md:min-h-screen bg-dark-primary">
           <img
@@ -39,7 +39,7 @@ export default function NLC() {
             alt=""
           />
           {/* NLC Text */}
-          <div className="flex items-end block p-10 pt-20 mx-auto md:pt-48 w-fit">
+          <div className="flex items-end p-10 pt-20 mx-auto md:pt-48 w-fit">
             <img
               className="inline-block w-[105px] md:w-[210px] h-[114.5px] md:h-[229px] md:r-4"
               src="nlc/N.png"
@@ -128,7 +128,7 @@ export default function NLC() {
             alt=""
           />
           <img
-            className="w-[307.6px] md:w-[769px] h-[286.656px] md:h-[716.64px] mx-auto -translate-y-16 md:-translate-y-24"
+            className="w-[307.6px] md:w-[769px] h-[286.656px] md:h-[716.64px] mx-auto -translate-y-16 md:-translate-y-24 mt-4"
             src="nlc/timeline.png"
             alt=""
           />
@@ -201,10 +201,10 @@ export default function NLC() {
           </div>
         </section>
         <section
-          id="boardgame"
+          id="nlc-robot"
           className="relative hidden w-full mt-24 overflow-hidden md:block md:min-h-max"
         >
-          <img className="mx-auto" src="nlc/boardgame.svg" alt="" />
+          <img className="mx-auto -mb-20" src="nlc/nlc-robot.svg" alt="" />
           <img
             className="w-[458.25px] h-[669.75px] absolute -bottom-48 translate-y-1"
             src="nlc/bottom-left.png"

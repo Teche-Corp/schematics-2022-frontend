@@ -20,7 +20,7 @@ const NPC = () => {
         {/* header */}
         <section
           id="npc-header"
-          className="min-h-screen pt-[92px] bg-dark-primary relative"
+          className="min-h-screen pt-[150px] md:pt-[92px] bg-dark-primary relative"
         >
           {/* absolute assets */}
           <img
