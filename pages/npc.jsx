@@ -41,11 +41,11 @@ const NPC = () => {
                 alt=""
                 className="w-[400px] md:w-[683px] select-none"
               />
-              <h2 className="mt-5 text-4xl font-bold leading-relaxed text-center text-white uppercase select-none md:text-5xl lg:text-6xl font-primary">
+              <h1 className="mt-5 text-4xl font-bold leading-relaxed text-center text-white uppercase select-none md:text-5xl lg:text-6xl font-primary">
                 National Programming Competition
-              </h2>
+              </h1>
               {/* cta */}
-              <div className="flex flex-col items-center gap-5 mt-12 select-none md:mt-16 md:gap-10 xl:flex-row 2xl:gap-20">
+              <div className="flex flex-col items-center gap-5 mt-12 select-none md:mt-16 md:gap-10 xl:flex-row 2xl:gap-20 z-20">
                 <div className="py-2">
                   <Link href="#about">
                     <a className="bg-[#ED5565] text-white font-primary uppercase text-xl md:text-2xl px-6 md:px-[24px] py-2 rounded-md">
@@ -78,15 +78,15 @@ const NPC = () => {
         <section id="about" className="relative min-h-screen bg-dark-primary">
           <img
             src="/npc/bg-top.png"
-            className="relative top-0 left-0 w-full select-none"
+            className="relative top-0 left-0 w-full select-none z-0"
             alt=""
           />
           <img
             src="/npc/assetNPC.png"
             alt=""
-            className="absolute right-0 z-30 -translate-y-1/2 w-36 md:w-72 top-10 md:top-20"
+            className="absolute right-0 z-10 -translate-y-1/2 w-36 md:w-72 top-10 md:top-20 pt-10"
           />
-          <div className="bg-[#ED5565] xl:gap-0 gap-4 flex xl:flex-row flex-col px-5 md:px-16 lg:px-[132px] pt-10 pb-2 relative z-20">
+          <div className="bg-[#ED5565] xl:gap-0 gap-4 flex xl:flex-row flex-col px-5 md:px-16 lg:px-[132px] pt-10 pb-2 relative z-0">
             {/* npc text */}
             <div className="flex flex-col justify-center xl:w-1/2">
               <div className="relative">
