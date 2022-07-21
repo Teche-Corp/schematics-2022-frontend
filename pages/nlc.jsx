@@ -15,7 +15,7 @@ export default function NLC() {
       </Head>
 
       <Nav />
-      <main className="bg-dark-primary">
+      <main className="bg-dark-primary overflow-x-hidden">
         {/* Header */}
         <section className="relative w-full min-h-max md:min-h-screen bg-dark-primary">
           <img
@@ -201,7 +201,7 @@ export default function NLC() {
           </div>
         </section>
         <section
-          id="boardgame"
+          id="nlc-robot"
           className="relative hidden w-full mt-24 overflow-hidden md:block md:min-h-max"
         >
           <img className="mx-auto -mb-20" src="nlc/nlc-robot.svg" alt="" />
