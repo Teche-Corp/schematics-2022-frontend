@@ -185,7 +185,7 @@ export default function NLC() {
           <div className="flex items-center w-11/12 pt-16 mx-auto md:pt-52">
             <div className="w-fit">
               <h1 className="font-primary text-lg leading-tight md:leading-snug md:text-[50px] text-white">
-                Total Hadiah Rp 1,5 Juta+++
+                Total Hadiah Rp 17 Juta+++
                 <br />
                 Dan Freepas Teknik Informatika ITS
               </h1>

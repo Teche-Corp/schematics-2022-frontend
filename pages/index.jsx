@@ -212,7 +212,7 @@ export default function Home() {
               Bersama dengan 10.000+ Pendaftar Lain
             </h2>
             <div className="flex justify-center w-full py-3 mt-4 xl:py-5 md:mt-7">
-              <Link href="/login">
+              <Link href="/daftar">
                 <a className="inline-block w-[90%] px-12 py-3 text-xl text-center text-white uppercase rounded-md select-none sm:w-auto md:px-24 xl:py-5 md:text-2xl xl:text-4xl home-btn-bg xl:px-36 text-border-thin font-primary">
                   Join Now!!!
                 </a>
