@@ -42,7 +42,7 @@ const NPC = () => {
                 className="w-[400px] md:w-[683px] select-none"
               />
               <h1 className="mt-5 text-4xl font-bold leading-relaxed text-center text-white uppercase select-none md:text-5xl lg:text-6xl font-primary">
-                National Programming Competition
+                National Programming Contest
               </h1>
               {/* cta */}
               <div className="flex flex-col items-center gap-5 mt-12 select-none md:mt-16 md:gap-10 xl:flex-row 2xl:gap-20 z-20">
@@ -54,7 +54,7 @@ const NPC = () => {
                   </Link>
                 </div>
                 <div className="py-2">
-                  <Link href="#score-board">
+                  <Link href="#">
                     <a className="bg-[#ED5565] text-white font-primary uppercase text-xl md:text-2xl md:px-16 px-[56px] py-2 rounded-md">
                       Score Board
                     </a>
@@ -242,21 +242,21 @@ const NPC = () => {
             {/* guidebook links */}
             <div className="flex flex-col items-center justify-center gap-6 mt-10 xl:gap-4 xl:mt-0 xl:w-1/2">
               <div className="py-2">
-                <Link href="#guidebook">
+                <Link href="https://drive.google.com/file/d/1zMvXQ3_GvcOHd2BsJ5p3DVPBmIgJS5Y9/view?usp=sharing">
                   <a className="px-4 py-2 text-2xl bg-white rounded-md sm:px-16 2xl:text-4xl font-primary">
                     Senior Guidebook
                   </a>
                 </Link>
               </div>
               <div className="py-2">
-                <Link href="#guidebook">
+                <Link href="https://drive.google.com/file/d/1aagSVYQUoxqBj34OF0fLZ_Xrd5EWhrGl/view?usp=sharing">
                   <a className="py-2 px-[16px] text-2xl bg-white rounded-md sm:px-16 2xl:text-4xl font-primary">
                     Junior Guidebook
                   </a>
                 </Link>
               </div>
               <div className="py-2">
-                <Link href="#guidebook">
+                <Link href="https://linktr.ee/registernlc">
                   <a className="sm:px-[73.5px] px-[22px] text-2xl py-2 2xl:text-4xl bg-[#ED5565] text-white rounded-md font-primary">
                     Daftar Sekarang
                   </a>

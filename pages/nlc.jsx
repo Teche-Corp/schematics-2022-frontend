@@ -60,7 +60,7 @@ export default function NLC() {
               </Link>
             </div>
             <div className="py-2">
-              <Link href="#score-board">
+              <Link href="#">
                 <a className="bg-[#FFDB7A] text-black font-primary uppercase text-xl md:text-2xl md:px-16 px-[56px] py-2 rounded-md">
                   Score Board
                 </a>
@@ -135,7 +135,7 @@ export default function NLC() {
         <section id="timeline" className="relative w-full h-80 md:min-h-screen z-10">
 
           <img
-            className="w-[307.6px] md:w-[769px] h-[286.656px] md:h-[716.64px] mx-auto -translate-y-16 md:-translate-y-24 mt-[30px]"
+            className="w-[307.6px] md:w-[769px] h-[286.656px] md:h-[716.64px] mx-auto -translate-y-16 md:-translate-y-24 mt-[30px] select-none"
             src="nlc/timeline.png"
             alt=""
           />
@@ -204,14 +204,14 @@ export default function NLC() {
             {/* guidebook links */}
             <div className="flex flex-col items-center justify-center gap-6 mt-10 xl:gap-4 xl:mt-0 xl:w-1/2">
               <div className="py-2">
-                <Link href="#guidebook">
+                <Link href="https://drive.google.com/file/d/1QKap6V7x-k80DZ-1rCGuTIRRqaY4ceSH/view?usp=sharing">
                   <a className="px-4 py-2 text-2xl bg-white rounded-md sm:px-16 2xl:text-4xl font-primary">
                     Unduh Guidebook
                   </a>
                 </Link>
               </div>
               <div className="py-2">
-                <Link href="#guidebook">
+                <Link href="https://forms.gle/wYyCBnnEsvsyc3Et5">
                   <a className="sm:px-[73.5px] px-[22px] text-2xl py-2 2xl:text-4xl bg-[#FFCD46] text-white rounded-md font-primary">
                     Daftar Sekarang
                   </a>
