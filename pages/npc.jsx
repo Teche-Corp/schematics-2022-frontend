@@ -15,7 +15,7 @@ const NPC = () => {
         <title>Schematics 2022 | NPC</title>
         <meta
           name="description"
-          content="Schematics 2022 National Programming Competition"
+          content="Schematics 2022 National Programming Contest"
         />
         <link rel="icon" href="/schematics-logo.png" />
       </Head>
