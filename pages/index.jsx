@@ -98,12 +98,12 @@ export default function Home() {
           <div className="flex flex-col mt-32 md:mt-0 px-5 md:px-16 lg:px-[132px] items-center justify-center w-full min-h-[calc(100vh-92px)] z-50">
             <div className="flex items-center justify-start w-full gap-10">
               <div className="relative">
-                <h1 className="relative z-10 text-6xl uppercase select-none sm:text-8xl md:text-7xl xl:text-8xl 2xl:text-9xl font-primary home-main-title">
+                <h1 className="relative z-10 text-5xl uppercase select-none sm:text-8xl md:text-7xl xl:text-8xl 2xl:text-9xl font-primary home-main-title">
                   Schematics
                   <br />
                   2022
                 </h1>
-                <h1 className="absolute top-0 text-6xl text-white uppercase -translate-x-1 select-none sm:text-8xl md:text-7xl xl:text-8xl md:-translate-x-2 2xl:text-9xl font-primary">
+                <h1 className="absolute top-0 text-5xl text-white uppercase -translate-x-1 select-none sm:text-8xl md:text-7xl xl:text-8xl md:-translate-x-2 2xl:text-9xl font-primary">
                   Schematics
                   <br />
                   2022
