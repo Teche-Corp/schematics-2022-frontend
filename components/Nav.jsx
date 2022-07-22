@@ -153,18 +153,14 @@ const Nav = () => {
               <a>About Us</a>
             </Link>
           </li>
-<<<<<<< HEAD
+
           <li>
-            <Link href="/dashboard">
-=======
-          {/* <li>
             <Link href="/">
->>>>>>> dc0c2dd (chore: temporary hide login button)
               <a className="font-bold text-black bg-white px-[31.5px] py-[1px] rounded-md outline-4 outline-black">
                 Login
               </a>
             </Link>
-          </li> */}
+          </li>
         </ul>
 
         {/* {showNav && ( */}
