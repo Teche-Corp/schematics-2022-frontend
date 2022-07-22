@@ -17,7 +17,7 @@ export default function NLC() {
       <Nav />
       <main className="bg-dark-primary overflow-x-hidden">
         {/* Header */}
-        <section className="relative w-full min-h-max md:min-h-screen bg-dark-primary">
+        <section className="min-h-screen pt-[80px] md:pt-0 bg-dark-primary relative">
           <img
             className="absolute top-0 hidden md:block md:w-[445.2px] md:h-[601.33125px]"
             src="nlc/nlc-top-left.png"
@@ -39,182 +39,187 @@ export default function NLC() {
             alt=""
           />
           {/* NLC Text */}
-          <div className="flex items-end p-10 pt-20 mx-auto md:pt-48 w-fit">
+          <div className="flex items-end p-10 pt-10 mx-auto md:pt-48 w-fit">
             <img
-              className="inline-block w-[105px] md:w-[210px] h-[114.5px] md:h-[229px] md:r-4"
-              src="nlc/N.png"
-              alt=""
-            />
-            <img
-              className="inline-block w-[116.5px] md:w-[233px] h-[148px] md:h-[296px]"
-              src="nlc/L.png"
-              alt=""
-            />
-            <img
-              className="inline-block w-[108px] md:w-[216px] h-[119px] md:h-[238px]"
-              src="nlc/C.png"
+              className="w-[400px] md:w-[683px] select-none"
+              src="nlc/nlc.png"
               alt=""
             />
           </div>
 
-          <h1 className="mx-auto text-lg text-white w-fit font-primary md:text-7xl">
+          <h1 className="mx-auto text-2xl text-white w-fit font-primary md:text-7xl text-center">
             NATIONAL LOGIC COMPETITION
           </h1>
 
-          <div className="w-11/12 md:w-3/4 mx-auto mt-4 md:mt-24 flex justify-between text-center text-[10px] md:text-2xl font-primary">
-            <Link href="#description">
-              <a className="px-1 md:px-4 py-1 md:py-2 w-[115px] md:w-[306px] h-[20px] md:h-[50px] bg-[#FFDB7A] rounded-md md:rounded-lg">
-                TENTANG KOMPETISI
-              </a>
-            </Link>
-            <Link href="#">
-              <a className="px-2 md:px-4 py-1 md:py-2 w-[115px] md:w-[306px] h-[20px] md:h-[50px] bg-[#FFDB7A] rounded-md md:rounded-lg">
-                SCORE BOARD
-              </a>
-            </Link>
-            <Link href="#timeline">
-              <a className="px-2 md:px-4 py-1 md:py-2 w-[115px] md:w-[306px] h-[20px] md:h-[50px] bg-[#FFDB7A] rounded-md md:rounded-lg">
-                TIMELINE
-              </a>
-            </Link>
+          <div className="flex flex-col justify-center items-center gap-5 mt-12 select-none md:mt-16 md:gap-10 xl:flex-row 2xl:gap-20">
+            <div className="py-2">
+              <Link href="#about">
+                <a className="bg-[#FFDB7A] text-black font-primary uppercase text-xl md:text-2xl px-6 md:px-[24px] py-2 rounded-md">
+                  Tentang Kompetisi
+                </a>
+              </Link>
+            </div>
+            <div className="py-2">
+              <Link href="#">
+                <a className="bg-[#FFDB7A] text-black font-primary uppercase text-xl md:text-2xl md:px-16 px-[56px] py-2 rounded-md">
+                  Score Board
+                </a>
+              </Link>
+            </div>
+            <div className="py-2">
+              <Link href="#timeline">
+                <a className="bg-[#FFDB7A] text-black font-primary uppercase text-xl md:text-2xl md:px-[92px] px-[79px] py-2 rounded-md">
+                  Timeline
+                </a>
+              </Link>
+            </div>
           </div>
         </section>
 
         {/* Deskripsi */}
 
-        <section
-          id="description"
-          className="w-full h-64 md:min-h-screen mt-8 bg-[url('/nlc/bg-desc-mobile.png')] md:bg-[url('/nlc/bg-desc.png')] bg-contain bg-no-repeat relative z-10"
-        >
+        <section id="about" className="relative min-h-screen bg-dark-primary">
           <img
-            className="hidden md:block absolute -top-24 translate-y-2 right-0 w-[291.2px] h-[380.8px]"
-            src="nlc/joystick.png"
+            src="/nlc/bg-top.png"
+            className="relative top-0 left-0 w-full select-none z-0"
             alt=""
           />
-          {/* content (desc/gambar) */}
-          <div className="flex items-center w-11/12 gap-2 pt-12 mx-auto md:-translate-x-8 md:pt-52 md:w-5/6 md:gap-24">
-            <div className="flex flex-col gap-8 md:gap-10 w-3/5 font-secondary md:text-3xl leading-1 md:leading-[37.5px]">
-              <div className="align-center md:text-5xl">
-                <h1 className="font-primary absolute text-white drop-shadow-md -translate-x-[2px] md:-translate-x-1 ">
-                  Tentang Kompetisi
-                </h1>
-                <h1 className="absolute text-black font-primary drop-shadow-md ">
-                  Tentang Kompetisi
-                </h1>
-              </div>
-              <div className="md:mt-10 text-[10px] md:text-[25px]">
-                Schematics National Logic Competition 2021 merupakan kompetisi
-                yang menguji kemampuan berpikir secara logis dan analitis
-                melalui berbagai persoalan dan permainan menarik.
-              </div>
-            </div>
-            <div className="w-1/2">
-              <img className="md:scale-110" src="/nlc/desc-img.png" alt="" />
-            </div>
-          </div>
-        </section>
-
-        {/* Timeline */}
-        <section id="timeline" className="relative w-full h-80 md:min-h-screen">
           <img
+            src="/nlc/joystick.png"
+            alt=""
+            className="absolute right-0 -translate-y-1/2 w-36 md:w-72 top-10 md:top-20 pt-10 z-20"
+          />
+          <div className="bg-[#FFCD46] xl:gap-0 gap-4 flex xl:flex-row flex-col px-5 md:px-16 lg:px-[132px] pt-10 pb-2 relative z-10">
+            {/* npc text */}
+            <div className="flex flex-col justify-center xl:w-1/2">
+              <div className="relative">
+                <h2 className="relative z-10 text-4xl text-white md:text-5xl font-primary">
+                  Tentang Kompetisi
+                </h2>
+                <h2 className="absolute top-0 text-4xl md:text-5xl text-black select-none -translate-x-1.5 font-primary">
+                  Tentang Kompetisi
+                </h2>
+              </div>
+              <div className="px-2">
+                <p className="mt-4 text-xl md:text-2xl leading-relaxed font-medium text-[#231F20]">
+                  Schematics National Logic Competition 2021 merupakan kompetisi yang menguji kemampuan berpikir secara logis dan analitis melalui berbagai persoalan dan permainan menarik.
+                </p>
+              </div>
+            </div>
+            {/* npc text end */}
+            {/* npc photos */}
+            <div className="flex items-center justify-center w-full xl:w-1/2 z-0">
+              <img
+                src="/nlc/desc-img.png"
+                alt="NLC Photos"
+                className="select-none"
+              />
+            </div>
+            {/* npc photos end */}
+          </div>
+          <div className="relative">
+            <img
+              src="/nlc/bg-top-2.png"
+              className="relative bottom-0 left-0 z-20 w-full select-none"
+              alt=""
+            />
+            <img
             className="absolute w-[76.862px] md:w-[384.31px] h-[72.392px] md:h-[361.96px] -top-24 md:-top-64 right-0 -z-1"
             src="nlc/timeline-top-right.png"
             alt=""
           />
+          </div>
+        </section>
+
+        {/* Timeline */}
+        <section id="timeline" className="relative w-full h-80 md:min-h-screen z-10">
 
           <img
-            className="absolute w-[108.7394px] md:w-[494.27px] h-[74.4194px] md:h-[338.27px] -left-1 md:-left-3 bottom-8 md:-left-bottom-8"
-            src="nlc/timeline-bottom-left.png"
-            alt=""
-          />
-          <img
-            className="w-[307.6px] md:w-[769px] h-[286.656px] md:h-[716.64px] mx-auto -translate-y-16 md:-translate-y-24 mt-4"
+            className="w-[307.6px] md:w-[769px] h-[286.656px] md:h-[716.64px] mx-auto -translate-y-16 md:-translate-y-24 mt-[30px] select-none"
             src="nlc/timeline.png"
             alt=""
           />
         </section>
 
-        <section
-          id="scoreboard"
-          className="w-full h-64 md:min-h-screen -mt-36 md:-mt-56 bg-[url('/nlc/bg-desc-mobile.png')] md:bg-[url('/nlc/bg-desc.png')] bg-contain bg-no-repeat relative z-10"
-        >
-          <div className="flex w-5/6 mx-auto translate-y-12 item-center md:gap-10 md:translate-y-36">
-            <div className="w-3/5 md:w-1/2 md:pt-8 ">
-              <div className="md:text-5xl">
-                <h1 className="absolute text-white font-primary drop-shadow-md">
+        <section id="teknis" className="relative min-h-screen bg-dark-primary -mt-36 sm:-mt-[100px] lg:-mt-[350px]">
+          
+          <img
+            src="/nlc/bg-top.png"
+            className="relative top-0 left-0 w-full"
+            alt=""
+          />
+          <div className="bg-[#FFCD46] flex xl:flex-row flex-col xl:gap-0 gap-5 py-10 px-5 md:px-16 lg:px-[132px] relative z-20">
+            {/* npc text */}
+            <div className="flex flex-col justify-center xl:w-1/2">
+              <div className="relative">
+                <h2 className="relative z-10 text-4xl text-white md:text-5xl font-primary">
                   Teknis Umum Kompetisi
-                </h1>
-                <h1 className="font-primary text-black absolute translate-x-[2px] md:translate-x-1 drop-shadow-md">
+                </h2>
+                <h2 className="absolute top-0 text-4xl text-black -translate-x-1 md:text-5xl font-primary">
                   Teknis Umum Kompetisi
-                </h1>
+                </h2>
               </div>
-
-              <div className="relative w-4/5 mt-8 md:mt-20 ">
-                <li className="font-secondary text-[10px] md:text-3xl text-black md:leading-10 list-none">
-                  &#9679; Dapat diikuti oleh satu tim beranggotakan maksimal dua
-                  siswa SMA / sederajat
-                </li>
-                <br className="hidden md:block" />
-                <br className="hidden md:block" />
-
-                <li className="font-secondary text-[10px] md:text-3xl text-black md:leading-10 list-none">
-                  &#9679; Kegiatan diadakan secara online melalui website
-                  schematics
-                </li>
+              <div className="px-7">
+                <ul className="mt-4 text-xl list-disc md:text-2xl">
+                  <li className="font-medium font-secondary">
+                  Dapat diikuti oleh satu tim beranggotakan maksimal dua siswa SMA/sederajat
+                  </li>
+                  <li className="mt-6 font-medium font-secondary">
+                    Kegiatan diadakan secara online melalui website schematics.
+                  </li>
+                </ul>
               </div>
             </div>
-            <div className="self-center w-2/5 md:w-1/2">
-              <img
-                className="bg-white rounded-xl md:rounded-2xl w-[93px] md:w-[306.4px] h-[116px] md:h-[383.2px] mx-auto md:translate-x-12"
-                src="nlc/video-img.png"
-              />
+            {/* npc text end */}
+            {/* npc photos */}
+            <div className="flex items-center justify-center xl:w-1/2">
+              <img src="/npc/PhotoNPC.png" alt="NPC Photos" />
             </div>
+            {/* npc photos end */}
+          </div>
+          <div className="relative">
+            <img
+              src="/nlc/bg-top-2.png"
+              className="relative bottom-0 left-0 w-full"
+              alt=""
+            />
           </div>
         </section>
-        <section className="relative w-full pb-4 min-h-max bg-dark-primary md:pb-0">
-          <img
-            className="w-[129px] md:w-[281px] h-[276.83px] md:h-[603.01px] absolute left-6 md:left-28 -translate-y-56 md:-translate-y-2/3"
-            src="nlc/price.png"
-            alt=""
-          />
-          <img
-            className="hidden md:block absolute w-[434.25px] h-[459.75px] right-4 -top-72 translate-y-3"
-            src="nlc/lamp.png"
-            alt=""
-          />
-          <div className="flex items-center w-11/12 pt-16 mx-auto md:pt-52">
-            <div className="w-fit">
-              <h1 className="font-primary text-lg leading-tight md:leading-snug md:text-[50px] text-white">
-                Total Hadiah Rp 1,5 Juta+++
-                <br />
-                Dan Freepas Teknik Informatika ITS
-              </h1>
-            </div>
-            <div className="flex flex-col items-center w-2/6 gap-3 md:gap-12">
-              <button className="font-primary text-[10px] md:text-[25px] md:leading-7 bg-slate-50 w-full md:w-2/3 px-1 md:px-6 py-1 md:py-3 rounded-md md:rounded-xl">
-                Unduh Guidebook
-              </button>
-              <button className="font-primary text-[10px] md:text-[25px] md:leading-7 text-white bg-[#FFCD46] w-full md:w-2/3 px-1 md:px-6 py-1 md:py-3 rounded-md md:rounded-xl">
-                Daftar Sekarang
-              </button>
-            </div>
-          </div>
-        </section>
+
         <section
-          id="nlc-robot"
-          className="relative hidden w-full mt-24 overflow-hidden md:block md:min-h-max"
+          id="guidebook"
+          className="overflow-y-hidden bg-dark-primary relative px-5 md:px-16 lg:px-[132px]"
         >
-          <img className="mx-auto -mb-20" src="nlc/nlc-robot.svg" alt="" />
-          <img
-            className="w-[458.25px] h-[669.75px] absolute -bottom-48 translate-y-1"
-            src="nlc/bottom-left.png"
-            alt=""
-          />
-          <img
-            className="w-[458.25px] h-[669.75px] absolute -bottom-56 translate-y-2 right-0"
-            src="nlc/bottom-right.png"
-            alt=""
-          />
+          <div className="flex flex-col justify-center xl:items-center xl:flex-row py-36">
+            {/* guidebook text */}
+            <div className="xl:w-1/2">
+              <h2 className="text-4xl text-center text-white xl:text-left 2xl:text-5xl font-primary">
+                Total Hadiah Rp 15 Juta+++
+              </h2>
+              <h2 className="mt-6 text-4xl text-center text-white uppercase xl:text-start sm:mt-2 2xl:text-5xl font-primary">
+              Dan Freepass Teknik Informatika ITS
+              </h2>
+            </div>
+            {/* guidebook text end */}
+            {/* guidebook links */}
+            <div className="flex flex-col items-center justify-center gap-6 mt-10 xl:gap-4 xl:mt-0 xl:w-1/2">
+              <div className="py-2">
+                <Link href="https://drive.google.com/file/d/1QKap6V7x-k80DZ-1rCGuTIRRqaY4ceSH/view?usp=sharing">
+                  <a className="px-4 py-2 text-2xl bg-white rounded-md sm:px-16 2xl:text-4xl font-primary">
+                    Unduh Guidebook
+                  </a>
+                </Link>
+              </div>
+              <div className="py-2">
+                <Link href="https://forms.gle/wYyCBnnEsvsyc3Et5">
+                  <a className="sm:px-[73.5px] px-[22px] text-2xl py-2 2xl:text-4xl bg-[#FFCD46] text-white rounded-md font-primary">
+                    Daftar Sekarang
+                  </a>
+                </Link>
+              </div>
+            </div>
+            {/* guidebook links end */}
+          </div>
         </section>
       </main>
       <Footer />

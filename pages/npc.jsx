@@ -46,11 +46,11 @@ const NPC = () => {
                 alt=""
                 className="w-[400px] md:w-[683px] select-none"
               />
-              <h2 className="mt-5 text-4xl font-bold leading-relaxed text-center text-white uppercase select-none md:text-5xl lg:text-6xl font-primary">
-                National Programming Competition
-              </h2>
+              <h1 className="mt-5 text-4xl font-bold leading-relaxed text-center text-white uppercase select-none md:text-5xl lg:text-6xl font-primary">
+                National Programming Contest
+              </h1>
               {/* cta */}
-              <div className="relative z-40 flex flex-col items-center gap-5 mt-12 select-none md:mt-16 md:gap-10 xl:flex-row 2xl:gap-20">
+              <div className="flex flex-col items-center gap-5 mt-12 select-none md:mt-16 md:gap-10 xl:flex-row 2xl:gap-20 z-20">
                 <div className="py-2">
                   <Link href="#about">
                     <a className="bg-[#ED5565] hover:bg-[#d74857] active:bg-[#ed5565] transform duration-200 text-white font-primary uppercase text-xl md:text-2xl px-6 md:px-[24px] py-2 rounded-md">
@@ -59,8 +59,8 @@ const NPC = () => {
                   </Link>
                 </div>
                 <div className="py-2">
-                  <Link href="#score-board">
-                    <a className="bg-[#ED5565] hover:bg-[#d74857] active:bg-[#ed5565] transform duration-200 text-white font-primary uppercase text-xl md:text-2xl md:px-16 px-[56px] py-2 rounded-md">
+                  <Link href="#">
+                    <a className="bg-[#ED5565] text-white font-primary uppercase text-xl md:text-2xl md:px-16 px-[56px] py-2 rounded-md">
                       Score Board
                     </a>
                   </Link>
@@ -83,15 +83,15 @@ const NPC = () => {
         <section id="about" className="relative min-h-screen bg-dark-primary">
           <img
             src="/npc/bg-top.png"
-            className="relative top-0 left-0 w-full select-none"
+            className="relative top-0 left-0 w-full select-none z-0"
             alt=""
           />
           <img
             src="/npc/assetNPC.png"
             alt=""
-            className="absolute right-0 z-30 -translate-y-1/2 w-36 md:w-72 top-10 md:top-20"
+            className="absolute right-0 z-10 -translate-y-1/2 w-36 md:w-72 top-10 md:top-20 pt-10"
           />
-          <div className="bg-[#ED5565] xl:gap-0 gap-4 flex xl:flex-row flex-col px-5 md:px-16 lg:px-[132px] pt-10 pb-2 relative z-20">
+          <div className="bg-[#ED5565] xl:gap-0 gap-4 flex xl:flex-row flex-col px-5 md:px-16 lg:px-[132px] pt-10 pb-2 relative z-0">
             {/* npc text */}
             <div className="flex flex-col justify-center xl:w-1/2">
               <div className="relative">
@@ -255,22 +255,22 @@ const NPC = () => {
             {/* guidebook links */}
             <div className="relative z-20 flex flex-col items-center justify-center gap-6 mt-10 select-none xl:gap-4 xl:mt-0 xl:w-1/2">
               <div className="py-2">
-                <Link href="#guidebook">
-                  <a className="px-4 py-2 text-2xl duration-200 transform bg-white rounded-md hover:bg-slate-200 sm:px-16 2xl:text-4xl font-primary">
+                <Link href="https://drive.google.com/file/d/1zMvXQ3_GvcOHd2BsJ5p3DVPBmIgJS5Y9/view?usp=sharing">
+                  <a className="px-4 py-2 text-2xl bg-white rounded-md sm:px-16 2xl:text-4xl font-primary">
                     Senior Guidebook
                   </a>
                 </Link>
               </div>
               <div className="py-2">
-                <Link href="#guidebook">
-                  <a className="py-2 px-[16px] text-2xl bg-white hover:bg-slate-200 transform duration-200 rounded-md sm:px-16 2xl:text-4xl font-primary">
+                <Link href="https://drive.google.com/file/d/1aagSVYQUoxqBj34OF0fLZ_Xrd5EWhrGl/view?usp=sharing">
+                  <a className="py-2 px-[16px] text-2xl bg-white rounded-md sm:px-16 2xl:text-4xl font-primary">
                     Junior Guidebook
                   </a>
                 </Link>
               </div>
               <div className="py-2">
-                <Link href="#guidebook">
-                  <a className="sm:px-[73.5px] px-[22px] text-2xl py-2 transform duration-200 2xl:text-4xl bg-[#ED5565] hover:bg-[#d74857] text-white rounded-md font-primary">
+                <Link href="https://linktr.ee/registernlc">
+                  <a className="sm:px-[73.5px] px-[22px] text-2xl py-2 2xl:text-4xl bg-[#ED5565] text-white rounded-md font-primary">
                     Daftar Sekarang
                   </a>
                 </Link>
