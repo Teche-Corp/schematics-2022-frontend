@@ -84,7 +84,18 @@ export default function Home() {
           id="header"
           className="w-full pt-[92px] min-h-screen bg-dark-primary"
         >
-          <div className="flex flex-col px-5 md:px-16 lg:px-[132px] items-center justify-center w-full min-h-[calc(100vh-92px)] z-50">
+          <div>
+            {/* <img 
+              src="/homepage/logo-schematics-lg.png" 
+              alt=""
+              className="absolute select-none w-[164px] ml-32 z-0 mt-10 md:mt-96 md:right-10 lg:mt-[100px] lg:w-[400px] lg:right-24" 
+            /> */}
+            <img 
+            src="homepage/logo-desktop.png" 
+            className="absolute select-none md:right-0 lg:right-0 md:w-[350px] lg:w-[600px] xl:w-[900px] md:mt-20 lg:mt-40 xl:mt-5"
+            alt="" />
+          </div>
+          <div className="flex flex-col mt-32 md:mt-0 px-5 md:px-16 lg:px-[132px] items-center justify-center w-full min-h-[calc(100vh-92px)] z-50">
             <div className="flex items-center justify-start w-full gap-10">
               <div className="relative">
                 <h1 className="relative z-10 text-5xl uppercase select-none sm:text-8xl md:text-7xl xl:text-8xl 2xl:text-9xl font-primary home-main-title">
@@ -101,15 +112,15 @@ export default function Home() {
                   Unleash Your Soul
                 </h2>
               </div>
-              <div className="items-center justify-center hidden select-none md:flex">
+              {/* <div className="items-center justify-center hidden select-none md:flex">
                 <img
                   src="/homepage/logo-schematics-lg.png"
                   alt=""
                   className="relative z-10 w-36 sm:w-48 md:w-64 xl:w-80"
                 />
-              </div>
+              </div> */}
             </div>
-            <div className="flex justify-center w-full mt-10 sm:justify-start sm:mt-7 md:mt-1 2xl:mt-10">
+            <div className="flex justify-center w-full mt-10 sm:justify-start sm:mt-7 md:mt-1 2xl:mt-10 z-50">
               <Link href="#about">
                 <a className="text-xl sm:text-4xl select-none text-white text-border-thinner uppercase bg-white sm:px-10 px-24 py-2 sm:py-4 xl:px-16 xl:py-7 rounded-md bg-opacity-[0.15] font-primary">
                   Get Started
