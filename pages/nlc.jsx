@@ -173,7 +173,7 @@ export default function NLC() {
 
               <div className='relative w-full lg:w-4/5 mt-12 md:mt-16 lg:mt-20 z-20'>
                 <li className='font-secondary text-[18px] md:text-2xl lg:text-3xl text-black md:leading-9 lg:leading-10 list-none'>
-                  &#9679; Dapat diikuti oleh satu tim beranggotakan maksimal dua
+                  &#9679; Dapat diikuti oleh satu tim beranggotakan maksimal tiga
                   siswa SMA / sederajat
                 </li>
                 <br className='block' />
