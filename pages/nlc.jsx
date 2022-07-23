@@ -17,7 +17,7 @@ export default function NLC() {
       <Nav />
       <main className='bg-dark-primary overflow-x-hidden'>
         {/* Header */}
-        <section className='relative w-full min-h-max md:min-h-screen bg-dark-primary'>
+        <section className='relative w-full min-h-max  bg-dark-primary'>
           <img
             className='absolute top-0 hidden md:block w-64 lg:w-80'
             src='nlc/nlc-top-left.png'
@@ -136,7 +136,7 @@ export default function NLC() {
           />
           {/* Timeline */}
           <img
-            className='w-[384.5px] sm:w-[461.4px] md:w-[576.75px] lg:w-[769px] h-[358.32px] sm:h-[429.984px] md:h-[537.48px] lg:h-[716.64px] mx-auto -translate-y-4 md:-translate-y-8  '
+            className='w-[384.5px] sm:w-[461.4px] md:w-[576.75px] lg:w-[769px] h-[458.32px] sm:h-[529.984px] md:h-[637.48px] lg:h-[816.64px] mx-auto -translate-y-4 md:-translate-y-8  '
             src='nlc/timeline.png'
             alt=''
           />
@@ -153,7 +153,7 @@ export default function NLC() {
         <img
           src='/nlc/bg-top.png'
           alt=''
-          className=' relative bg-cover w-full -mt-[14%] md:-mt-[14%] lg:-mt-[13%] z-1'
+          className=' relative bg-cover w-full -mt-[15%] md:-mt-[14%] lg:-mt-[13%] z-1'
         />
         {/*  Content*/}
         <section
