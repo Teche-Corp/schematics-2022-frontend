@@ -12,19 +12,19 @@ export default function NST() {
             <link rel="icon" href="/schematics-logo.png" />
         </Head>
         <img 
-            src="/nst/nst-top-left.svg" 
+            src="/nst/nst-top-left.png" 
             alt="nst-top-left"
             className='absolute right-0 top-0 w-3/12' 
         />
         <img 
-            src="/nst/nst-top-right.svg" 
+            src="/nst/nst-top-right.png" 
             alt="nst-top-right"
             className='absolute left-0 top-0 w-3/12' 
         />
         <div className='h-screen flex flex-col justify-center items-center md:pb-16 pb-0' style={{background: 'linear-gradient(180deg, rgba(37, 37, 37, 0.8) 0%, #252525 100%)'}}>
             <div className='md:w-1/2 w-4/5 text-center'>
                 <Image
-                    src="/nst/nst-text.svg"
+                    src="/nst/nst-text.png"
                     alt="nst text"
                     width={614}
                     height={220}
@@ -47,7 +47,7 @@ export default function NST() {
             </Link>
         </div>
         <img 
-            src="/nst/nst-bottom.svg" 
+            src="/nst/nst-bottom.png" 
             alt="nst-bottom"
             className='absolute w-full bottom-0' 
         />

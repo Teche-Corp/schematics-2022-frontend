@@ -12,19 +12,19 @@ export default function NST() {
             <link rel="icon" href="/schematics-logo.png" />
         </Head>
         <img 
-            src="/reeva/reeva-top-right.svg" 
+            src="/reeva/reeva-top-right.png" 
             alt="reeva-top-right"
             className='absolute right-0 top-0 w-3/12' 
         />
         <img 
-            src="/reeva/reeva-top-left.svg" 
+            src="/reeva/reeva-top-left.png" 
             alt="reeva-top-left"
             className='absolute left-0 top-0 w-3/12' 
         />
         <div className='h-screen flex flex-col justify-center items-center md:pb-16 pb-0' style={{background: 'linear-gradient(180deg, rgba(37, 37, 37, 0.8) 0%, #252525 100%)'}}>
             <div className='md:w-1/2 w-4/5 text-center'>
                 <img 
-                    src="/reeva/reeva-text.svg" 
+                    src="/reeva/reeva-text.png" 
                     alt="nst text" 
                 />
             </div>
@@ -45,7 +45,7 @@ export default function NST() {
             </Link>
         </div>
         <img 
-            src="/reeva/reeva-bottom.svg" 
+            src="/reeva/reeva-bottom.png" 
             alt="reeva-bottom"
             className='absolute md:w-full bottom-0' 
         />
