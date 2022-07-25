@@ -33,7 +33,7 @@ export default function NST() {
                     is coming soon
                 </p>
                 <p className='md:text-5xl text-3xl uppercase'>
-                    01.08.22
+                    14.08.22
                 </p>
             </div>
             <Link 
