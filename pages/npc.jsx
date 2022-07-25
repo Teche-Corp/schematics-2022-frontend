@@ -205,7 +205,7 @@ const NPC = () => {
               <iframe
                 className="w-full h-full opacity-80 active:opacity-100 active:bg-none"
                 frameBorder={0}
-                src="https://www.youtube.com/embed/gWdWqKMIuug"
+                src="https://drive.google.com/file/d/1iR2n1PdIj14NUIZwcMh8ngIT7CZ1B-4A/preview"
               ></iframe>
             </div>
             {/* npc photos end */}

@@ -185,12 +185,12 @@ export default function NLC() {
                 </li>
               </div>
             </div>
-            <div className='flex self-center justify-center w-4/5 md:w-1/3 xl:w-1/2 mx-auto'>
-              <img
-                className='bg-white rounded-xl md:rounded-2xl w-2/3 sm:w-1/2 md:w-full lg:w-full xl:w-3/5 mx-auto z-20'
-                src='nlc/video-img.png'
-                alt=''
-              />
+            <div className="flex items-center justify-center h-64 select-none sm:px-16 xl:h-auto xl:w-1/2">
+              <iframe
+                className="w-full h-full opacity-80 active:opacity-100 active:bg-none"
+                frameBorder={0}
+                src="https://drive.google.com/file/d/1mMte6eZM1T_Sfg7bQcryLIcMNfcG94C-/preview"
+              ></iframe>
             </div>
           </div>
           <div className='absolute h-96 w-40 md:w-56 lg:w-64 xl:w-72 bottom-48 md:bottom-24 lg:bottom-12 translate-x-1/2 translate-y-1/2 -left-16 md:-left-24 -z-10 bg-[#FFCD46]'>
