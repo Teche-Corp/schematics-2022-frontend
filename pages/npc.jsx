@@ -269,7 +269,7 @@ const NPC = () => {
                 </Link>
               </div>
               <div className="py-2">
-                <Link href="https://linktr.ee/registerNPC">
+                <Link href="/dashboard">
                   <a className="sm:px-[73.5px] px-[22px] text-2xl py-2 2xl:text-4xl bg-[#ED5565] text-white rounded-md font-primary">
                     Daftar Sekarang
                   </a>

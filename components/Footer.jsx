@@ -146,7 +146,7 @@ const Footer = () => {
                 </Link>
               </li>
               <li className="text-xl font-thin text-white font-secondary">
-                <Link href="/login">
+                <Link href="/dashboard">
                   <a>Login</a>
                 </Link>
               </li>

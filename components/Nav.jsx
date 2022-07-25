@@ -154,13 +154,13 @@ const Nav = () => {
               <a>About Us</a>
             </Link>
           </li>
-          {/* <li>
-            <Link href="/login">
+          <li>
+            <Link href="/dashboard">
               <a className="font-bold text-black bg-white px-[31.5px] py-[1px] rounded-md outline-4 outline-black">
                 Login
               </a>
             </Link>
-          </li> */}
+          </li>
         </ul>
 
         {/* {showNav && ( */}
