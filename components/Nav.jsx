@@ -250,7 +250,7 @@ const Nav = () => {
               </a>
             </Link>
           </li>
-          {/* <li
+          <li
             onClick={toggleShowNav}
             className="py-4 bg-white border-2 border-black px-7"
           >
@@ -259,7 +259,7 @@ const Nav = () => {
                 Login
               </a>
             </Link>
-          </li> */}
+          </li>
         </ul>
         {/* )} */}
       </nav>
