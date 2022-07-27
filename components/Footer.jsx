@@ -17,8 +17,8 @@ const Footer = () => {
         <Link href="/">
           <a className="flex self-center gap-1">
             <img
-              src="/schematics-logo.png"
-              className="object-contain w-36 sm:w-full"
+              src="/logo-schematics-footer.png"
+              className="object-contain w-24"
               alt=""
             />
             <div className="flex flex-col justify-center">
