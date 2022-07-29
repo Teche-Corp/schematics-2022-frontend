@@ -15,17 +15,17 @@ const Footer = () => {
       <div className="flex flex-col items-center justify-between gap-2 sm:flex-row">
         {/* Schematics Logo */}
         <Link href="/">
-          <a className="flex self-center gap-1">
+          <a className="flex self-center gap-3">
             <img
-              src="/schematics-logo.png"
-              className="object-contain w-36 sm:w-full"
+              src="/logo-schematics-footer.png"
+              className="object-contain w-24"
               alt=""
             />
             <div className="flex flex-col justify-center">
-              <h1 className="text-2xl font-bold leading-8 text-white font-secondary">
+              <h1 className="text-2xl leading-8 tracking-wide text-white font-primary">
                 Schematics
                 <br />
-                <span className="font-extralight">2022</span>
+                <span className="font-secondary font-extralight">2022</span>
               </h1>
             </div>
           </a>

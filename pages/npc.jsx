@@ -50,7 +50,7 @@ const NPC = () => {
                 National Programming Contest
               </h1>
               {/* cta */}
-              <div className="flex flex-col items-center gap-5 mt-12 select-none md:mt-16 md:gap-10 xl:flex-row 2xl:gap-20 z-20">
+              <div className="z-20 flex flex-col items-center gap-5 mt-12 select-none md:mt-16 md:gap-10 xl:flex-row 2xl:gap-20">
                 <div className="py-2">
                   <Link href="#about">
                     <a className="bg-[#ED5565] hover:bg-[#d74857] active:bg-[#ed5565] transform duration-200 text-white font-primary uppercase text-xl md:text-2xl px-6 md:px-[24px] py-2 rounded-md">
@@ -82,23 +82,23 @@ const NPC = () => {
         {/* about */}
         <section id="about" className="relative min-h-screen bg-dark-primary">
           <img
-            src="/npc/bg-top.png"
-            className="relative top-0 left-0 w-full select-none z-0"
+            src="/npc/leaf-down-top.png"
+            className="relative top-0 left-0 z-0 w-full select-none"
             alt=""
           />
           <img
             src="/npc/assetNPC.png"
             alt=""
-            className="absolute right-0 z-10 -translate-y-1/2 w-36 md:w-72 top-10 md:top-20 pt-10"
+            className="absolute z-10 pt-10 -translate-y-1/2 -right-7 sm:right-0 w-36 md:w-72 top-10 md:top-20"
           />
           <div className="bg-[#ED5565] xl:gap-0 gap-4 flex xl:flex-row flex-col px-5 md:px-16 lg:px-[132px] pt-10 pb-2 relative z-0">
             {/* npc text */}
             <div className="flex flex-col justify-center xl:w-1/2">
-              <div className="relative">
-                <h2 className="relative z-10 text-4xl text-white md:text-5xl font-primary">
+              <div className="relative z-50">
+                <h2 className="relative z-50 text-4xl text-white md:text-5xl font-primary">
                   Tentang Kompetisi
                 </h2>
-                <h2 className="absolute top-0 text-4xl md:text-5xl text-black select-none -translate-x-1.5 font-primary">
+                <h2 className="absolute z-40 top-0 text-4xl md:text-5xl text-black select-none -translate-x-1.5 font-primary">
                   Tentang Kompetisi
                 </h2>
               </div>
@@ -131,7 +131,7 @@ const NPC = () => {
           </div>
           <div className="relative">
             <img
-              src="/npc/bg-bottom-secondary.png"
+              src="/npc/leaf-down-bottom.png"
               className="relative bottom-0 left-0 z-20 w-full select-none"
               alt=""
             />
@@ -161,17 +161,17 @@ const NPC = () => {
         {/* timeline */}
         <section
           id="timeline"
-          className="select-none bg-dark-primary scroll-mt-40"
+          className="select-none bg-dark-primary scroll-mt-36"
         >
           <div className="flex items-center justify-center px-5 md:px-16 lg:px-[132px]">
-            <img src="/npc/TimelineNPC.png" alt="NPC Timeline" />
+            <img src="/npc/npc-timeline.png" alt="NPC Timeline" />
           </div>
         </section>
         {/* end timeline */}
         {/* teknis */}
         <section id="teknis" className="relative min-h-screen bg-dark-primary">
           <img
-            src="/npc/bg-secondary-top.png"
+            src="/npc/leaf-up-top.png"
             className="relative top-0 left-0 w-full select-none"
             alt=""
           />
@@ -203,9 +203,9 @@ const NPC = () => {
             {/* npc photos */}
             <div className="flex items-center justify-center h-64 select-none sm:px-16 xl:h-auto xl:w-1/2">
               <iframe
+                src="https://drive.google.com/file/d/1iR2n1PdIj14NUIZwcMh8ngIT7CZ1B-4A/preview"
                 className="w-full h-full opacity-80 active:opacity-100 active:bg-none"
-                frameBorder={0}
-                src="https://www.youtube.com/embed/gWdWqKMIuug"
+                allow="autoplay"
               ></iframe>
             </div>
             {/* npc photos end */}
