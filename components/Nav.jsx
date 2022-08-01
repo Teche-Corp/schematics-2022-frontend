@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import Image from "next/image";
 import Link from "next/link";
 import { FaAngleDown, FaTimes } from "react-icons/fa";
 import { MdOutlineMonitor } from "react-icons/md";
@@ -34,7 +33,7 @@ const Nav = () => {
         {/* header logo */}
         <Link href="/">
           <a className="relative z-50 flex gap-1">
-            <Image alt="" src="/schematics-logo.png" width={72} height={72} />
+            <img alt="" className="w-16" src="/logo-schematics-footer.png" />
             <div className="flex flex-col justify-center">
               <h1 className="font-bold leading-6 text-white">
                 Schematics
