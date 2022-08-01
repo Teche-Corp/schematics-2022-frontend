@@ -44,7 +44,7 @@ export default function NST() {
                     <div className="h-[calc(100vh)] pt-36 z-10">
                         <div className="flex flex-col items-center justify-center">
                             <img 
-                                src="/nst/nst-text.svg" 
+                                src="/nst/nst-text.png" 
                                 alt="" 
                                 className="flex items-center justify-center select-none"
                             />
