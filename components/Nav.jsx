@@ -253,7 +253,7 @@ const Nav = () => {
             onClick={toggleShowNav}
             className="py-4 bg-white border-2 border-black px-7"
           >
-            <Link href="/login">
+            <Link href="/dashboard">
               <a className="flex items-center justify-center w-full md:w-auto md:gap-[6px] text-3xl font-primary text-black md:font-secondary md:text-md">
                 Login
               </a>
