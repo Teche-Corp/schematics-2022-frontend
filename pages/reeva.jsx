@@ -188,7 +188,7 @@ export default function Reeva() {
 //               <div className="px-2">
 //                 <p className="mt-4 text-xl md:text-2xl leading-relaxed text-[#FFF]">
 //                   Schematics Revolutionary Entertainments and Expo with Various
-//                   Art 2021 merupakan penutup dari rangkaian acara Schematics.
+//                   Art 2022 merupakan penutup dari rangkaian acara Schematics.
 //                   Schematics REEVA ini akan digelar dengan menghadirkan expo dan
 //                   konser musik dengan talkshow bersama sederet bintang tamu.
 //                 </p>

@@ -104,7 +104,7 @@ const NPC = () => {
               </div>
               <div className="px-2">
                 <p className="mt-4 text-xl md:text-2xl leading-relaxed font-medium text-[#231F20]">
-                  Schematics National Programming Contest 2021 merupakan{" "}
+                  Schematics National Programming Contest 2022 merupakan{" "}
                   <span className="text-white">
                     kompetisi pemrograman nasional
                   </span>{" "}

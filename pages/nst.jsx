@@ -88,7 +88,7 @@ export default function NST() {
                             </div>
                         <div className="px-2">
                             <p className="mt-4 text-xl md:text-2xl leading-relaxed font-medium text-white">
-                            Schematics National Seminar of Technology 2021 merupakan acara seminar
+                            Schematics National Seminar of Technology 2022 merupakan acara seminar
                                                 yang dihadirkan untuk memberikan pengetahuan dan perkembangan seputar
                                                 Teknologi Informasi terkini serta bagaimana teknologi tersebut 
                                                 berdampak pada berbagai sektor di Indonesia. Schematics NST dapat diikuti oleh masyarakat umum.
