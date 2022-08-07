@@ -133,24 +133,24 @@ export default function NST() {
             </section>
             
             {/* Pembicara NST */}
-            <section id="pembicara" className="w-full h-fit pt-24 pb-40 relative overflow-hidden">
+            <section id="pembicara" className="pt-24 pb-40 relative min-h-max">
                 <h2 className="text-center text-white font-primary text-3xl md:text-7xl">
                     Pembicara <br />Schematics NST
                 </h2>
-                <div className="flex flex-col lg:flex-row justify-center items-center gap-16 md:gap-10 pt-10 w-full md:w-10/11 xl:w-full">
-                    <img  src="/nst/pembicara1.svg" alt="" />
-                    <img  src="/nst/pembicara2.svg" alt="" />
-                    <img  src="/nst/pembicara3.svg" alt="" />
+                <div className="flex flex-col lg:flex-row justify-center items-center mb-10 md:mb-20 gap-16 md:gap-4 xl:gap-7  pt-10 w-full md:w-10/11 xl:w-full">
+                    <img src="/nst/pembicara1.svg" alt="" />
+                    <img src="/nst/pembicara2.svg" alt="" />
+                    <img src="/nst/pembicara3.svg" alt="" />
                 </div>
 
                 {/* bottom */}
                 <img 
-                    className="absolute -bottom-12 -left-12 w-2/3 md:w-1/2 xl:w-1/3 z-0"
+                    className="absolute bottom-0 left-0 w-1/3 md:w-1/4 xl:w-1/3 sm:1/2 z-0"
                     src="/nst/bottom-left1.svg" alt="" 
                 />
                 <img 
                     src="/nst/bottom-right1.svg" alt="" 
-                    className="absolute -bottom-12 -right-12 w-2/3 md:w-1/2 xl:w-1/3 z-0"
+                    className="absolute bottom-0 right-0 w-1/3 md:w-1/3 xl:w-1/3 sm:1/2 z-0"
                 />
             </section>
             
