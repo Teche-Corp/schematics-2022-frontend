@@ -173,13 +173,18 @@ export default function NLC() {
 
               <div className='relative w-full lg:w-4/5 mt-12 md:mt-16 lg:mt-20 z-20'>
                 <li className='font-secondary text-[18px] md:text-2xl lg:text-3xl text-black md:leading-9 lg:leading-10 list-none text-justify'>
-                  &#9679; Satu tim dapat beranggotakan maksimal tiga siswa/i dari sekolah yang sama dan belum dinyatakan lulus SMA/SMK/MA/Sederajat Kegiatan Schematics NLC 2022 diadakan secara hybrid.
+                  &#9679; Satu tim dapat beranggotakan maksimal tiga siswa/i
+                  dari sekolah yang sama dan belum dinyatakan lulus
+                  SMA/SMK/MA/Sederajat Kegiatan Schematics NLC 2022 diadakan
+                  secara hybrid.
                 </li>
                 <br className='block' />
                 <br className='hidden lg:block' />
 
                 <li className='font-secondary text-[18px] md:text-2xl lg:text-3xl text-black md:leading-9 lg:leading-10 list-none mt-2 text-justify'>
-                  &#9679; Babak penyisihan dilaksanakan secara online dan offline. Babak perempat final, semifinal, final, dan Awarding Night dilaksanakan secara offline.
+                  &#9679; Babak penyisihan dilaksanakan secara online dan
+                  offline. Babak perempat final, semifinal, final, dan Awarding
+                  Night dilaksanakan secara offline.
                 </li>
               </div>
             </div>
@@ -196,11 +201,10 @@ export default function NLC() {
                 </video>
               </div> */}
               <iframe
-                className="w-full h-full opacity-80 active:opacity-100 active:bg-none bg-black"
+                className='w-full h-full opacity-80 active:opacity-100 active:bg-none bg-black'
                 frameBorder={0}
-                src="https://drive.google.com/uc?export=view&id=1mMte6eZM1T_Sfg7bQcryLIcMNfcG94C-"
-              >
-              </iframe>
+                src='https://drive.google.com/uc?export=view&id=1mMte6eZM1T_Sfg7bQcryLIcMNfcG94C-'
+              ></iframe>
               {/* <iframe
                 className="w-full h-full opacity-80 active:opacity-100 active:bg-none bg-black"
                 frameBorder={0}
@@ -239,7 +243,7 @@ export default function NLC() {
               <h1 className='font-primary text-3xl leading-tight md:leading-snug sm:text-40 md:text-44 lg:text-[50px] text-white'>
                 Total Hadiah Rp 17 Juta+++
                 <br />
-                Dan Freepas Teknik Informatika ITS
+                Dan Freepass Teknik Informatika ITS
               </h1>
             </div>
             <div className='flex flex-col items-center w-full md:w-2/6 gap-3 md:gap-8 lg:gap-12'>
