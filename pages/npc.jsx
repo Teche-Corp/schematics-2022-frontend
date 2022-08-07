@@ -59,11 +59,11 @@ const NPC = () => {
                   </Link>
                 </div>
                 <div className="py-2">
-                  <Link href="#">
+                  {/* <Link href="#">
                     <a className="bg-[#ED5565] text-white font-primary uppercase text-xl md:text-2xl md:px-16 px-[56px] py-2 rounded-md">
                       Score Board
                     </a>
-                  </Link>
+                  </Link> */}
                 </div>
                 <div className="py-2">
                   <Link href="#timeline">
@@ -203,10 +203,11 @@ const NPC = () => {
             {/* npc photos */}
             <div className="flex items-center justify-center h-64 select-none sm:px-16 xl:h-auto xl:w-1/2">
               <iframe
-                src="https://drive.google.com/file/d/1iR2n1PdIj14NUIZwcMh8ngIT7CZ1B-4A/preview"
-                className="w-full h-full opacity-80 active:opacity-100 active:bg-none"
-                allow="autoplay"
-              ></iframe>
+                className="w-full h-full opacity-80 active:opacity-100 active:bg-none bg-black"
+                frameBorder={0}
+                src="https://drive.google.com/uc?export=view&id=1iR2n1PdIj14NUIZwcMh8ngIT7CZ1B-4A"
+              >
+              </iframe>
             </div>
             {/* npc photos end */}
           </div>

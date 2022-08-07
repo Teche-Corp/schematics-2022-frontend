@@ -123,7 +123,12 @@ export default function NST() {
                         src="/nst/comma.svg" alt=""/>
                         
                         {/* image */}
-                        <img src="/nst/tema.svg" alt="" className="pt-12 md:pt-16 "/>
+                        {/* <img src="/nst/tema.svg" alt="" className="pt-12 md:pt-16 "/> */}
+                        <div className="bg-white rounded-xl md:rounded-2xl w-2/3 sm:w-1/2 md:w-full lg:w-full xl:w-3/5 mx-auto z-20 mt-10">
+                            <video width={1000} controls>
+                                <source src="https://drive.google.com/uc?export=view&id=1b9vFK5Kw3ifgnK2uLFBFSsdB9qP66WQ5"/>
+                            </video>
+                        </div>
                     </div>
             </section>
             
