@@ -67,11 +67,11 @@ export default function NLC() {
                 TENTANG KOMPETISI
               </a>
             </Link>
-            <Link href='#'>
+            {/* <Link href='#'>
               <a className='px-2 md:px-4 py-1 md:py-2 w-[306px] h-[30px] md:h-[50px] bg-[#FFDB7A] rounded-md md:rounded-lg'>
                 SCORE BOARD
               </a>
-            </Link>
+            </Link> */}
             <Link href='#timeline'>
               <a className='px-2 md:px-4 py-1 md:py-2 w-[306px] h-[30px] md:h-[50px] bg-[#FFDB7A] rounded-md md:rounded-lg'>
                 TIMELINE
@@ -172,25 +172,42 @@ export default function NLC() {
               </div>
 
               <div className='relative w-full lg:w-4/5 mt-12 md:mt-16 lg:mt-20 z-20'>
-                <li className='font-secondary text-[18px] md:text-2xl lg:text-3xl text-black md:leading-9 lg:leading-10 list-none'>
-                  &#9679; Dapat diikuti oleh satu tim beranggotakan maksimal tiga
-                  siswa SMA / sederajat
+                <li className='font-secondary text-[18px] md:text-2xl lg:text-3xl text-black md:leading-9 lg:leading-10 list-none text-justify'>
+                  &#9679; Satu tim dapat beranggotakan maksimal tiga siswa/i dari sekolah yang sama dan belum dinyatakan lulus SMA/SMK/MA/Sederajat Kegiatan Schematics NLC 2022 diadakan secara hybrid.
                 </li>
                 <br className='block' />
                 <br className='hidden lg:block' />
 
-                <li className='font-secondary text-[18px] md:text-2xl lg:text-3xl text-black md:leading-9 lg:leading-10 list-none'>
-                  &#9679; Kegiatan diadakan secara online melalui website
-                  schematics
+                <li className='font-secondary text-[18px] md:text-2xl lg:text-3xl text-black md:leading-9 lg:leading-10 list-none mt-2 text-justify'>
+                  &#9679; Babak penyisihan dilaksanakan secara online dan offline. Babak perempat final, semifinal, final, dan Awarding Night dilaksanakan secara offline.
                 </li>
               </div>
             </div>
-            <div className='flex self-center justify-center w-4/5 md:w-1/3 xl:w-1/2 mx-auto'>
-              <img
-                className='bg-white rounded-xl md:rounded-2xl w-2/3 sm:w-1/2 md:w-full lg:w-full xl:w-3/5 mx-auto z-20'
+            <div className='flex self-center justify-center w-full h-96 md:w-1/3 xl:w-1/2 mx-auto'>
+              {/* <img
+                className=''
                 src='nlc/video-img.png'
                 alt=''
-              />
+              /> */}
+              {/* <div className=" rounded-xl md:rounded-2xl w-2/3 sm:w-1/2 md:w-full lg:w-full xl:w-3/5 mx-auto z-20"> */}
+              {/* <div className="bg-white rounded-xl md:rounded-2xl w-full sm:w-3/4 md:w-full lg:w-full xl:w-4/5 mx-auto z-20 mt-10">
+                <video width={800} controls>
+                  <source src="https://drive.google.com/uc?export=view&id=1mMte6eZM1T_Sfg7bQcryLIcMNfcG94C-"/>
+                </video>
+              </div> */}
+              <iframe
+                className="w-full h-full opacity-80 active:opacity-100 active:bg-none bg-black"
+                frameBorder={0}
+                src="https://drive.google.com/uc?export=view&id=1mMte6eZM1T_Sfg7bQcryLIcMNfcG94C-"
+              >
+              </iframe>
+              {/* <iframe
+                className="w-full h-full opacity-80 active:opacity-100 active:bg-none bg-black"
+                frameBorder={0}
+                src="https://drive.google.com/uc?export=view&id=1mMte6eZM1T_Sfg7bQcryLIcMNfcG94C-"
+              >
+              </iframe>
+              </div> */}
             </div>
           </div>
           <div className='absolute h-96 w-40 md:w-56 lg:w-64 xl:w-72 bottom-48 md:bottom-24 lg:bottom-12 translate-x-1/2 translate-y-1/2 -left-16 md:-left-24 -z-10 bg-[#FFCD46]'>
