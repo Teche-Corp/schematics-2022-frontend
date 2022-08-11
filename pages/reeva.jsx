@@ -102,7 +102,13 @@ const Reeva = () => {
           id="about"
           className="relative min-h-screen scroll-mt-[52px] bg-dark-primary"
         >
-          <div className="relative">
+          <div>
+            <img 
+              src="reeva/juicy-luicy.png" 
+              alt="" 
+              className="relative w-full"/>
+          </div>
+          {/* <div className="relative">
             <img
               src="/reeva/upper-top.png"
               className="relative top-0 left-0 z-10 hidden w-full select-none sm:block"
@@ -123,7 +129,7 @@ const Reeva = () => {
               className="absolute right-0 hidden -translate-y-1/2 select-none md:block -top-20 w-80"
               alt=""
             />
-          </div>
+          </div> */}
           <div className="bg-[#2E97EE] xl:gap-0 gap-4 flex xl:flex-row flex-col px-5 md:px-16 lg:px-[132px] py-10 relative z-0">
             {/* reeva text */}
             <div className="flex flex-col justify-center xl:w-1/2">
