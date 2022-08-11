@@ -38,7 +38,7 @@ const Reeva = () => {
           <div className="h-[calc(100vh-92px)] px-5 md:px-16 lg:px-[132px]">
             {/* header text */}
             <div className="flex flex-col items-center justify-center h-full ">
-              <img
+              {/* <img
                 src="/reeva/schematics-reeva-title.png"
                 className="relative z-10 hidden h-12 select-none md:block lg:h-16 2xl:h-24"
                 alt=""
@@ -47,7 +47,7 @@ const Reeva = () => {
                 src="/reeva/schematics-reeva-title-sm.png"
                 className="relative z-10 block h-10 select-none sm:h-12 md:hidden lg:h-16 2xl:h-24"
                 alt=""
-              />
+              /> */}
               <img
                 src="/reeva/reeva-title.png"
                 alt=""
@@ -90,10 +90,6 @@ const Reeva = () => {
               {/* end cta */}
             </div>
             {/* end header text */}
-          </div>
-          {/* gueststar */}
-          <div className="md:px-16 lg:px-[132px] md:pt-10 pb-10 md:pb-72">
-            <div className="w-full bg-[#D9D9D9] h-64 "></div>
           </div>
         </section>
         {/* end header */}
