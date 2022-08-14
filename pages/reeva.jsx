@@ -84,10 +84,6 @@ const Reeva = () => {
             </div>
             {/* end header text */}
           </div>
-          {/* gueststar */}
-          <div className='md:px-16 lg:px-[132px] md:pt-10 pb-10 md:pb-72'>
-            <div className='w-full bg-[#D9D9D9] h-64 '></div>
-          </div>
         </section>
         {/* end header */}
         {/* about */}
