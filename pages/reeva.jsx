@@ -226,7 +226,7 @@ const Reeva = () => {
                     </div>
                   </div>
                   <div className='absolute bottom-0 left-0 flex items-center justify-center w-full translate-y-1/2 border-none'>
-                    <button onClick={()=>router.push('/login')} className='bg-[#0A91FF] select-none hover:bg-[#39a4fc] active:bg-[#067cdc] transform duration-200 text-white font-primary uppercase text-2xl md:text-3xl lg:text-4xl px-8 rounded-lg py-4'>
+                    <button onClick={()=>router.push('/dashboard')} className='bg-[#0A91FF] select-none hover:bg-[#39a4fc] active:bg-[#067cdc] transform duration-200 text-white font-primary uppercase text-2xl md:text-3xl lg:text-4xl px-8 rounded-lg py-4'>
                       Beli Sekarang!
                     </button>
                   </div>
