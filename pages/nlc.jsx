@@ -38,8 +38,12 @@ export default function NLC() {
             src='nlc/top-right-mobile.png'
             alt=''
           />
+
+          <div className='w-3/4 pt-32 mx-auto'>
+            <object data='schematics-txt.svg' type=''></object>
+          </div>
           {/* NLC Text */}
-          <div className='flex items-end pb-4 md:pb-6 lg:pb-10  mx-auto pt-32 md:pt-36 w-fit md:scale-75 lg:scale-95 xl:scale-100'>
+          <div className='flex items-end pb-4 md:pb-6 lg:pb-10  mx-auto pt-8 md:pt-12 w-fit md:scale-75 lg:scale-95 xl:scale-100'>
             <img
               className='inline-block w-[105px] md:w-[210px] h-[114.5px] md:h-[229px] md:r-4'
               src='nlc/N.png'
