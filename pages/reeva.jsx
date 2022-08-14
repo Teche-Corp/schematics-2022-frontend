@@ -216,7 +216,7 @@ const Reeva = () => {
                         alt=""
                       />
                       <p className="text-2xl font-semibold capitalize font-secondary">
-                        24 Desember 2022
+                        12 November 2022
                       </p>
                     </div>
                     <div className="flex gap-2">
@@ -226,7 +226,7 @@ const Reeva = () => {
                         alt=""
                       />
                       <p className="text-2xl font-semibold capitalize font-secondary">
-                        14.00 - 15.00
+                        15.30 - 22.45
                       </p>
                     </div>
                   </div>
@@ -270,7 +270,7 @@ const Reeva = () => {
                         alt=""
                       />
                       <p className="text-2xl font-semibold capitalize font-secondary">
-                        24 Desember 2022
+                        12 November 2022
                       </p>
                     </div>
                     <div className="flex gap-2">
@@ -280,7 +280,7 @@ const Reeva = () => {
                         alt=""
                       />
                       <p className="text-2xl font-semibold capitalize font-secondary">
-                        14.00 - 15.00
+                        15.30 - 22.45
                       </p>
                     </div>
                   </div>
