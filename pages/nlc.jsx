@@ -38,8 +38,12 @@ export default function NLC() {
             src='nlc/top-right-mobile.png'
             alt=''
           />
+
+          <div className='w-3/4 pt-32 mx-auto'>
+            <object data='schematics-txt.svg' type=''></object>
+          </div>
           {/* NLC Text */}
-          <div className='flex items-end pb-4 md:pb-6 lg:pb-10  mx-auto pt-32 md:pt-36 w-fit md:scale-75 lg:scale-95 xl:scale-100'>
+          <div className='flex items-end pb-4 md:pb-6 lg:pb-10  mx-auto pt-8 md:pt-12 w-fit md:scale-75 lg:scale-95 xl:scale-100'>
             <img
               className='inline-block w-[105px] md:w-[210px] h-[114.5px] md:h-[229px] md:r-4'
               src='nlc/N.png'
@@ -167,16 +171,19 @@ export default function NLC() {
               </div>
 
               <div className='relative w-full lg:w-4/5 mt-12 md:mt-16 lg:mt-20 z-20'>
-                <li className='font-secondary text-[18px] md:text-2xl lg:text-3xl text-black md:leading-9 lg:leading-10 list-none'>
-                  &#9679; Dapat diikuti oleh satu tim beranggotakan maksimal tiga
-                  siswa SMA / sederajat
+                <li className='font-secondary text-[18px] md:text-2xl lg:text-3xl text-black md:leading-9 lg:leading-10 list-none text-justify'>
+                  &#9679; Satu tim dapat beranggotakan maksimal tiga siswa/i
+                  dari sekolah yang sama dan belum dinyatakan lulus
+                  SMA/SMK/MA/Sederajat Kegiatan Schematics NLC 2022 diadakan
+                  secara hybrid.
                 </li>
                 <br className='block' />
                 <br className='hidden lg:block' />
 
-                <li className='font-secondary text-[18px] md:text-2xl lg:text-3xl text-black md:leading-9 lg:leading-10 list-none'>
-                  &#9679; Kegiatan diadakan secara online melalui website
-                  schematics
+                <li className='font-secondary text-[18px] md:text-2xl lg:text-3xl text-black md:leading-9 lg:leading-10 list-none mt-2 text-justify'>
+                  &#9679; Babak penyisihan dilaksanakan secara online dan
+                  offline. Babak perempat final, semifinal, final, dan Awarding
+                  Night dilaksanakan secara offline.
                 </li>
               </div>
             </div>
@@ -217,7 +224,7 @@ export default function NLC() {
               <h1 className='font-primary text-3xl leading-tight md:leading-snug sm:text-40 md:text-44 lg:text-[50px] text-white'>
                 Total Hadiah Rp 17 Juta+++
                 <br />
-                Dan Freepas Teknik Informatika ITS
+                Dan Freepass Teknik Informatika ITS
               </h1>
             </div>
             <div className='flex flex-col items-center w-full md:w-2/6 gap-3 md:gap-8 lg:gap-12'>

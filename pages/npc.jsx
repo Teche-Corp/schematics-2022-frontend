@@ -14,60 +14,63 @@ const NPC = () => {
       <Head>
         <title>Schematics 2022 | NPC</title>
         <meta
-          name="description"
-          content="Schematics 2022 National Programming Contest"
+          name='description'
+          content='Schematics 2022 National Programming Contest'
         />
-        <link rel="icon" href="/schematics-logo.png" />
+        <link rel='icon' href='/schematics-logo.png' />
       </Head>
 
       <Nav />
-      <main className="overflow-x-hidden">
+      <main className='overflow-x-hidden'>
         {/* header */}
         <section
-          id="npc-header"
-          className="min-h-screen pt-[150px] md:pt-[92px] bg-dark-primary relative"
+          id='npc-header'
+          className='min-h-screen pt-[150px] md:pt-[92px] bg-dark-primary relative'
         >
           {/* absolute assets */}
           <img
-            src="/npc/TopLeft.png"
-            alt=""
-            className="absolute top-0 left-0 w-56 select-none sm:w-72"
+            src='/npc/TopLeft.png'
+            alt=''
+            className='absolute top-0 left-0 w-56 select-none sm:w-72'
           />
           <img
-            src="/npc/TopRight-1.png"
-            alt=""
-            className="absolute top-0 right-0 w-56 select-none sm:w-72"
+            src='/npc/TopRight-1.png'
+            alt=''
+            className='absolute top-0 right-0 w-56 select-none sm:w-72'
           />
-          <div className="h-[calc(100vh-92px)] px-5 md:px-16 lg:px-[132px]">
+          <div className='h-[calc(100vh-92px)] px-5 md:px-16 lg:px-[132px]'>
+            <div className='w-5/6 md:pt-12 lg:pt-8 mx-auto'>
+              <object data='schematics-txt.svg' type=''></object>
+            </div>
             {/* header text */}
-            <div className="flex flex-col items-center justify-center h-full ">
+            <div className='flex flex-col items-center justify-center h-[90%] md:h-[100%] xl:h-[80%]'>
               <img
-                src="/npc/npc.png"
-                alt=""
-                className="w-[400px] md:w-[683px] select-none"
+                src='/npc/npc.png'
+                alt=''
+                className='w-[400px] md:w-[683px] select-none'
               />
-              <h1 className="mt-5 text-4xl font-bold leading-relaxed text-center text-white uppercase select-none md:text-5xl lg:text-6xl font-primary">
+              <h1 className='mt-5 text-4xl font-bold leading-relaxed text-center text-white uppercase select-none md:text-5xl lg:text-6xl font-primary'>
                 National Programming Contest
               </h1>
               {/* cta */}
-              <div className="z-20 flex flex-col items-center gap-5 mt-12 select-none md:mt-16 md:gap-10 xl:flex-row 2xl:gap-20">
-                <div className="py-2">
-                  <Link href="#about">
-                    <a className="bg-[#ED5565] hover:bg-[#d74857] active:bg-[#ed5565] transform duration-200 text-white font-primary uppercase text-xl md:text-2xl px-6 md:px-[24px] py-2 rounded-md">
+              <div className='z-20 flex flex-col items-center gap-2 md:gap-5 mt-12 select-none md:mt-16 md:gap-10 xl:flex-row 2xl:gap-20'>
+                <div className='py-2'>
+                  <Link href='#about'>
+                    <a className='bg-[#ED5565] hover:bg-[#d74857] active:bg-[#ed5565] transform duration-200 text-white font-primary uppercase text-xl md:text-2xl px-6 md:px-[24px] py-2 rounded-md'>
                       Tentang Kompetisi
                     </a>
                   </Link>
                 </div>
-                <div className="py-2">
-                  <Link href="#">
+                <div className='py-2'>
+                  {/* <Link href="#">
                     <a className="bg-[#ED5565] text-white font-primary uppercase text-xl md:text-2xl md:px-16 px-[56px] py-2 rounded-md">
                       Score Board
                     </a>
-                  </Link>
+                  </Link> */}
                 </div>
-                <div className="py-2">
-                  <Link href="#timeline">
-                    <a className="bg-[#ED5565] hover:bg-[#d74857] active:bg-[#ed5565] transform duration-200 text-white font-primary uppercase text-xl md:text-2xl md:px-[92px] px-[79px] py-2 rounded-md">
+                <div className='py-2'>
+                  <Link href='#timeline'>
+                    <a className='bg-[#ED5565] hover:bg-[#d74857] active:bg-[#ed5565] transform duration-200 text-white font-primary uppercase text-xl md:text-2xl md:px-[92px] px-[79px] py-2 rounded-md'>
                       Timeline
                     </a>
                   </Link>
@@ -80,25 +83,25 @@ const NPC = () => {
         </section>
         {/* end header */}
         {/* about */}
-        <section id="about" className="relative min-h-screen bg-dark-primary">
+        <section id='about' className='relative min-h-screen bg-dark-primary'>
           <img
-            src="/npc/leaf-down-top.png"
-            className="relative top-0 left-0 z-0 w-full select-none"
-            alt=""
+            src='/npc/leaf-down-top.png'
+            className='relative top-0 left-0 z-0 w-full select-none'
+            alt=''
           />
           <img
-            src="/npc/assetNPC.png"
-            alt=""
-            className="absolute z-10 pt-10 -translate-y-1/2 -right-7 sm:right-0 w-36 md:w-72 top-10 md:top-20"
+            src='/npc/assetNPC.png'
+            alt=''
+            className='absolute z-10 pt-10 -translate-y-1/2 -right-7 sm:right-0 w-36 md:w-72 top-10 md:top-20'
           />
-          <div className="bg-[#ED5565] xl:gap-0 gap-4 flex xl:flex-row flex-col px-5 md:px-16 lg:px-[132px] pt-10 pb-2 relative z-0">
+          <div className='bg-[#ED5565] xl:gap-0 gap-4 flex xl:flex-row flex-col px-5 md:px-16 lg:px-[132px] pt-10 pb-2 relative z-0'>
             {/* npc text */}
-            <div className="flex flex-col justify-center xl:w-1/2">
-              <div className="relative z-50">
-                <h2 className="relative z-50 text-4xl text-white md:text-5xl font-primary">
+            <div className='flex flex-col justify-center xl:w-1/2'>
+              <div className='relative z-50'>
+                <h2 className='relative z-50 text-4xl text-white md:text-5xl font-primary'>
                   Tentang Kompetisi
                 </h2>
-                <h2 className="absolute z-40 top-0 text-4xl md:text-5xl text-black select-none -translate-x-1.5 font-primary">
+                <h2 className='absolute z-40 top-0 text-4xl md:text-5xl text-black select-none -translate-x-1.5 font-primary'>
                   Tentang Kompetisi
                 </h2>
               </div>
@@ -119,21 +122,21 @@ const NPC = () => {
             </div>
             {/* npc text end */}
             {/* npc photos */}
-            <div className="flex items-center justify-center w-full xl:w-1/2">
+            <div className='flex items-center justify-center w-full xl:w-1/2'>
               <img
                 src={`/npc/npc-img-${imgCode}.png`}
-                alt="NPC Photos"
-                className="cursor-pointer select-none"
+                alt='NPC Photos'
+                className='cursor-pointer select-none'
                 onClick={changeImg}
               />
             </div>
             {/* npc photos end */}
           </div>
-          <div className="relative">
+          <div className='relative'>
             <img
-              src="/npc/leaf-down-bottom.png"
-              className="relative bottom-0 left-0 z-20 w-full select-none"
-              alt=""
+              src='/npc/leaf-down-bottom.png'
+              className='relative bottom-0 left-0 z-20 w-full select-none'
+              alt=''
             />
             {/* <img
               src="/npc/leaf.png"
@@ -160,40 +163,40 @@ const NPC = () => {
         {/* end about */}
         {/* timeline */}
         <section
-          id="timeline"
-          className="select-none bg-dark-primary scroll-mt-36"
+          id='timeline'
+          className='select-none bg-dark-primary scroll-mt-36'
         >
-          <div className="flex items-center justify-center px-5 md:px-16 lg:px-[132px]">
-            <img src="/npc/npc-timeline.png" alt="NPC Timeline" />
+          <div className='flex items-center justify-center px-5 md:px-16 lg:px-[132px]'>
+            <img src='/npc/npc-timeline.png' alt='NPC Timeline' />
           </div>
         </section>
         {/* end timeline */}
         {/* teknis */}
-        <section id="teknis" className="relative min-h-screen bg-dark-primary">
+        <section id='teknis' className='relative min-h-screen bg-dark-primary'>
           <img
-            src="/npc/leaf-up-top.png"
-            className="relative top-0 left-0 w-full select-none"
-            alt=""
+            src='/npc/leaf-up-top.png'
+            className='relative top-0 left-0 w-full select-none'
+            alt=''
           />
-          <div className="bg-[#ED5565] flex xl:flex-row flex-col xl:gap-0 gap-5 py-10 px-5 md:px-16 lg:px-[132px] relative z-20">
+          <div className='bg-[#ED5565] flex xl:flex-row flex-col xl:gap-0 gap-5 py-10 px-5 md:px-16 lg:px-[132px] relative z-20'>
             {/* npc text */}
-            <div className="flex flex-col justify-center xl:w-1/2">
-              <div className="relative">
-                <h2 className="relative z-10 text-4xl text-white md:text-5xl font-primary">
+            <div className='flex flex-col justify-center xl:w-1/2'>
+              <div className='relative'>
+                <h2 className='relative z-10 text-4xl text-white md:text-5xl font-primary'>
                   Teknis Umum Kompetisi
                 </h2>
-                <h2 className="absolute top-0 text-4xl text-black -translate-x-1 select-none md:text-5xl font-primary">
+                <h2 className='absolute top-0 text-4xl text-black -translate-x-1 select-none md:text-5xl font-primary'>
                   Teknis Umum Kompetisi
                 </h2>
               </div>
-              <div className="px-7">
-                <ul className="mt-4 text-xl list-disc md:text-2xl">
-                  <li className="font-medium font-secondary">
+              <div className='px-7'>
+                <ul className='mt-4 text-xl list-disc md:text-2xl'>
+                  <li className='font-medium font-secondary'>
                     Schematics NPC Junior dapat diikuti oleh siswa SMA/Sederajat
                     secara perorangan dan Schematics NPC Senior dapat diikuti
                     oleh tim beranggotakan maksimal 3 mahasiswa.
                   </li>
-                  <li className="mt-6 font-medium font-secondary">
+                  <li className='mt-6 font-medium font-secondary'>
                     Kegiatan diadakan secara online melalui website schematics.
                   </li>
                 </ul>
@@ -201,69 +204,69 @@ const NPC = () => {
             </div>
             {/* npc text end */}
             {/* npc photos */}
-            <div className="flex items-center justify-center h-64 select-none sm:px-16 xl:h-auto xl:w-1/2">
+            <div className='flex items-center justify-center h-64 select-none sm:px-16 xl:h-auto xl:w-1/2'>
               <iframe
-                src="https://drive.google.com/file/d/1iR2n1PdIj14NUIZwcMh8ngIT7CZ1B-4A/preview"
-                className="w-full h-full opacity-80 active:opacity-100 active:bg-none"
-                allow="autoplay"
+                className='w-full h-full opacity-80 active:opacity-100 active:bg-none bg-black'
+                frameBorder={0}
+                src='https://drive.google.com/uc?export=view&id=1iR2n1PdIj14NUIZwcMh8ngIT7CZ1B-4A'
               ></iframe>
             </div>
             {/* npc photos end */}
           </div>
-          <div className="relative">
+          <div className='relative'>
             <img
-              src="/npc/bg-bottom.png"
-              className="relative bottom-0 left-0 w-full select-none"
-              alt=""
+              src='/npc/bg-bottom.png'
+              className='relative bottom-0 left-0 w-full select-none'
+              alt=''
             />
             <img
-              src="/npc/assetNPC1.png"
-              alt=""
-              className="absolute bottom-0 right-0 z-20 translate-y-1/2 select-none w-36 lg:w-72 md:bottom-16"
+              src='/npc/assetNPC1.png'
+              alt=''
+              className='absolute bottom-0 right-0 z-20 translate-y-1/2 select-none w-36 lg:w-72 md:bottom-16'
             />
           </div>
-          <div className="absolute h-96 w-40 md:w-72 bottom-56 md:bottom-40 translate-x-1/2 translate-y-1/2 -left-16 md:-left-24 z-10 bg-[#ED5565]">
-            <div className="relative w-full h-full">
-              <div className="absolute w-full text-center translate-y-full select-none -bottom-5 md:bottom-10">
-                <h2 className="text-xl text-white md:text-4xl font-primary">
+          <div className='absolute h-96 w-40 md:w-72 bottom-56 md:bottom-40 translate-x-1/2 translate-y-1/2 -left-16 md:-left-24 z-10 bg-[#ED5565]'>
+            <div className='relative w-full h-full'>
+              <div className='absolute w-full text-center translate-y-full select-none -bottom-5 md:bottom-10'>
+                <h2 className='text-xl text-white md:text-4xl font-primary'>
                   Junior: Rp 50k
                 </h2>
-                <h2 className="text-xl text-white md:text-4xl font-primary">
+                <h2 className='text-xl text-white md:text-4xl font-primary'>
                   Senior: Rp 120k
                 </h2>
               </div>
-              <div className="absolute bg-[#ED5565] w-full h-[50%] bottom-12 -z-10 translate-y-full rounded-b-full"></div>
+              <div className='absolute bg-[#ED5565] w-full h-[50%] bottom-12 -z-10 translate-y-full rounded-b-full'></div>
             </div>
           </div>
         </section>
         {/* guidebook */}
         <section
-          id="guidebook"
-          className="overflow-y-hidden bg-dark-primary py-[92px] relative px-5 md:px-16 lg:px-[132px]"
+          id='guidebook'
+          className='overflow-y-hidden bg-dark-primary py-[92px] relative px-5 md:px-16 lg:px-[132px]'
         >
-          <div className="flex flex-col justify-center xl:items-center xl:flex-row py-36">
+          <div className='flex flex-col justify-center xl:items-center xl:flex-row py-36'>
             {/* guidebook text */}
-            <div className="xl:w-1/2">
-              <h2 className="text-4xl text-center text-white xl:text-left 2xl:text-5xl font-primary">
+            <div className='xl:w-1/2'>
+              <h2 className='text-4xl text-center text-white xl:text-left 2xl:text-5xl font-primary'>
                 Total Hadiah Rp 15 Juta+++
               </h2>
-              <h2 className="mt-6 text-4xl text-center text-white uppercase xl:text-start sm:mt-2 2xl:text-5xl font-primary">
+              <h2 className='mt-6 text-4xl text-center text-white uppercase xl:text-start sm:mt-2 2xl:text-5xl font-primary'>
                 Tunggu Apalagi!
               </h2>
             </div>
             {/* guidebook text end */}
             {/* guidebook links */}
-            <div className="relative z-20 flex flex-col items-center justify-center gap-6 mt-10 select-none xl:gap-4 xl:mt-0 xl:w-1/2">
-              <div className="py-2">
-                <Link href="https://drive.google.com/file/d/1zMvXQ3_GvcOHd2BsJ5p3DVPBmIgJS5Y9/view?usp=sharing">
-                  <a className="px-4 py-2 text-2xl bg-white rounded-md sm:px-16 2xl:text-4xl font-primary">
+            <div className='relative z-20 flex flex-col items-center justify-center gap-6 mt-10 select-none xl:gap-4 xl:mt-0 xl:w-1/2'>
+              <div className='py-2'>
+                <Link href='https://drive.google.com/file/d/1zMvXQ3_GvcOHd2BsJ5p3DVPBmIgJS5Y9/view?usp=sharing'>
+                  <a className='px-4 py-2 text-2xl bg-white rounded-md sm:px-16 2xl:text-4xl font-primary'>
                     Senior Guidebook
                   </a>
                 </Link>
               </div>
-              <div className="py-2">
-                <Link href="https://drive.google.com/file/d/1aagSVYQUoxqBj34OF0fLZ_Xrd5EWhrGl/view?usp=sharing">
-                  <a className="py-2 px-[16px] text-2xl bg-white rounded-md sm:px-16 2xl:text-4xl font-primary">
+              <div className='py-2'>
+                <Link href='https://drive.google.com/file/d/1aagSVYQUoxqBj34OF0fLZ_Xrd5EWhrGl/view?usp=sharing'>
+                  <a className='py-2 px-[16px] text-2xl bg-white rounded-md sm:px-16 2xl:text-4xl font-primary'>
                     Junior Guidebook
                   </a>
                 </Link>
@@ -279,14 +282,14 @@ const NPC = () => {
             {/* guidebook links end */}
           </div>
           <img
-            src="/npc/BottomLeft.png"
-            alt=""
-            className="absolute left-0 translate-y-1/2 select-none w-36 md:w-72 bottom-10"
+            src='/npc/BottomLeft.png'
+            alt=''
+            className='absolute left-0 translate-y-1/2 select-none w-36 md:w-72 bottom-10'
           />
           <img
-            src="/npc/BottomRight.png"
-            alt=""
-            className="absolute right-0 translate-y-1/2 select-none w-36 md:w-72 bottom-20 md:bottom-28"
+            src='/npc/BottomRight.png'
+            alt=''
+            className='absolute right-0 translate-y-1/2 select-none w-36 md:w-72 bottom-20 md:bottom-28'
           />
         </section>
         {/* guidebook end */}

@@ -120,9 +120,9 @@ export default function Home() {
                 />
               </div> */}
             </div>
-            <div className="flex justify-center w-full mt-10 sm:justify-start sm:mt-7 md:mt-1 2xl:mt-10 z-50">
+            <div className="flex justify-center w-full mt-10 sm:justify-start sm:mt-7 md:mt-1 2xl:mt-10 ">
               <Link href="#about">
-                <a className="text-xl sm:text-4xl select-none text-white text-border-thinner uppercase bg-white sm:px-10 px-24 py-2 sm:py-4 xl:px-16 xl:py-7 rounded-md bg-opacity-[0.15] font-primary">
+                <a className="text-2xl sm:text-4xl select-none text-white uppercase bg-white px-5 py-4 sm:px-14 sm:py-5 xl:px-16 xl:py-7 rounded-xl bg-opacity-[0.15]  font-primary">
                   Get Started
                 </a>
               </Link>
