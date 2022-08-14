@@ -2,10 +2,12 @@ import Head from "next/head";
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
 import Link from "next/link";
+import { useRouter } from "next/router";
 import { useState } from "react";
 
 const Reeva = () => {
   const [imgCode, setImgCode] = useState(1);
+  const router = useRouter();
   const changeImg = () => {
     setImgCode((prev) => ((prev + 1) % 3) + 1);
   };
@@ -97,7 +99,7 @@ const Reeva = () => {
               alt="" 
               className="relative w-full"/>
           </div>
-          <div className='relative'>
+          {/* <div className='relative'>
             <img
               src='/reeva/upper-top.png'
               className='relative top-0 left-0 z-10 hidden w-full select-none sm:block'
@@ -118,9 +120,7 @@ const Reeva = () => {
               className='absolute right-0 hidden -translate-y-1/2 select-none md:block -top-20 w-80'
               alt=''
             />
-          </div>
-          <div className="bg-[#2E97EE] xl:gap-0 gap-4 flex xl:flex-row flex-col px-5 md:px-16 lg:px-[132px] py-10 relative z-0">
-          </div>
+          </div> */}
           <div className='bg-[#2E97EE] xl:gap-0 gap-4 flex xl:flex-row flex-col px-5 md:px-16 lg:px-[132px] py-10 relative z-0'>
             {/* reeva text */}
             <div className='flex flex-col justify-center xl:w-1/2'>
@@ -154,7 +154,7 @@ const Reeva = () => {
             <div className='flex items-center justify-center w-full xl:w-1/2'>
               <img
                 src={`/reeva/reeva-photo-${imgCode}.png`}
-                alt='NPC Photos'
+                alt='Reeva Photos'
                 className='cursor-pointer select-none'
                 onClick={changeImg}
               />
@@ -226,7 +226,7 @@ const Reeva = () => {
                     </div>
                   </div>
                   <div className='absolute bottom-0 left-0 flex items-center justify-center w-full translate-y-1/2 border-none'>
-                    <button className='bg-[#0A91FF] select-none hover:bg-[#39a4fc] active:bg-[#067cdc] transform duration-200 text-white font-primary uppercase text-2xl md:text-3xl lg:text-4xl px-8 rounded-lg py-4'>
+                    <button onClick={()=>router.push('/login')} className='bg-[#0A91FF] select-none hover:bg-[#39a4fc] active:bg-[#067cdc] transform duration-200 text-white font-primary uppercase text-2xl md:text-3xl lg:text-4xl px-8 rounded-lg py-4'>
                       Beli Sekarang!
                     </button>
                   </div>
@@ -279,11 +279,6 @@ const Reeva = () => {
                       </p>
                     </div>
                   </div>
-                  <div className='absolute bottom-0 left-0 flex items-center justify-center w-full translate-y-1/2 border-none'>
-                    <button className='bg-[#0A91FF] select-none hover:bg-[#39a4fc] active:bg-[#067cdc] transform duration-200 text-white font-primary uppercase text-2xl md:text-3xl lg:text-4xl px-8 rounded-lg py-4'>
-                      Beli Sekarang!
-                    </button>
-                  </div>
                 </div>
               </div>
             </div>
@@ -304,15 +299,15 @@ const Reeva = () => {
                 </h2>
               </div>
               <div className='w-full pt-5 pb-24 xl:px-10 2xl:px-16 h-3/4'>
-                <div className='w-full relative flex flex-col px-2 sm:px-4 py-4 h-full bg-white border-4 border-[#0A91FF] border-dashed divide-x-4'>
-                  <div className='flex items-center justify-center h-2/5'>
+                <div className='w-full relative flex flex-col px-2 sm:px-4 py-4 bg-white border-4 border-[#0A91FF] border-dashed divide-x-4'>
+                  <div className='flex items-center justify-center pb-10'>
                     <p className='text-2xl font-semibold text-center capitalize font-secondary'>
                       Mari membantu yang membutuhkan melalui donasi Schematics
                       REEVA.
                     </p>
                   </div>
-                  <div className='flex flex-col justify-center gap-6 pb-10 mt-8 border-none md:mt-6 lg:mt-8 h-2/5'>
-                    <div className='flex gap-2'>
+                  {/* <div className='flex flex-col justify-center gap-6 pb-10 mt-8 border-none md:mt-6 lg:mt-8 h-2/5'> */}
+                    {/* <div className='flex gap-2'>
                       <img
                         src='/reeva/reeva-calendar.png'
                         className='w-8 select-none'
@@ -331,11 +326,11 @@ const Reeva = () => {
                       <p className='text-2xl font-semibold capitalize font-secondary'>
                         14.00 - 15.00
                       </p>
-                    </div>
-                  </div>
+                    </div> */}
+                  {/* </div> */}
                   <div className='absolute bottom-0 left-0 flex items-center justify-center w-full translate-y-1/2 border-none'>
                     <button className='bg-[#0A91FF] select-none hover:bg-[#39a4fc] active:bg-[#067cdc] transform duration-200 text-white font-primary uppercase text-2xl md:text-3xl lg:text-4xl px-8 rounded-lg py-4'>
-                      Beli Sekarang!
+                      Cooming Soon!
                     </button>
                   </div>
                 </div>
