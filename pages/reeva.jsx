@@ -38,7 +38,7 @@ const Reeva = () => {
           <div className="h-[calc(100vh-92px)] px-5 md:px-16 lg:px-[132px]">
             {/* header text */}
             <div className="flex flex-col items-center justify-center h-full ">
-              <img
+              {/* <img
                 src="/reeva/schematics-reeva-title.png"
                 className="relative z-10 hidden h-12 select-none md:block lg:h-16 2xl:h-24"
                 alt=""
@@ -47,7 +47,7 @@ const Reeva = () => {
                 src="/reeva/schematics-reeva-title-sm.png"
                 className="relative z-10 block h-10 select-none sm:h-12 md:hidden lg:h-16 2xl:h-24"
                 alt=""
-              />
+              /> */}
               <img
                 src="/reeva/reeva-title.png"
                 alt=""
@@ -91,10 +91,6 @@ const Reeva = () => {
             </div>
             {/* end header text */}
           </div>
-          {/* gueststar */}
-          <div className="md:px-16 lg:px-[132px] md:pt-10 pb-10 md:pb-72">
-            <div className="w-full bg-[#D9D9D9] h-64 "></div>
-          </div>
         </section>
         {/* end header */}
         {/* about */}
@@ -102,7 +98,13 @@ const Reeva = () => {
           id="about"
           className="relative min-h-screen scroll-mt-[52px] bg-dark-primary"
         >
-          <div className="relative">
+          <div>
+            <img 
+              src="reeva/juicy-luicy.png" 
+              alt="" 
+              className="relative w-full"/>
+          </div>
+          {/* <div className="relative">
             <img
               src="/reeva/upper-top.png"
               className="relative top-0 left-0 z-10 hidden w-full select-none sm:block"
@@ -123,7 +125,7 @@ const Reeva = () => {
               className="absolute right-0 hidden -translate-y-1/2 select-none md:block -top-20 w-80"
               alt=""
             />
-          </div>
+          </div> */}
           <div className="bg-[#2E97EE] xl:gap-0 gap-4 flex xl:flex-row flex-col px-5 md:px-16 lg:px-[132px] py-10 relative z-0">
             {/* reeva text */}
             <div className="flex flex-col justify-center xl:w-1/2">
