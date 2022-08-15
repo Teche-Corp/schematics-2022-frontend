@@ -85,10 +85,10 @@ export default function NST() {
             <div className='flex flex-col justify-center xl:w-1/2'>
               <div className='relative'>
                 <h2 className='relative z-10 text-4xl text-white md:text-5xl font-primary'>
-                  Tentang Kompetisi
+                  Tentang Seminar
                 </h2>
                 <h2 className='absolute top-0 text-4xl md:text-5xl text-black select-none  font-primary'>
-                  Tentang Kompetisi
+                  Tentang Seminar
                 </h2>
               </div>
               <div className='px-2'>
