@@ -39,7 +39,7 @@ export default function NST() {
             alt=''
           />
           <img
-            className='absolute right-0 -bottom-24 md:w-64 lg:w-84 xl:w-96 select-none hidden md:block'
+            className='absolute right-0 -bottom-24 2xl:-bottom-48  md:w-64 lg:w-84 xl:w-96 select-none hidden md:block'
             src='/nst/terompet.svg'
             alt=''
           />
@@ -50,7 +50,7 @@ export default function NST() {
             </div>
             <div className='flex flex-col items-center justify-center'>
               <img
-                src='/nst/nst-text.svg'
+                src='/nst/nst-text.png'
                 alt=''
                 className='flex items-center justify-center select-none'
               />
