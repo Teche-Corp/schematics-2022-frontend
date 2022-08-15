@@ -134,17 +134,14 @@ const Reeva = () => {
               </div>
               <div className='px-2'>
                 <p className='mt-4 text-xl md:text-2xl leading-relaxed text-[#FFF]'>
-                  Schematics Revolutionary Entertainments and Expo with Various
-                  Art 2021 merupakan penutup dari rangkaian acara Schematics.
-                  Schematics REEVA ini akan digelar dengan menghadirkan expo dan
-                  konser musik dengan talkshow bersama sederet bintang tamu.
+                Schematics Revolutionary Entertainments and Expo with Various Art 2022 merupakan penutup dari rangkaian acara Schematics. Schematics REEVA ini akan digelar dengan menghadirkan expo dan konser musik.
                 </p>
                 <ul className='ml-10 mt-2 text-xl md:text-2xl leading-relaxed text-[#FFF]'>
                   <li className='list-disc'>
                     Schematics REEVA dapat diikuti oleh masyarakat umum
                   </li>
                   <li className='list-disc'>
-                    Schematics REEVA dapat diakses melalui Youtube
+                    Schematics REEVA akan di laksanakan di Jatim Expo International pada 12 November 2022 & akan ada donasi juga!
                   </li>
                 </ul>
               </div>
