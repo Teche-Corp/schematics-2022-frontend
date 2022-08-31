@@ -145,7 +145,7 @@ export default function NST() {
           <div className='flex flex-wrap items-center justify-center gap-x-20 mt-10'>
             <div className="flex flex-col items-center">
               <div className="flex justify-center items-end w-[320px] h-[419px] bg-[#85D5BE]">
-                <img src="nst/AlamsyahHanza.png" alt=""  className=""/>
+                <img src="/nst/AlamsyahHanza.png" alt=""  className=""/>
               </div>
               <div className="flex flex-col justify-center items-center bg-[#85D5BE] h-24 -translate-y-1/2 w-11/12 rounded-xl">
                 <h1 className="font-primary text-2xl">Alamsyah Hanza</h1>
@@ -154,7 +154,7 @@ export default function NST() {
             </div>
             <div className="flex flex-col items-center">
               <div className="flex justify-center items-end w-[320px] h-[419px] bg-[#85D5BE]">
-                <img src="nst/NabilBadjri.png" alt=""  className=""/>
+                <img src="/nst/NabilBadjri.png" alt=""  className=""/>
               </div>
               <div className="flex flex-col justify-center items-center bg-[#85D5BE] h-24 -translate-y-1/2 w-10/12 rounded-xl">
                 <h1 className="font-primary text-2xl">Nabil Badjri</h1>
@@ -163,7 +163,7 @@ export default function NST() {
             </div>
             <div className="flex flex-col items-center">
               <div className="flex justify-center items-end w-[320px] h-[419px] bg-[#85D5BE]">
-                <img src="nst/RickentPutra.png" alt=""  className=""/>
+                <img src="/nst/RickentPutra.png" alt=""  className=""/>
               </div>
               <div className="flex flex-col justify-center items-center bg-[#85D5BE] h-24 -translate-y-1/2 w-11/12 rounded-xl">
                 <h1 className="font-primary text-2xl">Rickent Putra Haki</h1>
@@ -174,7 +174,7 @@ export default function NST() {
           <div className="flex flex-col items-center">
             <div className="flex flex-col justify-center items-center">
               <div className="flex justify-center items-end w-[320px] h-[419px] bg-[#85D5BE] pb-9">
-                <img src="nst/SiskaArifiani.png" alt=""  className=""/>
+                <img src="/nst/SiskaArifiani.png" alt=""  className=""/>
               </div>
               <div className="flex flex-col justify-center items-center bg-[#85D5BE] h-24 -translate-y-1/2 w-full rounded-xl">
                 <h1 className="font-primary text-2xl">Siska Arifiani</h1>
