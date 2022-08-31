@@ -39,7 +39,7 @@ export default function NST() {
             alt=''
           />
           <img
-            className='absolute right-0 -bottom-24 md:w-64 lg:w-84 xl:w-96 select-none hidden md:block'
+            className='absolute right-0 -bottom-24 2xl:-bottom-48  md:w-64 lg:w-84 xl:w-96 select-none hidden md:block'
             src='/nst/terompet.svg'
             alt=''
           />
@@ -50,7 +50,7 @@ export default function NST() {
             </div>
             <div className='flex flex-col items-center justify-center'>
               <img
-                src='/nst/nst-text.svg'
+                src='/nst/nst-text.png'
                 alt=''
                 className='flex items-center justify-center select-none'
               />
@@ -85,10 +85,10 @@ export default function NST() {
             <div className='flex flex-col justify-center xl:w-1/2'>
               <div className='relative'>
                 <h2 className='relative z-10 text-4xl text-white md:text-5xl font-primary'>
-                  Tentang Kompetisi
+                  Tentang Seminar
                 </h2>
                 <h2 className='absolute top-0 text-4xl md:text-5xl text-black select-none  font-primary'>
-                  Tentang Kompetisi
+                  Tentang Seminar
                 </h2>
               </div>
               <div className='px-2'>

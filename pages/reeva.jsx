@@ -94,10 +94,11 @@ const Reeva = () => {
           className='relative min-h-screen scroll-mt-[52px] bg-dark-primary'
         >
           <div>
-            <img 
-              src="reeva/juicy-luicy.png" 
-              alt="" 
-              className="relative w-full"/>
+            <img
+              src='reeva/juicy-luicy.png'
+              alt=''
+              className='relative w-full'
+            />
           </div>
           {/* <div className='relative'>
             <img
@@ -134,14 +135,18 @@ const Reeva = () => {
               </div>
               <div className='px-2'>
                 <p className='mt-4 text-xl md:text-2xl leading-relaxed text-[#FFF]'>
-                Schematics Revolutionary Entertainments and Expo with Various Art 2022 merupakan penutup dari rangkaian acara Schematics. Schematics REEVA ini akan digelar dengan menghadirkan expo dan konser musik.
+                  Schematics Revolutionary Entertainments and Expo with Various
+                  Art 2022 merupakan penutup dari rangkaian acara Schematics.
+                  Schematics REEVA ini akan digelar dengan menghadirkan expo dan
+                  konser musik.
                 </p>
                 <ul className='ml-10 mt-2 text-xl md:text-2xl leading-relaxed text-[#FFF]'>
                   <li className='list-disc'>
                     Schematics REEVA dapat diikuti oleh masyarakat umum
                   </li>
                   <li className='list-disc'>
-                    Schematics REEVA akan di laksanakan di Jatim Expo International pada 12 November 2022 & akan ada donasi juga!
+                    Schematics REEVA akan di laksanakan di Jatim Expo
+                    International pada 12 November 2022 & akan ada donasi juga!
                   </li>
                 </ul>
               </div>
@@ -193,7 +198,7 @@ const Reeva = () => {
                 </h2>
               </div>
               <div className='w-full pt-5 pb-24 xl:px-10 2xl:px-16 h-3/4'>
-                <div className='w-full relative flex flex-col px-2 sm:px-4 py-4 h-full bg-white border-4 border-[#0A91FF] border-dashed divide-x-4'>
+                <div className='w-full relative flex flex-col px-2 sm:px-4 py-4 h-full bg-white border-4 border-[#0A91FF] divide-x-4'>
                   <div className='flex items-center justify-center h-2/5'>
                     <p className='text-2xl font-semibold text-center capitalize font-secondary'>
                       Konser yang dapat dinikmati masyarakat umum. Catat
@@ -201,13 +206,23 @@ const Reeva = () => {
                     </p>
                   </div>
                   <div className='flex flex-col justify-center gap-6 pb-10 mt-8 border-none md:mt-6 lg:mt-8 h-2/5'>
+                    <div className='flex gap-2 mt-4'>
+                      <img
+                        src='/reeva/ticket.png'
+                        className='w-8 select-none'
+                        alt=''
+                      />
+                      <p className='text-2xl font-semibold capitalize font-secondary'>
+                        Presale 1
+                      </p>
+                    </div>
                     <div className='flex gap-2'>
                       <img
                         src='/reeva/reeva-calendar.png'
                         className='w-8 select-none'
                         alt=''
                       />
-                      <p className="text-2xl font-semibold capitalize font-secondary">
+                      <p className='text-2xl font-semibold capitalize font-secondary'>
                         12 November 2022
                       </p>
                     </div>
@@ -217,13 +232,16 @@ const Reeva = () => {
                         className='w-8 select-none'
                         alt=''
                       />
-                      <p className="text-2xl font-semibold capitalize font-secondary">
+                      <p className='text-2xl font-semibold capitalize font-secondary'>
                         15.30 - 22.45
                       </p>
                     </div>
                   </div>
                   <div className='absolute bottom-0 left-0 flex items-center justify-center w-full translate-y-1/2 border-none'>
-                    <button onClick={()=>router.push('/dashboard')} className='bg-[#0A91FF] select-none hover:bg-[#39a4fc] active:bg-[#067cdc] transform duration-200 text-white font-primary uppercase text-2xl md:text-3xl lg:text-4xl px-8 rounded-lg py-4'>
+                    <button
+                      onClick={() => router.push("/dashboard")}
+                      className='bg-[#0A91FF] select-none hover:bg-[#39a4fc] active:bg-[#067cdc] transform duration-200 text-white font-primary uppercase text-2xl md:text-3xl lg:text-4xl px-8 rounded-lg py-4'
+                    >
                       Beli Sekarang!
                     </button>
                   </div>
@@ -247,7 +265,7 @@ const Reeva = () => {
                 </h2>
               </div>
               <div className='w-full pt-5 pb-24 xl:px-10 2xl:px-16 h-3/4'>
-                <div className='w-full relative flex flex-col px-2 sm:px-4 py-4 h-full bg-white border-4 border-[#0A91FF] border-dashed divide-x-4'>
+                <div className='w-full relative flex flex-col px-2 sm:px-4 py-4 h-full bg-white border-4 border-[#0A91FF] divide-x-4'>
                   <div className='flex items-center justify-center h-1/2'>
                     <p className='text-2xl font-semibold text-center capitalize font-secondary'>
                       Kami hadir dengan expo yang akan mengajak anda untuk
@@ -255,13 +273,23 @@ const Reeva = () => {
                     </p>
                   </div>
                   <div className='flex flex-col justify-center gap-6 pb-10 mt-8 border-none md:mt-6 lg:mt-8 h-2/5'>
+                    <div className='flex gap-2 mt-4'>
+                      <img
+                        src='/reeva/ticket.png'
+                        className='w-8 select-none'
+                        alt=''
+                      />
+                      <p className='text-2xl font-semibold capitalize font-secondary'>
+                        Expo
+                      </p>
+                    </div>
                     <div className='flex gap-2'>
                       <img
                         src='/reeva/reeva-calendar.png'
                         className='w-8 select-none'
                         alt=''
                       />
-                      <p className="text-2xl font-semibold capitalize font-secondary">
+                      <p className='text-2xl font-semibold capitalize font-secondary'>
                         12 November 2022
                       </p>
                     </div>
@@ -271,7 +299,7 @@ const Reeva = () => {
                         className='w-8 select-none'
                         alt=''
                       />
-                      <p className="text-2xl font-semibold capitalize font-secondary">
+                      <p className='text-2xl font-semibold capitalize font-secondary'>
                         15.30 - 22.45
                       </p>
                     </div>
@@ -296,7 +324,7 @@ const Reeva = () => {
                 </h2>
               </div>
               <div className='w-full pt-5 pb-24 xl:px-10 2xl:px-16 h-3/4'>
-                <div className='w-full relative flex flex-col px-2 sm:px-4 py-4 bg-white border-4 border-[#0A91FF] border-dashed divide-x-4'>
+                <div className='w-full relative flex flex-col px-2 sm:px-4 py-4 bg-white border-4 border-[#0A91FF] divide-x-4'>
                   <div className='flex items-center justify-center pb-10'>
                     <p className='text-2xl font-semibold text-center capitalize font-secondary'>
                       Mari membantu yang membutuhkan melalui donasi Schematics
@@ -304,7 +332,7 @@ const Reeva = () => {
                     </p>
                   </div>
                   {/* <div className='flex flex-col justify-center gap-6 pb-10 mt-8 border-none md:mt-6 lg:mt-8 h-2/5'> */}
-                    {/* <div className='flex gap-2'>
+                  {/* <div className='flex gap-2'>
                       <img
                         src='/reeva/reeva-calendar.png'
                         className='w-8 select-none'
