@@ -244,6 +244,14 @@ export default function NLC() {
                   Daftar Sekarang
                 </a>
               </Link>
+              <Link href='https://drive.google.com/drive/folders/1TgcidIjyzGt7xXtmqJ6ty24EboesImsI?usp=sharing'>
+                <a
+                  target='_blank'
+                  className='font-primary text-[16px] md:text-[20px] lg:text-[25px] md:leading-7 text-white bg-[#FFCD46] w-[306px] md:w-[250px] lg:w-[306px] h-[30px] md:h-[50px] px-1 md:px-6 py-1 md:py-3 rounded-md md:rounded-xl text-center'
+                >
+                  Unduh Contoh Soal
+                </a>
+              </Link>
             </div>
           </div>
         </section>
