@@ -9,7 +9,7 @@ export default function NLC() {
     <>
       {/* Fragment */}
       <Head>
-        <title>Schematics 2022 | NLC</title>
+        <title>Schematics 2022 | Schematics NLC</title>
         <meta name='description' content='Schematics 2022' />
         <link rel='icon' href='/schematics-logo.png' />
         <meta charset='UTF-8' />
@@ -171,7 +171,7 @@ export default function NLC() {
               </div>
 
               <div className='relative w-full lg:w-4/5 mt-12 md:mt-16 lg:mt-20 z-20'>
-                <li className='font-secondary text-[18px] md:text-2xl lg:text-3xl text-black md:leading-9 lg:leading-10 list-none text-justify'>
+                <li className='break-all font-secondary text-[18px] md:text-2xl lg:text-3xl text-black md:leading-9 lg:leading-10 list-none text-justify'>
                   &#9679; Satu tim dapat beranggotakan maksimal tiga siswa/i
                   dari sekolah yang sama dan belum dinyatakan lulus
                   SMA/SMK/MA/Sederajat Kegiatan Schematics NLC 2022 diadakan
@@ -180,18 +180,18 @@ export default function NLC() {
                 <br className='block' />
                 <br className='hidden lg:block' />
 
-                <li className='font-secondary text-[18px] md:text-2xl lg:text-3xl text-black md:leading-9 lg:leading-10 list-none mt-2 text-justify'>
+                <li className='break-all font-secondary text-[18px] md:text-2xl lg:text-3xl text-black md:leading-9 lg:leading-10 list-none mt-2 text-justify'>
                   &#9679; Babak penyisihan dilaksanakan secara online dan
                   offline. Babak perempat final, semifinal, final, dan Awarding
                   Night dilaksanakan secara offline.
                 </li>
               </div>
             </div>
-            <div className="flex items-center justify-center h-64 select-none sm:px-16 xl:h-auto xl:w-1/2">
+            <div className='flex items-center justify-center h-64 select-none sm:px-12 xl:h-auto xl:w-1/2'>
               <iframe
-                className="w-full h-full opacity-80 active:opacity-100 active:bg-none"
+                className='w-full h-1/2 opacity-80 active:opacity-100 active:bg-none'
                 frameBorder={0}
-                src="https://drive.google.com/file/d/1mMte6eZM1T_Sfg7bQcryLIcMNfcG94C-/preview"
+                src='https://drive.google.com/file/d/1mMte6eZM1T_Sfg7bQcryLIcMNfcG94C-/preview'
               ></iframe>
             </div>
           </div>

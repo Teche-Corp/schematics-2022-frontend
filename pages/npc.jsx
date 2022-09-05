@@ -12,7 +12,7 @@ const NPC = () => {
   return (
     <>
       <Head>
-        <title>Schematics 2022 | NPC</title>
+        <title>Schematics 2022 | Schematics NPC</title>
         <meta
           name='description'
           content='Schematics 2022 National Programming Contest'
@@ -105,10 +105,10 @@ const NPC = () => {
                   Tentang Kompetisi
                 </h2>
               </div>
-              <div className="px-2">
-                <p className="mt-4 text-xl md:text-2xl leading-relaxed font-medium text-[#231F20]">
+              <div className='px-2'>
+                <p className='mt-4 text-xl md:text-2xl leading-relaxed font-medium text-[#231F20]'>
                   Schematics National Programming Contest 2022 merupakan{" "}
-                  <span className="text-white">
+                  <span className='text-white'>
                     kompetisi pemrograman nasional
                   </span>{" "}
                   yang menguji kemampuan penyelesaian suatu permasalahan dengan
@@ -251,7 +251,7 @@ const NPC = () => {
                 Total Hadiah Rp 15 Juta+++
               </h2>
               <h2 className='mt-6 text-4xl text-center text-white uppercase xl:text-start sm:mt-2 2xl:text-5xl font-primary'>
-                Tunggu Apalagi!
+                Tunggu Apalagi?!
               </h2>
             </div>
             {/* guidebook text end */}
@@ -271,9 +271,9 @@ const NPC = () => {
                   </a>
                 </Link>
               </div>
-              <div className="py-2">
-                <Link href="/dashboard">
-                  <a className="sm:px-[73.5px] px-[22px] text-2xl py-2 2xl:text-4xl bg-[#ED5565] text-white rounded-md font-primary">
+              <div className='py-2'>
+                <Link href='/dashboard'>
+                  <a className='sm:px-[73.5px] px-[22px] text-2xl py-2 2xl:text-4xl bg-[#ED5565] text-white rounded-md font-primary'>
                     Daftar Sekarang
                   </a>
                 </Link>
