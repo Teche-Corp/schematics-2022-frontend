@@ -14,7 +14,7 @@ const Reeva = () => {
   return (
     <>
       <Head>
-        <title>Schematics 2022 | Reeva</title>
+        <title>Schematics 2022 | Schematics Reeva</title>
         <meta name='description' content='Schematics 2022 Reeva' />
         <link rel='icon' href='/schematics-logo.png' />
       </Head>
@@ -93,11 +93,15 @@ const Reeva = () => {
           id='about'
           className='relative min-h-screen scroll-mt-[52px] bg-dark-primary'
         >
-          <div>
-            <img 
-              src="reeva/juicy-luicy.png" 
-              alt="" 
-              className="relative w-full"/>
+          <div className='relative'>
+            <div className='absolute w-max py-1 md:py-3 lg:py-4 px-2 md:px-4 lg:px-6 rounded-lg md:rounded-xl lg:rounded-3xl bg-reeva-3 bottom-8 md:bottom-16 lg:bottom-32 right-1/2 translate-x-1/2 z-10 text-white font-semibold font-secondary text-xs md:text-lg lg:text-2xl'>
+              And Many More Will Be Announced Soon
+            </div>
+            <img
+              src='reeva/juicy-luicy.png'
+              alt=''
+              className='relative w-full'
+            />
           </div>
           {/* <div className='relative'>
             <img
@@ -210,7 +214,7 @@ const Reeva = () => {
                         className='w-8 select-none'
                         alt=''
                       />
-                      <p className="text-2xl font-semibold capitalize font-secondary">
+                      <p className='text-2xl font-semibold capitalize font-secondary'>
                         12 November 2022
                       </p>
                     </div>
@@ -220,13 +224,16 @@ const Reeva = () => {
                         className='w-8 select-none'
                         alt=''
                       />
-                      <p className="text-2xl font-semibold capitalize font-secondary">
+                      <p className='text-2xl font-semibold capitalize font-secondary'>
                         15.30 - 22.45
                       </p>
                     </div>
                   </div>
                   <div className='absolute bottom-0 left-0 flex items-center justify-center w-full translate-y-1/2 border-none'>
-                    <button onClick={()=>router.push('/login')} className='bg-[#0A91FF] select-none hover:bg-[#39a4fc] active:bg-[#067cdc] transform duration-200 text-white font-primary uppercase text-2xl md:text-3xl lg:text-4xl px-8 rounded-lg py-4'>
+                    <button
+                      onClick={() => router.push("/login")}
+                      className='bg-[#0A91FF] select-none hover:bg-[#39a4fc] active:bg-[#067cdc] transform duration-200 text-white font-primary uppercase text-2xl md:text-3xl lg:text-4xl px-8 rounded-lg py-4'
+                    >
                       Beli Sekarang!
                     </button>
                   </div>
@@ -264,7 +271,7 @@ const Reeva = () => {
                         className='w-8 select-none'
                         alt=''
                       />
-                      <p className="text-2xl font-semibold capitalize font-secondary">
+                      <p className='text-2xl font-semibold capitalize font-secondary'>
                         12 November 2022
                       </p>
                     </div>
@@ -274,7 +281,7 @@ const Reeva = () => {
                         className='w-8 select-none'
                         alt=''
                       />
-                      <p className="text-2xl font-semibold capitalize font-secondary">
+                      <p className='text-2xl font-semibold capitalize font-secondary'>
                         15.30 - 22.45
                       </p>
                     </div>
@@ -307,7 +314,7 @@ const Reeva = () => {
                     </p>
                   </div>
                   {/* <div className='flex flex-col justify-center gap-6 pb-10 mt-8 border-none md:mt-6 lg:mt-8 h-2/5'> */}
-                    {/* <div className='flex gap-2'>
+                  {/* <div className='flex gap-2'>
                       <img
                         src='/reeva/reeva-calendar.png'
                         className='w-8 select-none'
