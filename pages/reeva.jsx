@@ -97,7 +97,13 @@ const Reeva = () => {
             <img 
               src="reeva/guest-star.png" 
               alt="" 
-              className="relative w-full"/>
+              className="relative w-full hidden sm:block"/>
+          </div>
+          <div>
+            <img 
+              src="reeva/gs-mobile.png" 
+              alt="" 
+              className="relative w-full h-full block sm:hidden"/>
           </div>
           {/* <div className='relative'>
             <img
