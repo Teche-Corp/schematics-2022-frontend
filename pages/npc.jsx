@@ -105,10 +105,10 @@ const NPC = () => {
                   Tentang Kompetisi
                 </h2>
               </div>
-              <div className="px-2">
-                <p className="mt-4 text-xl md:text-2xl leading-relaxed font-medium text-[#231F20]">
+              <div className='px-2'>
+                <p className='mt-4 text-xl md:text-2xl leading-relaxed font-medium text-[#231F20]'>
                   Schematics National Programming Contest 2022 merupakan{" "}
-                  <span className="text-white">
+                  <span className='text-white'>
                     kompetisi pemrograman nasional
                   </span>{" "}
                   yang menguji kemampuan penyelesaian suatu permasalahan dengan
@@ -271,9 +271,9 @@ const NPC = () => {
                   </a>
                 </Link>
               </div>
-              <div className="py-2">
-                <Link href="/dashboard">
-                  <a className="sm:px-[73.5px] px-[22px] text-2xl py-2 2xl:text-4xl bg-[#ED5565] text-white rounded-md font-primary">
+              <div className='py-2'>
+                <Link href='/dashboard'>
+                  <a className='sm:px-[73.5px] px-[22px] text-2xl py-2 2xl:text-4xl bg-[#ED5565] text-white rounded-md font-primary'>
                     Daftar Sekarang
                   </a>
                 </Link>
