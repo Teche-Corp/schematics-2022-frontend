@@ -14,7 +14,7 @@ const Reeva = () => {
   return (
     <>
       <Head>
-        <title>Schematics 2022 | Reeva</title>
+        <title>Schematics 2022 | Schematics Reeva</title>
         <meta name='description' content='Schematics 2022 Reeva' />
         <link rel='icon' href='/schematics-logo.png' />
       </Head>
@@ -97,6 +97,7 @@ const Reeva = () => {
             <img 
               src="reeva/guest-star.png" 
               alt="" 
+<<<<<<< HEAD
               className="relative w-full hidden sm:block"/>
           </div>
           <div>
@@ -104,6 +105,10 @@ const Reeva = () => {
               src="reeva/gs-mobile.png" 
               alt="" 
               className="relative w-full h-full block sm:hidden"/>
+=======
+              className="relative w-full"/>
+
+>>>>>>> 8e08ebbb1bb27b2619f7e452e3df5f578565b8d1
           </div>
           {/* <div className='relative'>
             <img
@@ -226,7 +231,7 @@ const Reeva = () => {
                         className='w-8 select-none'
                         alt=''
                       />
-                      <p className="text-2xl font-semibold capitalize font-secondary">
+                      <p className='text-2xl font-semibold capitalize font-secondary'>
                         12 November 2022
                       </p>
                     </div>
@@ -236,13 +241,16 @@ const Reeva = () => {
                         className='w-8 select-none'
                         alt=''
                       />
-                      <p className="text-2xl font-semibold capitalize font-secondary">
+                      <p className='text-2xl font-semibold capitalize font-secondary'>
                         15.30 - 22.45
                       </p>
                     </div>
                   </div>
                   <div className='absolute bottom-0 left-0 flex items-center justify-center w-full translate-y-1/2 border-none'>
-                    <button onClick={()=>router.push('/login')} className='bg-[#0A91FF] select-none hover:bg-[#39a4fc] active:bg-[#067cdc] transform duration-200 text-white font-primary uppercase text-2xl md:text-3xl lg:text-4xl px-8 rounded-lg py-4'>
+                    <button
+                      onClick={() => router.push("/login")}
+                      className='bg-[#0A91FF] select-none hover:bg-[#39a4fc] active:bg-[#067cdc] transform duration-200 text-white font-primary uppercase text-2xl md:text-3xl lg:text-4xl px-8 rounded-lg py-4'
+                    >
                       Beli Sekarang!
                     </button>
                   </div>
@@ -290,7 +298,7 @@ const Reeva = () => {
                         className='w-8 select-none'
                         alt=''
                       />
-                      <p className="text-2xl font-semibold capitalize font-secondary">
+                      <p className='text-2xl font-semibold capitalize font-secondary'>
                         12 November 2022
                       </p>
                     </div>
@@ -300,7 +308,7 @@ const Reeva = () => {
                         className='w-8 select-none'
                         alt=''
                       />
-                      <p className="text-2xl font-semibold capitalize font-secondary">
+                      <p className='text-2xl font-semibold capitalize font-secondary'>
                         15.30 - 22.45
                       </p>
                     </div>
@@ -344,7 +352,7 @@ const Reeva = () => {
                   </div>
                   
                   {/* <div className='flex flex-col justify-center gap-6 pb-10 mt-8 border-none md:mt-6 lg:mt-8 h-2/5'> */}
-                    {/* <div className='flex gap-2'>
+                  {/* <div className='flex gap-2'>
                       <img
                         src='/reeva/reeva-calendar.png'
                         className='w-8 select-none'
