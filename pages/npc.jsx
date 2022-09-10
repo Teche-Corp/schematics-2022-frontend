@@ -12,7 +12,7 @@ const NPC = () => {
   return (
     <>
       <Head>
-        <title>Schematics 2022 | NPC</title>
+        <title>Schematics 2022 | Schematics NPC</title>
         <meta
           name='description'
           content='Schematics 2022 National Programming Contest'
@@ -251,7 +251,7 @@ const NPC = () => {
                 Total Hadiah Rp 15 Juta+++
               </h2>
               <h2 className='mt-6 text-4xl text-center text-white uppercase xl:text-start sm:mt-2 2xl:text-5xl font-primary'>
-                Tunggu Apalagi!
+                Tunggu Apalagi?!
               </h2>
             </div>
             {/* guidebook text end */}
