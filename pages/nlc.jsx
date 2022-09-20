@@ -239,7 +239,7 @@ export default function NLC() {
               </h1>
             </div>
             <div className='flex flex-col items-center w-full md:w-2/6 gap-3 md:gap-8 lg:gap-12'>
-              <Link href='https://drive.google.com/file/d/1QKap6V7x-k80DZ-1rCGuTIRRqaY4ceSH/view?usp=sharing'>
+              <Link href='https://drive.google.com/file/d/11Pw0REtV3uB2b6XRlhjOM3oHMKTH08QK/view?usp=sharing'>
                 <a
                   target='_blank'
                   className='font-primary text-[16px] md:text-[20px] lg:text-[25px] md:leading-7 bg-slate-50 w-[306px] md:w-[250px] lg:w-[306px] h-[30px] md:h-[50px] px-1 md:px-6 py-1 md:py-3 rounded-md md:rounded-xl text-center'
