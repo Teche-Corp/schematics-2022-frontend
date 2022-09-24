@@ -76,6 +76,11 @@ export default function NLC() {
                 TIMELINE
               </a>
             </Link>
+            <Link href='/scoreboard'>
+              <a className='px-2 md:px-4 py-1 md:py-2 w-[306px] h-[30px] md:h-[50px] bg-[#FFDB7A] rounded-md md:rounded-lg'>
+                SCOREBOARD
+              </a>
+            </Link>
           </div>
         </section>
 
