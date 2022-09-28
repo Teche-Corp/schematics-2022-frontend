@@ -150,7 +150,7 @@ export default function NST() {
               <div className='flex flex-col justify-center items-center bg-[#85D5BE] h-24 -translate-y-1/2 w-11/12 rounded-xl'>
                 <h1 className='font-primary text-2xl'>Alamsyah Hanza</h1>
                 <h2 className='font-secondary text-[16px] font-medium text-center'>
-                  Data Scientist at GOJEK
+                  Data Scientist at Indonesia Unicorn Company
                 </h2>
               </div>
             </div>
