@@ -19,7 +19,7 @@ jobs:
         script: |
           cd /var/www/landing
           git pull origin sch-22-dev
-          yarn install
+          yarn
           yarn build
           pm2 reload sch-landing-2022
           pm2 restart sch-landing-2022
