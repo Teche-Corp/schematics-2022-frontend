@@ -1,0 +1,25 @@
+name: pull landing
+on:
+  push:
+    branches: [main]
+    
+jobs:
+
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+    - name: SSH to server and execute commands
+      uses: appleboy/ssh-action@master
+      with:
+        host: ${{ secrets.SSH_HOST }}
+        username: ${{ secrets.SSH_USER }}
+        password: ${{ secrets.SSH_PASS }}
+        port: 22
+        script: |
+          cd /var/www/landing
+          git pull origin sch-22-dev
+          yarn install
+          yarn build
+          pm2 reload sch-landing-2022
+          pm2 restart sch-landing-2022
