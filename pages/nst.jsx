@@ -136,16 +136,16 @@ export default function NST() {
         </section>
 
         {/* Pembicara NST */}
-        <section id='pembicara' className='pt-24 pb-40 relative min-h-max'>
+        <section id='pembicara' className='pt-24 pb-12 relative min-h-max'>
           <h2 className='text-center text-white font-primary text-3xl md:text-7xl'>
             Pembicara <br />
             Schematics NST
           </h2>
           {/* Pembicara NST */}
           <div className='flex flex-wrap items-center justify-center gap-x-20 mt-10'>
-            <div className="flex flex-col items-center">
-              <div className="flex justify-center items-end w-[320px] h-[419px] bg-[#85D5BE]">
-                <img src="/nst/AlamsyahHanza.png" alt=""  className=""/>
+            <div className='flex flex-col items-center'>
+              <div className='flex justify-center items-end w-[320px] h-[419px] bg-[#85D5BE]'>
+                <img src='/nst/AlamsyahHanza.png' alt='' className='' />
               </div>
               <div className='flex flex-col justify-center items-center bg-[#85D5BE] h-24 -translate-y-1/2 w-11/12 rounded-xl'>
                 <h1 className='font-primary text-2xl'>Alamsyah Hanza</h1>
@@ -154,9 +154,9 @@ export default function NST() {
                 </h2>
               </div>
             </div>
-            <div className="flex flex-col items-center">
-              <div className="flex justify-center items-end w-[320px] h-[419px] bg-[#85D5BE]">
-                <img src="/nst/NabilBadjri.png" alt=""  className=""/>
+            <div className='flex flex-col items-center'>
+              <div className='flex justify-center items-end w-[320px] h-[419px] bg-[#85D5BE]'>
+                <img src='/nst/NabilBadjri.png' alt='' className='' />
               </div>
               <div className='flex flex-col justify-center items-center bg-[#85D5BE] h-24 -translate-y-1/2 w-10/12 rounded-xl'>
                 <h1 className='font-primary text-2xl'>Nabil Badjri</h1>
@@ -165,9 +165,9 @@ export default function NST() {
                 </h2>
               </div>
             </div>
-            <div className="flex flex-col items-center">
-              <div className="flex justify-center items-end w-[320px] h-[419px] bg-[#85D5BE]">
-                <img src="/nst/RickentPutra.png" alt=""  className=""/>
+            <div className='flex flex-col items-center'>
+              <div className='flex justify-center items-end w-[320px] h-[419px] bg-[#85D5BE]'>
+                <img src='/nst/RickentPutra.png' alt='' className='' />
               </div>
               <div className='flex flex-col justify-center items-center bg-[#85D5BE] h-24 -translate-y-1/2 w-11/12 rounded-xl'>
                 <h1 className='font-primary text-2xl'>Rickent Putra Haki</h1>
@@ -177,10 +177,10 @@ export default function NST() {
               </div>
             </div>
           </div>
-          <div className="flex flex-col items-center">
-            <div className="flex flex-col justify-center items-center">
-              <div className="flex justify-center items-end w-[320px] h-[419px] bg-[#85D5BE] pb-9">
-                <img src="/nst/SiskaArifiani.png" alt=""  className=""/>
+          <div className='flex flex-col items-center'>
+            <div className='flex flex-col justify-center items-center'>
+              <div className='flex justify-center items-end w-[320px] h-[419px] bg-[#85D5BE] pb-9'>
+                <img src='/nst/SiskaArifiani.png' alt='' className='' />
               </div>
               <div className='flex flex-col justify-center items-center bg-[#85D5BE] h-24 -translate-y-1/2 w-full rounded-xl'>
                 <h1 className='font-primary text-2xl'>Siska Arifiani</h1>
@@ -192,6 +192,48 @@ export default function NST() {
           </div>
 
           {/* bottom */}
+        </section>
+
+        <section className='relative pb-16'>
+          <div className='w-full h-auto flex flex-col lg:flex-row p-12 gap-8 xl:gap-12 px-8 md:px-16 xl:px-24'>
+            <div className='w-full md:w-3/4 mx-auto lg:w-[45%] 2xl:w-[50%]'>
+              <img src='/nst/venue.png' alt='' />
+            </div>
+            <div className='w-full lg:w-[55%] 2xl:w-[50%] flex flex-col font-primary text-white text-base md:text-xl xl:text-3xl justify-between'>
+              <div className='flex flex-col gap-4'>
+                <h1 className='text-center'>Our Venue</h1>
+                <tr>
+                  <td>Lokasi :&nbsp;&nbsp;</td>
+                  <td className=''>
+                    Suroboyo Community Center,
+                    <br />
+                    Marvel City Mall
+                  </td>
+                </tr>
+                <tr>
+                  <td>Waktu :&nbsp;&nbsp;</td>
+                  <td>09.00 - 15.00 WIB</td>
+                </tr>
+                <tr>
+                  <td>Harga :&nbsp;&nbsp;</td>
+                  <td> Rp 60.000,-</td>
+                </tr>
+              </div>
+
+              <button className='bg-[#85D5BE] px-12 md:px-16 xl:px-24 py-3 md:py-4 w-fit rounded-md mx-auto mt-12'>
+                Daftar Sekarang!
+              </button>
+            </div>
+          </div>
+          <iframe
+            className='mx-auto rounded-xl w-3/4 md:w-full'
+            src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7915.140770184217!2d112.73471623967286!3d-7.289621494582672!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fb9d323d4393%3A0x10389e220285d6c3!2sSuroboyo%20Community%20Centre!5e0!3m2!1sid!2sid!4v1666014623414!5m2!1sid!2sid'
+            width='600'
+            height='450'
+            // style='border:0;'
+            // loading='lazy'
+            // referrerpolicy='no-referrer-when-downgrade'
+          ></iframe>
           <img
             className='absolute bottom-0 left-0 w-1/3 md:w-1/4 xl:w-1/3 sm:1/2 z-0'
             src='/nst/bottom-left1.svg'
